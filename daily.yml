@@ -1,0 +1,36 @@
+name: Mise à jour quotidienne des offres
+
+on:
+  schedule:
+    - cron: "0 5 * * *"   # tous les jours à 7h00 (heure de Paris, été)
+  workflow_dispatch:        # bouton "Run workflow" pour lancer à la main
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install requests
+
+      - name: Collecte des offres
+        env:
+          FT_CLIENT_ID: ${{ secrets.FT_CLIENT_ID }}
+          FT_CLIENT_SECRET: ${{ secrets.FT_CLIENT_SECRET }}
+          RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
+        run: python fetch_jobs.py
+
+      - name: Commit des résultats
+        run: |
+          git config user.name "job-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add docs/data.json docs/history.json
+          git diff --cached --quiet || git commit -m "Offres du $(date +%F)"
+          git push

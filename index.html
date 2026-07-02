@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Job Radar — Fayçal CHEMLI</title>
+<style>
+:root{--bg:#0f1420;--card:#1a2233;--txt:#e8ecf4;--mut:#8b95ab;--acc:#4f8ef7;--ok:#3ddc84;--warn:#f7b84f;}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--txt);font-family:'Segoe UI',system-ui,sans-serif;padding:24px;max-width:1100px;margin:auto}
+h1{font-size:1.5rem;margin-bottom:4px}
+.sub{color:var(--mut);font-size:.9rem;margin-bottom:20px}
+.stats{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:20px}
+.stat{background:var(--card);border-radius:10px;padding:12px 18px;min-width:120px}
+.stat b{font-size:1.4rem;color:var(--acc)}
+.stat span{display:block;color:var(--mut);font-size:.78rem}
+.filters{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:18px}
+input,select{background:var(--card);color:var(--txt);border:1px solid #2b3550;border-radius:8px;padding:8px 12px;font-size:.9rem}
+input{flex:1;min-width:200px}
+.card{background:var(--card);border-radius:12px;padding:16px 18px;margin-bottom:12px;border-left:4px solid var(--acc)}
+.card.hot{border-left-color:var(--ok)}
+.card h3{font-size:1.05rem}
+.card h3 a{color:var(--txt);text-decoration:none}
+.card h3 a:hover{color:var(--acc)}
+.meta{color:var(--mut);font-size:.85rem;margin:4px 0 8px}
+.badge{display:inline-block;background:#26314d;color:#a9c3f5;border-radius:20px;padding:2px 10px;font-size:.72rem;margin:2px 3px 0 0}
+.score{float:right;font-weight:700;color:var(--ok);font-size:.9rem}
+.src{color:var(--warn);font-size:.75rem}
+.empty{text-align:center;color:var(--mut);padding:40px}
+@media(max-width:600px){body{padding:12px}}
+</style>
+</head>
+<body>
+<h1>🎯 Job Radar</h1>
+<p class="sub">Offres CDI récentes matchées avec le profil Data Scientist / AI Engineer — <span id="updated">chargement…</span></p>
+
+<div class="stats">
+  <div class="stat"><b id="s-total">–</b><span>offres du jour</span></div>
+  <div class="stat"><b id="s-hot">–</b><span>très bon match (≥25)</span></div>
+  <div class="stat"><b id="s-src">–</b><span>sources</span></div>
+</div>
+
+<div class="filters">
+  <input id="q" placeholder="🔍 Filtrer (titre, entreprise, ville, mot-clé)…">
+  <select id="src"><option value="">Toutes les sources</option></select>
+  <select id="sort">
+    <option value="score">Tri : meilleur match</option>
+    <option value="date">Tri : plus récent</option>
+  </select>
+</div>
+
+<div id="list"></div>
+
+<script>
+let DATA=[];
+const esc=s=>(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function render(){
+  const q=document.getElementById('q').value.toLowerCase();
+  const src=document.getElementById('src').value;
+  const sort=document.getElementById('sort').value;
+  let items=DATA.filter(o=>{
+    const t=(o.title+' '+o.company+' '+o.location+' '+(o.matched||[]).join(' ')).toLowerCase();
+    return (!q||t.includes(q))&&(!src||o.source===src);
+  });
+  items.sort((a,b)=>sort==='date'?(b.date||'').localeCompare(a.date||''):b.score-a.score);
+  const el=document.getElementById('list');
+  if(!items.length){el.innerHTML='<div class="empty">Aucune offre. Reviens demain matin après la mise à jour automatique 🙂</div>';return;}
+  el.innerHTML=items.map(o=>`
+    <div class="card ${o.score>=25?'hot':''}">
+      <span class="score">★ ${o.score}</span>
+      <h3><a href="${esc(o.url)}" target="_blank" rel="noopener">${esc(o.title)}</a></h3>
+      <div class="meta">${esc(o.company)} · ${esc(o.location)} · ${esc(o.contract)} · <span class="src">${esc(o.source)}</span> · ${o.date?new Date(o.date).toLocaleDateString('fr-FR'):''}</div>
+      <div>${(o.matched||[]).map(m=>`<span class="badge">${esc(m)}</span>`).join('')}</div>
+    </div>`).join('');
+}
+fetch('data.json?'+Date.now()).then(r=>r.json()).then(d=>{
+  DATA=d.offers||[];
+  document.getElementById('updated').textContent='mis à jour le '+new Date(d.updated).toLocaleString('fr-FR');
+  document.getElementById('s-total').textContent=d.count;
+  document.getElementById('s-hot').textContent=DATA.filter(o=>o.score>=25).length;
+  const srcs=[...new Set(DATA.map(o=>o.source))];
+  document.getElementById('s-src').textContent=srcs.length;
+  document.getElementById('src').innerHTML+=srcs.map(s=>`<option>${esc(s)}</option>`).join('');
+  render();
+}).catch(()=>{document.getElementById('list').innerHTML='<div class="empty">data.json introuvable — lance d\'abord fetch_jobs.py.</div>'});
+['q','src','sort'].forEach(id=>document.getElementById(id).addEventListener('input',render));
+</script>
+</body>
+</html>
