@@ -14,11 +14,11 @@ import requests
 
 # ---------------------------------------------------------------- profil
 SEARCH_QUERIES = [
-    "data scientist junior",
-    "AI engineer junior",
-    "machine learning engineer junior",
-    "data analyst dataviz",
-    "ingénieur IA générative",
+    "data scientist",
+    "machine learning",
+    "intelligence artificielle",
+    "data analyst",
+    "IA générative",
 ]
 
 SKILL_KEYWORDS = {
@@ -97,6 +97,9 @@ def fetch_france_travail() -> list[dict]:
                 },
                 timeout=30,
             )
+            if r.status_code == 204:
+                print(f"[FT] '{q}' -> aucun résultat")
+                continue
             if r.status_code not in (200, 206):
                 print(f"[FT] '{q}' -> HTTP {r.status_code} : {r.text[:300]}")
                 continue
