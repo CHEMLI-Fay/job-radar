@@ -91,13 +91,14 @@ def fetch_france_travail() -> list[dict]:
                 params={
                     "motsCles": q,
                     "typeContrat": "CDI",
-                    "publieeDepuis": str(max(1, min(DAYS_BACK, 31))),
+                    # valeurs acceptées par l'API : 1, 3, 7, 14, 31
+                    "publieeDepuis": str(next(v for v in (1, 3, 7, 14, 31) if v >= min(DAYS_BACK, 31))),
                     "range": "0-49",
                 },
                 timeout=30,
             )
             if r.status_code not in (200, 206):
-                print(f"[FT] '{q}' -> HTTP {r.status_code}")
+                print(f"[FT] '{q}' -> HTTP {r.status_code} : {r.text[:300]}")
                 continue
             for o in r.json().get("resultats", []):
                 if o["id"] in seen:
