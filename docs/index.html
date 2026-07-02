@@ -91,6 +91,37 @@ input[type=range]{width:100%;accent-color:var(--primary)}
 .abtn:hover{border-color:var(--primary);color:var(--primary)}
 .abtn.applied{background:var(--green-soft);border-color:var(--green);color:var(--green)}
 .empty{padding:60px;text-align:center;color:var(--txt-3);font-size:.9rem}
+
+/* ---------- annuaire ---------- */
+.section-title{font-size:1rem;font-weight:700;margin:28px 0 12px;display:flex;align-items:center;gap:10px}
+.section-title small{font-weight:400;color:var(--txt-3);font-size:.75rem}
+.dir{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+.dir-cat{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:14px 16px;box-shadow:var(--shadow)}
+.dir-cat h3{font-size:.78rem;text-transform:uppercase;letter-spacing:.05em;color:var(--txt-2);margin-bottom:9px}
+.dir-cat a{display:inline-block;font-size:.8rem;color:var(--primary);text-decoration:none;background:var(--primary-soft);border-radius:6px;padding:4px 10px;margin:0 5px 6px 0;font-weight:500}
+.dir-cat a:hover{text-decoration:underline}
+
+/* ---------- assistant IA ---------- */
+.drawer{position:fixed;top:0;right:-560px;width:540px;max-width:96vw;height:100vh;background:var(--surface);border-left:1px solid var(--border);z-index:60;display:flex;flex-direction:column;transition:right .25s ease;box-shadow:-8px 0 24px rgba(0,0,0,.12)}
+.drawer.open{right:0}
+.dhead{padding:14px 18px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:10px}
+.dhead b{font-size:.95rem}
+.dhead .close{margin-left:auto;cursor:pointer;border:none;background:none;color:var(--txt-2);font-size:1.2rem;line-height:1}
+.dctx{padding:9px 18px;background:var(--primary-soft);font-size:.76rem;color:var(--txt-2);border-bottom:1px solid var(--border)}
+.dctx b{color:var(--txt)}
+.dpresets{display:flex;gap:8px;padding:10px 18px;flex-wrap:wrap;border-bottom:1px solid var(--border)}
+.dmsgs{flex:1;overflow-y:auto;padding:16px 18px;display:flex;flex-direction:column;gap:12px}
+.msg{max-width:88%;padding:10px 14px;border-radius:12px;font-size:.85rem;line-height:1.55;white-space:pre-wrap;word-wrap:break-word}
+.msg.user{align-self:flex-end;background:var(--primary);color:#fff;border-bottom-right-radius:4px}
+.msg.ai{align-self:flex-start;background:var(--bg);border:1px solid var(--border);border-bottom-left-radius:4px}
+.msg.ai .copy{display:block;margin-top:8px;font-size:.7rem;color:var(--primary);cursor:pointer;font-weight:600}
+.dinput{padding:12px 18px;border-top:1px solid var(--border);display:flex;gap:9px}
+.dinput textarea{flex:1;background:var(--bg);border:1px solid var(--border-strong);color:var(--txt);border-radius:8px;padding:9px 12px;font-size:.85rem;font-family:inherit;resize:none;height:44px}
+.dkey{padding:10px 18px;border-top:1px solid var(--border);font-size:.72rem;color:var(--txt-3)}
+.dkey input{width:100%;margin-top:6px;background:var(--bg);border:1px solid var(--border-strong);color:var(--txt);border-radius:7px;padding:7px 10px;font-size:.78rem;font-family:inherit}
+.fab{position:fixed;bottom:24px;right:24px;z-index:50;background:var(--primary);color:#fff;border:none;border-radius:30px;padding:13px 22px;font-size:.88rem;font-weight:600;cursor:pointer;box-shadow:0 4px 14px rgba(29,78,216,.35);font-family:inherit}
+.spin{display:inline-block;width:14px;height:14px;border:2px solid var(--border-strong);border-top-color:var(--primary);border-radius:50%;animation:sp .7s linear infinite}
+@keyframes sp{to{transform:rotate(360deg)}}
 footer{margin-top:26px;font-size:.75rem;color:var(--txt-3);display:flex;gap:8px;align-items:center;justify-content:space-between;flex-wrap:wrap}
 
 @media(max-width:1000px){
@@ -169,10 +200,100 @@ footer{margin-top:26px;font-size:.75rem;color:var(--txt-3);display:flex;gap:8px;
     <div id="list"></div>
   </div>
 
+  <div class="section-title">Sites carrières &amp; job boards <small>candidature directe sur les sites des entreprises</small></div>
+  <div class="dir">
+    <div class="dir-cat"><h3>ESN &amp; Conseil</h3>
+      <a href="https://www.capgemini.com/fr-fr/carrieres/rejoignez-capgemini/offres-demploi/" target="_blank">Capgemini</a>
+      <a href="https://www.soprasteria.com/fr/carrieres/nos-offres-d-emploi" target="_blank">Sopra Steria</a>
+      <a href="https://jobs.eviden.com/" target="_blank">Eviden / Atos</a>
+      <a href="https://www.alten.fr/nos-offres/" target="_blank">Alten</a>
+      <a href="https://www.accenture.com/fr-fr/careers/jobsearch" target="_blank">Accenture</a>
+      <a href="https://www.inetum.com/fr/rejoindre-inetum" target="_blank">Inetum</a>
+      <a href="https://cgi.njoyn.com/cgi/xweb/xweb.asp?tbtoken=&chk=ZVpaShwZ&page=joblisting&CLID=21001&lang=2" target="_blank">CGI</a>
+      <a href="https://www.devoteam.com/fr/rejoignez-nous/" target="_blank">Devoteam</a>
+      <a href="https://www.wavestone.com/fr/carrieres/" target="_blank">Wavestone</a>
+      <a href="https://www.keyrus.com/fr/fr/carrieres" target="_blank">Keyrus</a>
+      <a href="https://www.talan.com/rejoignez-nous" target="_blank">Talan</a>
+      <a href="https://www.artefact.com/careers/" target="_blank">Artefact</a>
+      <a href="https://www.ekimetrics.com/careers" target="_blank">Ekimetrics</a>
+      <a href="https://www.quantmetry.com/carrieres/" target="_blank">Quantmetry</a>
+    </div>
+    <div class="dir-cat"><h3>Industrie &amp; Auto</h3>
+      <a href="https://www.renaultgroup.com/talents/" target="_blank">Renault Group</a>
+      <a href="https://www.stellantis.com/fr/carrieres" target="_blank">Stellantis</a>
+      <a href="https://www.airbus.com/en/careers" target="_blank">Airbus</a>
+      <a href="https://careers.thalesgroup.com/fr/fr" target="_blank">Thales</a>
+      <a href="https://www.safran-group.com/fr/emploi-carriere" target="_blank">Safran</a>
+      <a href="https://www.dassault-aviation.com/fr/groupe/carrieres/" target="_blank">Dassault Aviation</a>
+      <a href="https://careers.michelin.com/fr" target="_blank">Michelin</a>
+      <a href="https://www.se.com/fr/fr/about-us/careers/overview.jsp" target="_blank">Schneider Electric</a>
+      <a href="https://jobs.airliquide.com/fr" target="_blank">Air Liquide</a>
+      <a href="https://www.3ds.com/careers/" target="_blank">Dassault Systèmes</a>
+    </div>
+    <div class="dir-cat"><h3>Banque &amp; Assurance</h3>
+      <a href="https://group.bnpparibas/emploi-carriere/toutes-offres-emploi" target="_blank">BNP Paribas</a>
+      <a href="https://careers.societegenerale.com/rechercher" target="_blank">Société Générale</a>
+      <a href="https://groupecreditagricole.jobs/fr/nos-offres/" target="_blank">Crédit Agricole</a>
+      <a href="https://recrutement.axa.fr/nos-offres" target="_blank">AXA</a>
+      <a href="https://www.bpce.fr/candidat/" target="_blank">BPCE</a>
+      <a href="https://jobs.natixis.com/" target="_blank">Natixis</a>
+      <a href="https://www.recrutement.banque-france.fr/" target="_blank">Banque de France</a>
+    </div>
+    <div class="dir-cat"><h3>Énergie, Telecom &amp; Retail</h3>
+      <a href="https://www.edf.fr/edf-recrute" target="_blank">EDF</a>
+      <a href="https://careers.engie.com/fr" target="_blank">Engie</a>
+      <a href="https://jobs.totalenergies.com/fr_FR/careers" target="_blank">TotalEnergies</a>
+      <a href="https://orange.jobs/" target="_blank">Orange</a>
+      <a href="https://emploi.sncf.com/" target="_blank">SNCF</a>
+      <a href="https://recrute.carrefour.fr/" target="_blank">Carrefour</a>
+      <a href="https://careers.loreal.com/fr_FR/jobs/SearchJobs" target="_blank">L'Oréal</a>
+      <a href="https://www.lvmh.fr/rejoignez-nous/" target="_blank">LVMH</a>
+      <a href="https://careers.veolia.com/fr" target="_blank">Veolia</a>
+      <a href="https://www.decathlon-careers.fr/" target="_blank">Decathlon</a>
+    </div>
+    <div class="dir-cat"><h3>Job boards spécialisés</h3>
+      <a href="https://www.welcometothejungle.com/fr/jobs?query=data%20scientist&refinementList%5Bcontract_type%5D%5B%5D=full_time" target="_blank">Welcome to the Jungle</a>
+      <a href="https://www.apec.fr/candidat/recherche-emploi.html/emploi?motsCles=data%20scientist" target="_blank">Apec</a>
+      <a href="https://www.hellowork.com/fr-fr/emploi/recherche.html?k=Data+scientist&c=CDI" target="_blank">HelloWork</a>
+      <a href="https://www.jobteaser.com/fr/job-offers?q=data+scientist" target="_blank">JobTeaser</a>
+      <a href="https://fr.indeed.com/jobs?q=data+scientist&sc=0kf%3Ajt%28cdi%29%3B" target="_blank">Indeed</a>
+      <a href="https://www.linkedin.com/jobs/search/?keywords=data%20scientist%20junior&location=France&f_JT=F" target="_blank">LinkedIn Jobs</a>
+      <a href="https://www.free-work.com/fr/tech-it/jobs?query=data+scientist" target="_blank">Free-Work</a>
+      <a href="https://www.chooseyourboss.com/offres/emploi-it" target="_blank">ChooseYourBoss</a>
+      <a href="https://datai.jobs/" target="_blank">DataAI.jobs</a>
+      <a href="https://www.aijobs.fr/" target="_blank">AI Jobs FR</a>
+    </div>
+  </div>
+
   <footer>
     <span>Sources : API France Travail, JSearch (Google Jobs : LinkedIn, Indeed, Welcome to the Jungle…). Scoring basé sur le profil Data Scientist / AI Engineer.</span>
     <span id="footTotal"></span>
   </footer>
+</div>
+
+<button class="fab" id="fabBtn">Assistant IA</button>
+
+<div class="drawer" id="drawer">
+  <div class="dhead"><b>Assistant IA</b><span style="font-size:.72rem;color:var(--txt-3)">Llama 3.3 70B via Groq</span>
+    <button class="close" id="drawerClose" aria-label="Fermer">&times;</button></div>
+  <div class="dctx" id="dctx" style="display:none"></div>
+  <div class="dpresets">
+    <button class="abtn" data-preset="lm">Lettre de motivation</button>
+    <button class="abtn" data-preset="analyse">Analyser l'offre</button>
+    <button class="abtn" data-preset="entretien">Questions d'entretien</button>
+    <button class="abtn" data-preset="fit">Mon profil correspond ?</button>
+  </div>
+  <div class="dmsgs" id="dmsgs">
+    <div class="msg ai">Bonjour Fayçal. Sélectionne une offre via son bouton « Assistant », ou pose-moi directement une question. Je connais ton CV et je peux rédiger tes lettres de motivation, analyser les offres et te préparer aux entretiens.</div>
+  </div>
+  <div class="dinput">
+    <textarea id="dtext" placeholder="Écris ton message…"></textarea>
+    <button class="btn btn-primary" id="dsend">Envoyer</button>
+  </div>
+  <div class="dkey" id="dkeyBox">
+    Clé API Groq (gratuite sur <a href="https://console.groq.com/keys" target="_blank" style="color:var(--primary)">console.groq.com/keys</a>) — stockée uniquement dans ton navigateur.
+    <input type="password" id="dkey" placeholder="gsk_...">
+  </div>
 </div>
 
 <script>
@@ -247,6 +368,7 @@ function render(items){
       <span class="cell c-date">${fmtDate(o.date)}</span>
       <span class="c-src"><span class="src-badge">${esc(o.source)}</span></span>
       <div class="actions">
+        <button class="abtn" style="color:var(--primary);border-color:var(--primary)" onclick="openAssistant('${esc(o.id)}')">Assistant</button>
         <button class="abtn ${ap?'applied':''}" onclick="toggleApplied('${esc(o.id)}')">${ap?'Postulé':'Marquer postulé'}</button>
         <button class="abtn" onclick="toggleHidden('${esc(o.id)}')">${state.hidden[o.id]?'Afficher':'Masquer'}</button>
       </div>
@@ -294,6 +416,86 @@ document.querySelectorAll('.chip').forEach(c=>c.onclick=()=>{
 ['f-q','f-loc'].forEach(i=>$(i).addEventListener('input',apply));
 ['f-src','f-contract','f-fresh','f-tech','f-status','f-sort'].forEach(i=>$(i).addEventListener('change',apply));
 $('f-score').addEventListener('input',apply);
+
+/* ---------- Assistant IA (Groq) ---------- */
+const PROFILE=`Fayçal CHEMLI, 24 ans, Data Scientist & AI Engineer junior (chemlifaycel1234@gmail.com, 0751403122).
+Expérience : 2 ans d'apprentissage Data Scientist chez Renault Group (Technocentre Guyancourt) : dashboards Looker/LookML sur BigQuery, déploiement ML/GenAI en production sur GCP (Vertex AI, API Gemini, Streamlit), agents AI (Google ADK) connectés à BigQuery (génération SQL, extraction, visualisation), chatbots métiers LLM+RAG exposés en API REST, computer vision par VLMs (matching de tickets, embeddings Transformers), gestion de projets data de bout en bout.
+Formation : Master Ingénierie des Systèmes Intelligents, Sorbonne Université (2024-2026). Licence EEA Sorbonne. Classes préparatoires + cycle ingénieur (ENP Alger).
+Projets : EcoSurf (bioacoustique deep learning, embeddings Perch, FAISS, K-Means/PCA, PyQt6, UMAP) ; Matcha-TTS (réimplémentation PyTorch d'un TTS Transformer-UNet, FP16).
+Compétences : Python, PyTorch, TensorFlow, Scikit-learn, Pandas, SQL, GCP, Vertex AI, BigQuery, Docker, Linux, LLMs, RAG, prompt engineering, AI Agents, FAISS, Looker, LookML, Tableau, Power BI, Streamlit, Plotly, OpenCV, Git.
+Recherche : CDI Data Scientist / AI Engineer / Data Analyst à partir de septembre 2026, France. Langues : français, anglais.`;
+
+let chatCtx=null, chatHist=[], busy=false;
+const drawer=$('drawer');
+function openDrawer(){drawer.classList.add('open');}
+$('fabBtn').onclick=openDrawer;
+$('drawerClose').onclick=()=>drawer.classList.remove('open');
+$('dkey').value=state.groqKey||'';
+$('dkey').addEventListener('change',()=>{state.groqKey=$('dkey').value.trim();store.set(state);});
+
+window.openAssistant=id=>{
+  chatCtx=DATA.find(o=>o.id===id)||null;
+  if(chatCtx){
+    $('dctx').style.display='block';
+    $('dctx').innerHTML='Offre sélectionnée : <b>'+esc(chatCtx.title)+'</b> — '+esc(chatCtx.company)+' ('+esc(chatCtx.location)+')';
+  }
+  openDrawer();
+};
+
+function pushMsg(role,text){
+  const el=document.createElement('div');
+  el.className='msg '+(role==='user'?'user':'ai');
+  el.textContent=text;
+  if(role==='ai'){
+    const c=document.createElement('span');c.className='copy';c.textContent='Copier le texte';
+    c.onclick=()=>{navigator.clipboard.writeText(text);c.textContent='Copié !';setTimeout(()=>c.textContent='Copier le texte',1500);};
+    el.appendChild(c);
+  }
+  $('dmsgs').appendChild(el);
+  $('dmsgs').scrollTop=$('dmsgs').scrollHeight;
+  return el;
+}
+
+async function askGroq(userText){
+  if(busy)return;
+  const key=(state.groqKey||'').trim();
+  if(!key){pushMsg('ai',"Ajoute d'abord ta clé API Groq gratuite dans le champ en bas du panneau (lien : console.groq.com/keys).");return;}
+  busy=true;
+  pushMsg('user',userText);
+  const thinking=document.createElement('div');thinking.className='msg ai';thinking.innerHTML='<span class="spin"></span>';
+  $('dmsgs').appendChild(thinking);$('dmsgs').scrollTop=$('dmsgs').scrollHeight;
+  let sys="Tu es l'assistant carrière personnel de Fayçal CHEMLI. Réponds en français, de façon concrète et directe. Voici son profil :\n"+PROFILE;
+  if(chatCtx)sys+="\n\nOffre d'emploi actuellement sélectionnée :\nTitre : "+chatCtx.title+"\nEntreprise : "+chatCtx.company+"\nLieu : "+chatCtx.location+"\nContrat : "+chatCtx.contract+"\nDescription : "+(chatCtx.description||'(non fournie)');
+  chatHist.push({role:'user',content:userText});
+  try{
+    const r=await fetch('https://api.groq.com/openai/v1/chat/completions',{
+      method:'POST',
+      headers:{'Content-Type':'application/json','Authorization':'Bearer '+key},
+      body:JSON.stringify({model:'llama-3.3-70b-versatile',temperature:0.6,max_tokens:1800,
+        messages:[{role:'system',content:sys},...chatHist.slice(-8)]})
+    });
+    const j=await r.json();
+    thinking.remove();
+    if(!r.ok){pushMsg('ai','Erreur API ('+r.status+') : '+((j.error&&j.error.message)||'vérifie ta clé.'));busy=false;return;}
+    const ans=j.choices[0].message.content;
+    chatHist.push({role:'assistant',content:ans});
+    pushMsg('ai',ans);
+  }catch(e){thinking.remove();pushMsg('ai','Erreur réseau : '+e.message);}
+  busy=false;
+}
+
+const PRESETS={
+  lm:"Rédige une lettre de motivation complète, personnalisée et convaincante pour cette offre, en t'appuyant sur mon profil. Ton professionnel mais naturel, 250-350 mots, prête à envoyer.",
+  analyse:"Analyse cette offre : missions clés, stack technique, points de vigilance (séniorité réelle, salaire probable, red flags éventuels), et comment je devrais positionner ma candidature.",
+  entretien:"Prépare-moi 10 questions d'entretien probables pour cette offre (techniques + comportementales) avec, pour chacune, les points clés d'une bonne réponse basée sur mon profil.",
+  fit:"Évalue objectivement la correspondance entre mon profil et cette offre : points forts à mettre en avant, écarts à combler, verdict sur mes chances, et ce que je dois dire pour compenser les écarts."
+};
+document.querySelectorAll('[data-preset]').forEach(b=>b.onclick=()=>{
+  if(!chatCtx){pushMsg('ai',"Sélectionne d'abord une offre : clique sur le bouton « Assistant » d'une ligne du tableau.");openDrawer();return;}
+  askGroq(PRESETS[b.dataset.preset]);
+});
+$('dsend').onclick=()=>{const t=$('dtext').value.trim();if(t){$('dtext').value='';askGroq(t);}};
+$('dtext').addEventListener('keydown',e=>{if(e.key==='Enter'&&!e.shiftKey){e.preventDefault();$('dsend').click();}});
 
 /* chargement */
 Promise.all([
