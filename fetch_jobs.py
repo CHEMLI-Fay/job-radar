@@ -114,7 +114,8 @@ def fetch_france_travail() -> list[dict]:
                     "location": (o.get("lieuTravail") or {}).get("libelle", ""),
                     "contract": o.get("typeContratLibelle", "CDI"),
                     "date": o.get("dateCreation", ""),
-                    "url": (o.get("origineOffre") or {}).get("urlOrigine", ""),
+                    "url": (o.get("origineOffre") or {}).get("urlOrigine")
+                        or f"https://candidat.francetravail.fr/offres/recherche/detail/{o['id']}",
                     "description": (o.get("description") or "")[:1500],
                     "source": "France Travail",
                 })
