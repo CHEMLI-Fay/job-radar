@@ -3,87 +3,318 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Job Radar — Fayçal CHEMLI</title>
+<title>Job Radar — Veille d'offres CDI</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#0f1420;--card:#1a2233;--txt:#e8ecf4;--mut:#8b95ab;--acc:#4f8ef7;--ok:#3ddc84;--warn:#f7b84f;}
+:root{
+  --bg:#f5f6f8; --surface:#ffffff; --border:#e3e6ea; --border-strong:#c9ced6;
+  --txt:#1a1f2b; --txt-2:#5a6472; --txt-3:#8a93a2;
+  --primary:#1d4ed8; --primary-soft:#eff4ff;
+  --green:#047857; --green-soft:#ecfdf5;
+  --amber:#b45309; --amber-soft:#fffbeb;
+  --red:#b91c1c;
+  --radius:10px; --shadow:0 1px 2px rgba(16,24,40,.06),0 1px 3px rgba(16,24,40,.1);
+}
+[data-theme="dark"]{
+  --bg:#0e1116; --surface:#161b23; --border:#242b36; --border-strong:#374151;
+  --txt:#e7ebf0; --txt-2:#9aa4b2; --txt-3:#6b7585;
+  --primary:#3b82f6; --primary-soft:#172236;
+  --green:#34d399; --green-soft:#0c2921;
+  --amber:#fbbf24; --amber-soft:#2b2113;
+  --shadow:none;
+}
 *{box-sizing:border-box;margin:0;padding:0}
-body{background:var(--bg);color:var(--txt);font-family:'Segoe UI',system-ui,sans-serif;padding:24px;max-width:1100px;margin:auto}
-h1{font-size:1.5rem;margin-bottom:4px}
-.sub{color:var(--mut);font-size:.9rem;margin-bottom:20px}
-.stats{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:20px}
-.stat{background:var(--card);border-radius:10px;padding:12px 18px;min-width:120px}
-.stat b{font-size:1.4rem;color:var(--acc)}
-.stat span{display:block;color:var(--mut);font-size:.78rem}
-.filters{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:18px}
-input,select{background:var(--card);color:var(--txt);border:1px solid #2b3550;border-radius:8px;padding:8px 12px;font-size:.9rem}
-input{flex:1;min-width:200px}
-.card{background:var(--card);border-radius:12px;padding:16px 18px;margin-bottom:12px;border-left:4px solid var(--acc)}
-.card.hot{border-left-color:var(--ok)}
-.card h3{font-size:1.05rem}
-.card h3 a{color:var(--txt);text-decoration:none}
-.card h3 a:hover{color:var(--acc)}
-.meta{color:var(--mut);font-size:.85rem;margin:4px 0 8px}
-.badge{display:inline-block;background:#26314d;color:#a9c3f5;border-radius:20px;padding:2px 10px;font-size:.72rem;margin:2px 3px 0 0}
-.score{float:right;font-weight:700;color:var(--ok);font-size:.9rem}
-.src{color:var(--warn);font-size:.75rem}
-.empty{text-align:center;color:var(--mut);padding:40px}
-@media(max-width:600px){body{padding:12px}}
+html{font-size:15px}
+body{background:var(--bg);color:var(--txt);font-family:'Inter',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1240px;margin:0 auto;padding:0 24px 60px}
+
+/* ---------- header ---------- */
+header{background:var(--surface);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:20}
+.hbar{max-width:1240px;margin:0 auto;padding:14px 24px;display:flex;align-items:center;gap:16px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:700;font-size:1.05rem;letter-spacing:-.01em}
+.logo-mark{width:30px;height:30px;border-radius:8px;background:var(--primary);color:#fff;display:flex;align-items:center;justify-content:center;font-size:.8rem;font-weight:700}
+.hmeta{margin-left:auto;display:flex;align-items:center;gap:14px;font-size:.8rem;color:var(--txt-2)}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--green);display:inline-block;margin-right:6px}
+.btn{border:1px solid var(--border-strong);background:var(--surface);color:var(--txt);border-radius:8px;padding:7px 14px;font-size:.82rem;font-weight:500;cursor:pointer;font-family:inherit}
+.btn:hover{border-color:var(--primary);color:var(--primary)}
+.btn-primary{background:var(--primary);border-color:var(--primary);color:#fff}
+.btn-primary:hover{opacity:.92;color:#fff}
+
+/* ---------- KPI ---------- */
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px;margin:24px 0}
+.kpi{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:16px 18px;box-shadow:var(--shadow)}
+.kpi .v{font-size:1.65rem;font-weight:700;letter-spacing:-.02em}
+.kpi .l{font-size:.76rem;color:var(--txt-2);margin-top:2px;text-transform:uppercase;letter-spacing:.04em;font-weight:500}
+.kpi .s{font-size:.72rem;color:var(--txt-3);margin-top:6px}
+
+/* ---------- filtres ---------- */
+.panel{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:16px 18px;box-shadow:var(--shadow);margin-bottom:18px}
+.frow{display:grid;grid-template-columns:2fr 1fr 1fr 1fr 1fr;gap:12px}
+.frow2{display:grid;grid-template-columns:1fr 1fr 1fr 1fr auto auto;gap:12px;margin-top:12px;align-items:end}
+label.f{display:block;font-size:.7rem;font-weight:600;color:var(--txt-2);text-transform:uppercase;letter-spacing:.05em;margin-bottom:5px}
+input[type=text],select{width:100%;background:var(--bg);border:1px solid var(--border-strong);color:var(--txt);border-radius:8px;padding:8px 11px;font-size:.85rem;font-family:inherit;height:37px}
+input[type=text]:focus,select:focus{outline:2px solid var(--primary);outline-offset:-1px;border-color:transparent}
+input[type=range]{width:100%;accent-color:var(--primary)}
+.range-wrap{display:flex;align-items:center;gap:10px}
+.range-val{font-size:.8rem;font-weight:600;min-width:26px;text-align:right}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.chip{border:1px solid var(--border-strong);border-radius:20px;padding:5px 13px;font-size:.78rem;cursor:pointer;background:var(--surface);color:var(--txt-2);font-weight:500}
+.chip.on{background:var(--primary-soft);border-color:var(--primary);color:var(--primary)}
+
+/* ---------- toolbar ---------- */
+.toolbar{display:flex;align-items:center;gap:12px;margin-bottom:12px}
+.count{font-size:.85rem;color:var(--txt-2)}
+.count b{color:var(--txt)}
+.toolbar .right{margin-left:auto;display:flex;gap:10px;align-items:center}
+
+/* ---------- table ---------- */
+.tbl{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow)}
+.row{display:grid;grid-template-columns:56px 1fr 210px 170px 110px 108px 150px;gap:14px;padding:14px 18px;border-bottom:1px solid var(--border);align-items:center}
+.row:last-child{border-bottom:none}
+.row.head{background:var(--bg);font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:var(--txt-2);padding:10px 18px}
+.row:not(.head):hover{background:var(--primary-soft)}
+.score-badge{width:44px;height:30px;border-radius:7px;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.82rem}
+.sc-high{background:var(--green-soft);color:var(--green)}
+.sc-mid{background:var(--amber-soft);color:var(--amber)}
+.sc-low{background:var(--bg);color:var(--txt-2)}
+.jtitle{font-weight:600;font-size:.9rem;line-height:1.35}
+.jtitle a{color:var(--txt);text-decoration:none}
+.jtitle a:hover{color:var(--primary)}
+.jtags{margin-top:5px;display:flex;gap:5px;flex-wrap:wrap}
+.tag{font-size:.68rem;background:var(--bg);border:1px solid var(--border);color:var(--txt-2);border-radius:5px;padding:1px 7px;font-weight:500}
+.cell{font-size:.82rem;color:var(--txt-2);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.cell.c-company{color:var(--txt);font-weight:500}
+.src-badge{font-size:.72rem;font-weight:600;padding:3px 9px;border-radius:5px;background:var(--primary-soft);color:var(--primary);display:inline-block;white-space:nowrap}
+.actions{display:flex;gap:7px;justify-content:flex-end}
+.abtn{border:1px solid var(--border-strong);background:var(--surface);border-radius:7px;padding:5px 11px;font-size:.75rem;font-weight:500;cursor:pointer;color:var(--txt-2);font-family:inherit;white-space:nowrap}
+.abtn:hover{border-color:var(--primary);color:var(--primary)}
+.abtn.applied{background:var(--green-soft);border-color:var(--green);color:var(--green)}
+.empty{padding:60px;text-align:center;color:var(--txt-3);font-size:.9rem}
+footer{margin-top:26px;font-size:.75rem;color:var(--txt-3);display:flex;gap:8px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+
+@media(max-width:1000px){
+  .frow,.frow2{grid-template-columns:1fr 1fr}
+  .row{grid-template-columns:48px 1fr 120px;gap:10px}
+  .c-loc,.c-date,.c-src,.head .c-actions{display:none}
+  .row .actions{grid-column:1/-1;justify-content:flex-start}
+}
 </style>
 </head>
 <body>
-<h1>🎯 Job Radar</h1>
-<p class="sub">Offres CDI récentes matchées avec le profil Data Scientist / AI Engineer — <span id="updated">chargement…</span></p>
 
-<div class="stats">
-  <div class="stat"><b id="s-total">–</b><span>offres du jour</span></div>
-  <div class="stat"><b id="s-hot">–</b><span>très bon match (≥25)</span></div>
-  <div class="stat"><b id="s-src">–</b><span>sources</span></div>
+<header>
+  <div class="hbar">
+    <div class="logo"><span class="logo-mark">JR</span> Job Radar <span style="font-weight:400;color:var(--txt-3);font-size:.8rem">| Veille CDI — Data Science &amp; IA</span></div>
+    <div class="hmeta">
+      <span><span class="dot"></span>Mise à jour automatique quotidienne 07:00</span>
+      <span id="updated">—</span>
+      <button class="btn" id="themeBtn">Mode sombre</button>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <div class="kpis">
+    <div class="kpi"><div class="v" id="k-total">—</div><div class="l">Offres actives</div><div class="s" id="k-total-s"></div></div>
+    <div class="kpi"><div class="v" id="k-high">—</div><div class="l">Matchs forts</div><div class="s">Score de compatibilité ≥ 25</div></div>
+    <div class="kpi"><div class="v" id="k-today">—</div><div class="l">Publiées aujourd'hui</div><div class="s" id="k-today-s"></div></div>
+    <div class="kpi"><div class="v" id="k-applied">—</div><div class="l">Candidatures envoyées</div><div class="s">Suivi local sur cet appareil</div></div>
+    <div class="kpi"><div class="v" id="k-src">—</div><div class="l">Sources actives</div><div class="s" id="k-src-s"></div></div>
+  </div>
+
+  <div class="panel">
+    <div class="frow">
+      <div><label class="f">Recherche</label><input type="text" id="f-q" placeholder="Titre, entreprise, ville, technologie…"></div>
+      <div><label class="f">Source</label><select id="f-src"><option value="">Toutes</option></select></div>
+      <div><label class="f">Localisation</label><input type="text" id="f-loc" placeholder="Ex. Paris, Lyon, 92…"></div>
+      <div><label class="f">Contrat</label><select id="f-contract"><option value="">Tous</option></select></div>
+      <div><label class="f">Publication</label><select id="f-fresh">
+        <option value="">Toutes dates</option><option value="1">Dernières 24 h</option>
+        <option value="2">Dernières 48 h</option><option value="7">7 derniers jours</option></select></div>
+    </div>
+    <div class="frow2">
+      <div><label class="f">Score minimum</label><div class="range-wrap"><input type="range" id="f-score" min="0" max="50" value="0" step="1"><span class="range-val" id="f-score-v">0</span></div></div>
+      <div><label class="f">Technologie</label><select id="f-tech"><option value="">Toutes</option></select></div>
+      <div><label class="f">Statut</label><select id="f-status">
+        <option value="">Tous</option><option value="new">Non traitées</option>
+        <option value="applied">Candidature envoyée</option><option value="hidden">Masquées</option></select></div>
+      <div><label class="f">Tri</label><select id="f-sort">
+        <option value="score">Score décroissant</option><option value="date">Plus récentes</option>
+        <option value="company">Entreprise A→Z</option></select></div>
+      <button class="btn" id="resetBtn">Réinitialiser</button>
+      <button class="btn btn-primary" id="csvBtn">Exporter CSV</button>
+    </div>
+    <div class="chips" id="quick">
+      <span class="chip" data-q="llm">LLM / GenAI</span>
+      <span class="chip" data-q="data scientist">Data Scientist</span>
+      <span class="chip" data-q="machine learning">Machine Learning</span>
+      <span class="chip" data-q="computer vision">Computer Vision</span>
+      <span class="chip" data-q="dataviz">DataViz / BI</span>
+      <span class="chip" data-q="gcp">GCP / Cloud</span>
+    </div>
+  </div>
+
+  <div class="toolbar">
+    <span class="count" id="count">—</span>
+    <div class="right"><span style="font-size:.75rem;color:var(--txt-3)" id="histInfo"></span></div>
+  </div>
+
+  <div class="tbl">
+    <div class="row head">
+      <span>Score</span><span>Poste</span><span>Entreprise</span><span class="c-loc">Localisation</span>
+      <span class="c-date">Publiée</span><span class="c-src">Source</span><span class="c-actions" style="text-align:right">Actions</span>
+    </div>
+    <div id="list"></div>
+  </div>
+
+  <footer>
+    <span>Sources : API France Travail, JSearch (Google Jobs : LinkedIn, Indeed, Welcome to the Jungle…). Scoring basé sur le profil Data Scientist / AI Engineer.</span>
+    <span id="footTotal"></span>
+  </footer>
 </div>
-
-<div class="filters">
-  <input id="q" placeholder="🔍 Filtrer (titre, entreprise, ville, mot-clé)…">
-  <select id="src"><option value="">Toutes les sources</option></select>
-  <select id="sort">
-    <option value="score">Tri : meilleur match</option>
-    <option value="date">Tri : plus récent</option>
-  </select>
-</div>
-
-<div id="list"></div>
 
 <script>
-let DATA=[];
-const esc=s=>(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-function render(){
-  const q=document.getElementById('q').value.toLowerCase();
-  const src=document.getElementById('src').value;
-  const sort=document.getElementById('sort').value;
-  let items=DATA.filter(o=>{
-    const t=(o.title+' '+o.company+' '+o.location+' '+(o.matched||[]).join(' ')).toLowerCase();
-    return (!q||t.includes(q))&&(!src||o.source===src);
-  });
-  items.sort((a,b)=>sort==='date'?(b.date||'').localeCompare(a.date||''):b.score-a.score);
-  const el=document.getElementById('list');
-  if(!items.length){el.innerHTML='<div class="empty">Aucune offre. Reviens demain matin après la mise à jour automatique 🙂</div>';return;}
-  el.innerHTML=items.map(o=>`
-    <div class="card ${o.score>=25?'hot':''}">
-      <span class="score">★ ${o.score}</span>
-      <h3><a href="${esc(o.url)}" target="_blank" rel="noopener">${esc(o.title)}</a></h3>
-      <div class="meta">${esc(o.company)} · ${esc(o.location)} · ${esc(o.contract)} · <span class="src">${esc(o.source)}</span> · ${o.date?new Date(o.date).toLocaleDateString('fr-FR'):''}</div>
-      <div>${(o.matched||[]).map(m=>`<span class="badge">${esc(m)}</span>`).join('')}</div>
-    </div>`).join('');
+'use strict';
+let DATA=[], HIST={};
+const $=id=>document.getElementById(id);
+const esc=s=>String(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const store={
+  get k(){try{return JSON.parse(localStorage.getItem('jr-state')||'{}')}catch(e){return{}}},
+  set(o){localStorage.setItem('jr-state',JSON.stringify(o))}
+};
+let state=store.k; state.applied=state.applied||{}; state.hidden=state.hidden||{};
+
+/* thème */
+if(state.theme==='dark')document.documentElement.dataset.theme='dark';
+function syncThemeBtn(){$('themeBtn').textContent=document.documentElement.dataset.theme==='dark'?'Mode clair':'Mode sombre';}
+$('themeBtn').onclick=()=>{
+  const d=document.documentElement.dataset.theme==='dark';
+  document.documentElement.dataset.theme=d?'':'dark';
+  state.theme=d?'':'dark'; store.set(state); syncThemeBtn();
+};
+
+function daysAgo(iso){if(!iso)return 999;return (Date.now()-new Date(iso).getTime())/864e5;}
+function fmtDate(iso){if(!iso)return '—';const d=new Date(iso);const n=daysAgo(iso);
+  if(n<1)return "Aujourd'hui";if(n<2)return 'Hier';return d.toLocaleDateString('fr-FR',{day:'2-digit',month:'short'});}
+
+function filters(){
+  return {
+    q:$('f-q').value.toLowerCase().trim(), src:$('f-src').value, loc:$('f-loc').value.toLowerCase().trim(),
+    contract:$('f-contract').value, fresh:$('f-fresh').value, score:+$('f-score').value,
+    tech:$('f-tech').value, status:$('f-status').value, sort:$('f-sort').value
+  };
 }
-fetch('data.json?'+Date.now()).then(r=>r.json()).then(d=>{
-  DATA=d.offers||[];
-  document.getElementById('updated').textContent='mis à jour le '+new Date(d.updated).toLocaleString('fr-FR');
-  document.getElementById('s-total').textContent=d.count;
-  document.getElementById('s-hot').textContent=DATA.filter(o=>o.score>=25).length;
+
+function apply(){
+  const f=filters(); $('f-score-v').textContent=f.score;
+  let items=DATA.filter(o=>{
+    const hay=(o.title+' '+o.company+' '+o.location+' '+(o.matched||[]).join(' ')).toLowerCase();
+    if(f.q&&!hay.includes(f.q))return false;
+    if(f.src&&o.source!==f.src)return false;
+    if(f.loc&&!(o.location||'').toLowerCase().includes(f.loc))return false;
+    if(f.contract&&(o.contract||'')!==f.contract)return false;
+    if(f.fresh&&daysAgo(o.date)>+f.fresh)return false;
+    if(o.score<f.score)return false;
+    if(f.tech&&!(o.matched||[]).includes(f.tech))return false;
+    const ap=state.applied[o.id],hid=state.hidden[o.id];
+    if(f.status==='applied'&&!ap)return false;
+    if(f.status==='new'&&(ap||hid))return false;
+    if(f.status==='hidden'&&!hid)return false;
+    if(!f.status&&hid)return false;
+    return true;
+  });
+  items.sort((a,b)=>f.sort==='date'?(b.date||'').localeCompare(a.date||'')
+    :f.sort==='company'?(a.company||'').localeCompare(b.company||'')
+    :b.score-a.score);
+  render(items);
+}
+
+function render(items){
+  $('count').innerHTML=`<b>${items.length}</b> offre${items.length>1?'s':''} affichée${items.length>1?'s':''}`;
+  const el=$('list');
+  if(!items.length){el.innerHTML='<div class="empty">Aucune offre ne correspond aux critères sélectionnés.</div>';return;}
+  el.innerHTML=items.map(o=>{
+    const cls=o.score>=25?'sc-high':o.score>=15?'sc-mid':'sc-low';
+    const ap=state.applied[o.id];
+    return `<div class="row">
+      <span class="score-badge ${cls}">${o.score}</span>
+      <div><div class="jtitle"><a href="${esc(o.url)}" target="_blank" rel="noopener">${esc(o.title)}</a></div>
+        <div class="jtags">${(o.matched||[]).slice(0,6).map(m=>`<span class="tag">${esc(m)}</span>`).join('')}</div></div>
+      <span class="cell c-company" title="${esc(o.company)}">${esc(o.company)}</span>
+      <span class="cell c-loc" title="${esc(o.location)}">${esc(o.location)||'—'}</span>
+      <span class="cell c-date">${fmtDate(o.date)}</span>
+      <span class="c-src"><span class="src-badge">${esc(o.source)}</span></span>
+      <div class="actions">
+        <button class="abtn ${ap?'applied':''}" onclick="toggleApplied('${esc(o.id)}')">${ap?'Postulé':'Marquer postulé'}</button>
+        <button class="abtn" onclick="toggleHidden('${esc(o.id)}')">${state.hidden[o.id]?'Afficher':'Masquer'}</button>
+      </div>
+    </div>`;
+  }).join('');
+  kpis();
+}
+
+function kpis(){
+  $('k-total').textContent=DATA.length;
+  $('k-high').textContent=DATA.filter(o=>o.score>=25).length;
+  $('k-today').textContent=DATA.filter(o=>daysAgo(o.date)<1).length;
+  $('k-applied').textContent=Object.keys(state.applied).length;
   const srcs=[...new Set(DATA.map(o=>o.source))];
-  document.getElementById('s-src').textContent=srcs.length;
-  document.getElementById('src').innerHTML+=srcs.map(s=>`<option>${esc(s)}</option>`).join('');
-  render();
-}).catch(()=>{document.getElementById('list').innerHTML='<div class="empty">data.json introuvable — lance d\'abord fetch_jobs.py.</div>'});
-['q','src','sort'].forEach(id=>document.getElementById(id).addEventListener('input',render));
+  $('k-src').textContent=srcs.length;
+  $('k-src-s').textContent=srcs.join(', ');
+}
+
+window.toggleApplied=id=>{state.applied[id]?delete state.applied[id]:state.applied[id]=Date.now();store.set(state);apply();};
+window.toggleHidden=id=>{state.hidden[id]?delete state.hidden[id]:state.hidden[id]=Date.now();store.set(state);apply();};
+
+$('csvBtn').onclick=()=>{
+  const rows=[['Titre','Entreprise','Localisation','Contrat','Date','Score','Source','URL']];
+  DATA.filter(o=>!state.hidden[o.id]).forEach(o=>rows.push([o.title,o.company,o.location,o.contract,o.date,o.score,o.source,o.url]));
+  const csv=rows.map(r=>r.map(c=>`"${String(c??'').replace(/"/g,'""')}"`).join(';')).join('\n');
+  const a=document.createElement('a');
+  a.href=URL.createObjectURL(new Blob(['﻿'+csv],{type:'text/csv;charset=utf-8'}));
+  a.download='job-radar-'+new Date().toISOString().slice(0,10)+'.csv';a.click();
+};
+
+$('resetBtn').onclick=()=>{
+  ['f-q','f-loc'].forEach(i=>$(i).value='');
+  ['f-src','f-contract','f-fresh','f-tech','f-status'].forEach(i=>$(i).value='');
+  $('f-sort').value='score';$('f-score').value=0;
+  document.querySelectorAll('.chip').forEach(c=>c.classList.remove('on'));
+  apply();
+};
+
+document.querySelectorAll('.chip').forEach(c=>c.onclick=()=>{
+  const on=c.classList.toggle('on');
+  document.querySelectorAll('.chip').forEach(x=>{if(x!==c)x.classList.remove('on')});
+  $('f-q').value=on?c.dataset.q:'';apply();
+});
+
+['f-q','f-loc'].forEach(i=>$(i).addEventListener('input',apply));
+['f-src','f-contract','f-fresh','f-tech','f-status','f-sort'].forEach(i=>$(i).addEventListener('change',apply));
+$('f-score').addEventListener('input',apply);
+
+/* chargement */
+Promise.all([
+  fetch('data.json?'+Date.now()).then(r=>r.json()),
+  fetch('history.json?'+Date.now()).then(r=>r.json()).catch(()=>({}))
+]).then(([d,h])=>{
+  DATA=d.offers||[];HIST=h||{};
+  $('updated').textContent='Dernière collecte : '+new Date(d.updated).toLocaleString('fr-FR',{day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit'});
+  $('footTotal').textContent=DATA.length+' offres en base — '+new Date(d.updated).toLocaleDateString('fr-FR');
+  const srcs=[...new Set(DATA.map(o=>o.source))].sort();
+  $('f-src').innerHTML+=srcs.map(s=>`<option>${esc(s)}</option>`).join('');
+  const contracts=[...new Set(DATA.map(o=>o.contract).filter(Boolean))].sort();
+  $('f-contract').innerHTML+=contracts.map(c=>`<option>${esc(c)}</option>`).join('');
+  const techs=[...new Set(DATA.flatMap(o=>o.matched||[]))].sort();
+  $('f-tech').innerHTML+=techs.map(t=>`<option>${esc(t)}</option>`).join('');
+  const days=Object.keys(HIST).sort();
+  if(days.length>1){const prev=HIST[days[days.length-2]];const diff=DATA.length-prev;
+    $('k-total-s').textContent=(diff>=0?'+':'')+diff+' vs collecte précédente';}
+  $('histInfo').textContent=days.length?('Historique : '+days.map(d=>d.slice(5)+' ('+HIST[d]+')').join(' · ')):'';
+  syncThemeBtn();apply();
+}).catch(()=>{$('list').innerHTML='<div class="empty">Données indisponibles. La première collecte n\'a peut-être pas encore eu lieu.</div>'});
 </script>
 </body>
 </html>
