@@ -136,7 +136,7 @@ def fetch_jsearch() -> list[dict]:
     for q in SEARCH_QUERIES[:3]:  # limiter le quota gratuit
         try:
             r = requests.get(
-                "https://jsearch.p.rapidapi.com/search",
+                "https://jsearch.p.rapidapi.com/search-v2",
                 headers={
                     "X-RapidAPI-Key": key,
                     "X-RapidAPI-Host": "jsearch.p.rapidapi.com",
@@ -152,7 +152,9 @@ def fetch_jsearch() -> list[dict]:
             if r.status_code != 200:
                 print(f"[JSearch] '{q}' -> HTTP {r.status_code}")
                 continue
-            for o in r.json().get("data", []):
+            payload = r.json().get("data", [])
+            jobs = payload.get("jobs", []) if isinstance(payload, dict) else payload
+            for o in jobs:
                 oid = o.get("job_id", "")
                 if oid in seen:
                     continue
