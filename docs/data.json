@@ -1,6 +1,6 @@
 {
- "updated": "2026-07-05T07:56:23.907638+00:00",
- "count": 53,
+ "updated": "2026-07-06T08:59:48.746300+00:00",
+ "count": 39,
  "offers": [
   {
    "id": "ft-4529328",
@@ -25,107 +25,12 @@
    ]
   },
   {
-   "id": "js-EhwkriiD5VixD1fgAAAAAA==",
-   "title": "Consultant Solution IA F/H",
-   "company": "APEC - Offres Gratuites",
-   "location": "Strasbourg, FR",
-   "contract": "À plein temps",
-   "date": "2026-07-02T00:00:00.000Z",
-   "url": "https://www.meteojob.com/jobs/55171242",
-   "description": "Description du poste\nEn tant que Consultant(e) Solution IA, vous travaillerez directement aux côtés du fondateur sur les sujets d'IA générative, avec un rôle clé dans le cadrage, le prototypage et la construction de solutions concrètes adaptées aux besoins des clients.\n\nVous évoluerez dans un environnement à la fois bienveillant et exigeant, et participerez activement aux missions suivantes, avec un accompagnement constant pour favoriser votre développement professionnel. Vos missions seront :\n\nCadrage et prototypage de solutions IA\n\n• Cadrer et architecturer des solutions basées sur l'IA générative pour des cas d'usage concrets : extraction de données depuis des PDF complexes, analyse de contrats, factures, plans, schémas techniques, chatbots métier, génération de documents ou automatisation de processus.\n\n• Identifier la meilleure approche de modélisation selon le besoin client : LLM, OCR, modèles de vision, RAG, agents, classification ou extraction structurée, afin de concevoir une solution pragmatique, adaptée au contexte et aux contraintes du client.\n\n• Construire des solutions IA fonctionnels de bout en bout, principalement en Python ou avec des outils no-code / low-code lorsque cela permet d'aller plus vite, pour démontrer rapidement la valeur potentielle d'une solution avant d'envisager son industrialisation.\n\nRecommandation & Conseil\n\n• Conseiller les clients sur les sujets techniques liés aux projets IA : faisabilité, limites des modèles, qualité des résultats, cont",
-   "source": "Meteojob",
-   "score": 36,
-   "matched": [
-    "llm",
-    "rag",
-    "ia générative",
-    "python",
-    "chatbot",
-    "agent"
-   ]
-  },
-  {
-   "id": "js-8wtpxpExolTEcQgxAAAAAA==",
-   "title": "Data Scientist IA – Développeur Machine Learning H/F",
-   "company": "LCL S.A.",
-   "location": "Saint-Ouen-l'Aumône, FR",
-   "contract": "À plein temps",
-   "date": "2026-07-04T00:00:00.000Z",
-   "url": "https://fr.trabajo.org/offre-2958-17e2ec3dbd19ea5f26da750276010636",
-   "description": "Data Scientist IA – Développeur Machine Learning H/F Au cœur de la stratégie de modernisation de LCL, l'équipe IA est aujourd'hui reconnue au sein de la Direction des Systèmes d'Information. Après plusieurs années de succès dans le développement de cas d'usage à forte valeur ajoutée pour les métiers, nous entrons dans une phase d'accélération. Vous intégrerez une équipe qui développe et déploie des solutions à la fois innovantes et à la pointe de la recherche scientifique. L’équipe possède des compétences en traitement d’image et en traitement du langage, qui ont permis de lancer des projets autour de ces deux domaines avec, pour premiers résultats, le renforcement de l’adhésion des acteurs opérationnels LCL sur la valeur des cas d’usages de l’IA. Vous contribuerez aux projets de Data Science en cours et à venir, en vous appuyant sur votre expérience en développement de projets complexes de Machine et Deep Learning pour passer de la conception à l’industrialisation des solutions IA. Responsabilités - Participer à la conception et au développement de différentes briques d’Intelligence Artificielle répondant aux ambitions du Groupe Crédit Agricole. - Créer des outils d'intelligence artificielle grâce à de puissants moyens informatiques chez l’équipe (GCP Vertex AI), en fonction de vos besoins, accompagné des équipes expertes IT, et sans être contraint par l'utilisation de solutions de marché. - Contribuer activement à faire évoluer l'environnement de travail Data Science exista",
-   "source": "Trabajo.org",
-   "score": 31,
-   "matched": [
-    "vertex ai",
-    "gcp",
-    "machine learning",
-    "deep learning",
-    "data scientist"
-   ]
-  },
-  {
-   "id": "ft-4494635",
-   "title": "Data Scientist - Vision par Ordinateur / Traitement d'Images (H/F)",
-   "company": "Agixis",
-   "location": "69 - Lyon 1er Arrondissement",
-   "contract": "CDI",
-   "date": "2026-07-02T11:21:28.000Z",
-   "url": "https://candidat.francetravail.fr/offres/recherche/detail/4494635",
-   "description": " Agixis - Société de conseil et d'expertise IT, spécialisée dans la santé, l'IoT et l'industrie 4.0 ainsi que la transformation digitale. \n\n Qui sommes-nous - \n\nChez Agixis, nous sommes des Agicien·nes passionné·e·s qui accompagnons nos clients dans la création de services numériques à fort impact. \nDepuis 2010, nous combinons expertise technique, créativité et agilité pour concevoir des solutions performantes, robustes et évolutives dans des domaines variés : santé, industrie, énergie, banque/assurance, green IT, etc. \n\nNotre force : une culture d'entreprise conviviale, le partage des savoirs, des challenges techniques stimulants et le plaisir de construire ensemble des solutions innovantes\n\nLe poste : \n\nNous recrutons aujourd'hui 2 Data Scientist avec des compétences en traitement d'images par ordinateur pour nos clients, l'un dans le domaine de la santé, l'autre dans la robotique.\n\nVos responsabilités au quotidien :\n\n- R&D et Conception : Explorer, concevoir et implémenter des architectures de Deep Learning (CNN, Transformers pour la vision) adaptées aux problématiques d'images.\n\n- Traitement de la donnée : Gérer le cycle de vie de la donnée (nettoyage, augmentation d'images, labellisation).\n\n-Industrialisation : Optimiser et déployer les modèles en production (MLOps), parfois sous des contraintes de calcul embarqué (Edge AI).\n\n-Veille et Conseil : Assurer une veille scientifique active sur l'état de l'art (Computer Vision) et être force de proposition auprès du client.\n\nP",
-   "source": "France Travail",
-   "score": 27,
-   "matched": [
-    "deep learning",
-    "computer vision",
-    "transformers",
-    "mlops",
-    "data scientist"
-   ]
-  },
-  {
-   "id": "js-WBhaa0c6gv5UK_BmAAAAAA==",
-   "title": "Ingénieur en intelligence artificielle F/H",
-   "company": "APEC - Offres Gratuites",
-   "location": "Paris, FR",
-   "contract": "À plein temps",
-   "date": "2026-07-02T00:00:00.000Z",
-   "url": "https://www.meteojob.com/jobs/55171292",
-   "description": "Description du poste\nDans le cadre du renforcement de ses équipes, nous recherchons un Ingénieur en intelligence artificielle H/F en CDI\n\nVous interviendrez sur des projets innovants autour de l'IA, de l'IA générative et de la valorisation de la donnée. Vous participerez à la conception, au développement et à l'industrialisation de solutions intelligentes répondant à des besoins métiers concrets.\n\nVos missions\n\nVos principales missions seront les suivantes :\n\n- concevoir et développer des solutions basées sur l'intelligence artificielle ;\n\n- travailler sur des cas d'usage autour des LLM, du RAG et de l'IA générative ;\n\n- intégrer des solutions IA dans des environnements applicatifs existants ;\n\n- participer à l'analyse des besoins et à la définition des architectures techniques ;\n\n- développer des composants en Python et/ou Java ;\n\n- tester, documenter et industrialiser les solutions mises en place ;\n\n- assurer une veille technologique sur les outils et frameworks IA.\n\nCompétences requises :\n\nVous disposez d'une formation informatique, data ou IA, et vous avez une appétence forte pour les nouvelles technologies.\n\nVous êtes à l'aise avec le développement logiciel et souhaitez intervenir sur des projets mêlant innovation, data, cloud et intelligence artificielle. Vous faites preuve de rigueur, d'esprit d'analyse et d'une bonne capacité à travailler en équipe.\n\nEnvironnement\n\n- Python\n\n- Java\n\n- OpenAI\n\n- LLM\n\n- RAG\n\n- LangChain / LlamaIndex\n\n- IA générative\n\n- Développement app",
-   "source": "Meteojob",
-   "score": 27,
-   "matched": [
-    "llm",
-    "rag",
-    "ia générative",
-    "python"
-   ]
-  },
-  {
-   "id": "ft-4492407",
-   "title": "Data analyst (H/F)",
-   "company": "Non précisé",
-   "location": "75 - Paris 9e Arrondissement",
-   "contract": "CDI",
-   "date": "2026-07-02T11:03:09.000Z",
-   "url": "https://candidat.francetravail.fr/offres/recherche/detail/4492407",
-   "description": "Description du poste :\nVos missions\nEn tant que Lead Data Analyst, vous jouez un rôle central dans la valorisation de la donnée et l'aide à la décision :\nAnimer et encadrer une équipe de 2 Data Analysts / Développeurs BI\nConcevoir, développer et maintenir des reportings et datavisualisations (Qlik Sense)\nRéaliser des analyses ad-hoc, estimations et prévisions sur GCP\nPiloter les projets data de A à Z : cadrage, développement, recette et accompagnement métier\nFormuler des recommandations stratégiques et les présenter aux métiers et à la direction\nÊtre l'interlocuteur clé des métiers et d'organismes publics (ex : ADEME)\nAccompagner les utilisateurs dans la prise en main et l'appropriation des outils data\nDescription du profil :\nProfil recherché\nFormation & expérience\nBac +5 en informatique décisionnelle, data, statistiques ou équivalent\n6 à 8 ans d'expérience minimum en Data Analysis / BI\nExpérience confirmée en gestion de projets et management d'équipe\nCompétences techniques\nSQL, Python\nMaîtrise experte d'un outil de BI (idéalement Qlik Sense)\nEnvironnement cloud (idéalement GCP)\nQualités personnelles\nForte capacité d'analyse et de vulgarisation\nExcellent relationnel et sens du collectif\nProactivité, autonomie et orientation résultats\nIntérêt marqué pour les enjeux de l'économie circulaire",
-   "source": "France Travail",
-   "score": 26,
-   "matched": [
-    "rag",
-    "gcp",
-    "python",
-    "sql",
-    "data analyst"
-   ]
-  },
-  {
    "id": "js-w6cV4QmM6prXmTMnAAAAAA==",
    "title": "Lead Data Scientist Senior (GenAI) F/H",
    "company": "Orange SA",
    "location": "Lyon, FR",
    "contract": "À plein temps",
-   "date": "2026-07-04T23:00:00.000Z",
+   "date": "2026-07-05T23:00:00.000Z",
    "url": "https://orange.jobs/fr/fr/job/CTS-2026-52140/Lead-Data-Scientist-Senior-GenAI-F-H",
    "description": "Date de publication : May 22, 2026, 9:02AM\n2 localisations au choix:\nCHÂTLILLON (44-46 Avenue de la République, 92320 CHÂTILLON)\nou\nLYON (18 Rue du Général Mouton Duvernet, 69003 LYON)\nVotre mission :\nEn tant queréférent·eGenAI, vous aidez Orange Wholesale à passer du prototype à la production, en garantissant la qualité technique, la sécurité et la création de valeur.\nDéfinir et porter les bonnes pratiques Data Science /GenAI(RAG, agents, évaluation,LLMOps).\nConcevoir et challenger les architectures des solutionsGenAI(cloud etonpremise) avec les équipes IT et produit.\nIndustrialiser des composants réutilisables (moteur RAG, orchestrations d’agents, outillage d’observabilité et de coûts).\nAnimer la communauté des datascientists: partage, coaching, montée en compétences, standards dedelivery.\nVous travaillez dans un cadre structuré (sécurité, protection des données, éthique) avec une forte exigence de qualité et de mise en production.\n\nResponsabilités :\n\nAu quotidien, vos responsabilités s’articulent autour de 5 axes :\nArchitecture & expertiseGenAI: choix des modèles/approches, patterns (RAG, agents), revues techniques, sécurisation des solutions.\nDelivery de bout en bout: cadrage, POC, MVP, mise en production, mesure de la valeur, amélioration continue.\nIndustrialisation (LLMOps/MLOps): CI/CD, observabilité, évaluation, monitoring, qualité et performance en production.\nOptimisation des coûts: recommandations coûts/performance (usage LLM, ressources cloud), bonnes pratiquesFin",
    "source": "Orange Jobs",
@@ -158,22 +63,19 @@
    ]
   },
   {
-   "id": "ft-4511215",
-   "title": "Lead IA F/H h/f",
-   "company": "Non précisé",
-   "location": "92 - Boulogne-Billancourt",
-   "contract": "CDI",
-   "date": "2026-07-02T22:25:46.000Z",
-   "url": "https://candidat.francetravail.fr/offres/recherche/detail/4511215",
-   "description": "Rejoignez VISEO et découvrez un monde de possibilités où nous mettons l’Humain, le Collectif et le Challenge au cœur de tout ce que nous faisons.Qui êtes-vous ?Si pour vous, être Lead IA, c’est :Bâtir une vision stratégique : Être capable de comprendre les enjeux business d'un grand compte pour identifier, qualifier et prioriser les cas d'usage IA les plus créateurs de valeur (GenAI, LLMs, Machine Learning, Computer Vision).Avoir le leadership technique : Maîtriser l'état de l'art technologique pour concevoir des architectures IA de bout en bout, de la phase de R&D/PoC jusqu'à l'industrialisation en production (LLMOps, MLOps).Être un bâtisseur d'équipe : Définir les compétences cibles, attirer les meilleurs talents (Data Scientists, Data Engineers, prompt engineers) et structurer un pôle IA performant et autonome.Évangéliser et vulgariser : Être le porte-parole de l'IA auprès du top management du client final, démystifier la technologie et accompagner la conduite du changement auprès des équipes métiers.Garantir une IA responsable : Intégrer dès le départ les notions d'éthique, de sécurité des données, de conformité (AI Act) et de maîtrise des coûts opérationnels (FinOps).… Alors, nous sommes faits pour nous entendre !Ce que nous allons faire ensemble ?En rejoignant notre practice, vous interviendrez chez un grand client final majeur pour :Créer le service de toutes pièces : Définir la gouvernance, les méthodologies de delivery et la roadmap technologique du tout nouveau pôle",
-   "source": "France Travail",
-   "score": 22,
+   "id": "js-PH8uKxrSgG1W4wUmAAAAAA==",
+   "title": "Solution Architect IA (F/H)",
+   "company": "ILLUIN Technology",
+   "location": "Paris, FR",
+   "contract": "À plein temps",
+   "date": "2026-07-04T00:00:00.000Z",
+   "url": "https://www.welcometothejungle.com/fr/companies/illuin-tech/jobs/architecte-de-solutions-ia-generative-avant-vente_paris",
+   "description": "À propos d'ILLUIN Technology\nILLUIN Technology est le leader français de l'IA Générative souveraine et de confiance. Nous développons des modèles de langage (LLM) propriétaires et une plateforme technologique de pointe pour permettre aux entreprises et aux organisations de déployer l'IA générative en toute sécurité, en gardant la maîtrise de leurs données.\nDans un contexte de forte croissance, nous créons une équipe d'Architectes de Solutions (Solution Architects) pour accompagner nos clients dans l'adoption de ces technologies transformatrices.\n\nVotre Mission\nEn tant qu'Architecte de Solutions IA (Avant-Vente), vous êtes le partenaire technique stratégique de l'équipe commerciale. Votre mission est de concevoir des solutions innovantes et robustes basées sur la plateforme et les modèles d'ILLUIN, en réponse aux défis métier complexes de nos clients.\nVous êtes le garant de la faisabilité technique de la solution proposée et le pivot de la confiance entre les besoins du client et la puissance de nos produits.\n\nResponsabilités Clés\nVotre rôle s'articule autour de 4 axes principaux :\n\n🚀 Pilotage Technique de l'Avant-Vente :\n• Discovery & Qualification : Animer des ateliers techniques avec les prospects (DSI, architectes, Data Scientists) pour comprendre en profondeur leurs cas d'usage, leurs contraintes (métier, sécurité, infrastructure) et leurs objectifs.\n\n• Conception de solution : Concevoir et chiffrer des architectures de solution sur mesure (Cloud, on-premise, hybride) qui",
+   "source": "The Jungle",
+   "score": 21,
    "matched": [
     "llm",
-    "genai",
-    "machine learning",
-    "computer vision",
-    "mlops",
+    "ia générative",
     "data scientist"
    ]
   },
@@ -251,52 +153,22 @@
    ]
   },
   {
-   "id": "ft-210QZHX",
-   "title": "Data Scientist - Maintenance Prédictive (H/F)",
-   "company": "NBTECH TOULOUSE",
-   "location": "31 - Toulouse",
-   "contract": "CDI",
-   "date": "2026-07-02T14:30:08.203Z",
-   "url": "https://candidat.francetravail.fr/offres/recherche/detail/210QZHX",
-   "description": "Dans le cadre du renforcement de ses équipes, nous recherchons un Data Scientist - Maintenance Prédictive (H/F) pour intervenir sur des activités d'analyse de données industrielles et de développement de modèles prédictifs dans un environnement technique exigeant.\n\nVous interviendrez sur des missions essentielles mêlant analyse de données, séries temporelles, détection d'anomalies et développement Python, en lien direct avec les équipes Maintenance, Qualité et Ingénierie.\n\nVos missions principales :\n- Analyser les données issues des équipements, capteurs et historiques de maintenance,\n- Réaliser la structuration, le nettoyage et la préparation des datasets,\n- Développer des modèles de séries prédictives (ARIMA, Prophet, LSTM.),\n- Mettre en place des algorithmes de maintenance prédictive (détection de dérives, anomalies, patterns),\n- Déployer les modèles dans l'environnement industriel et assurer leur suivi,\n- Participer aux revues techniques et aux analyses de performance,\n- Garantir la qualité et la conformité des livrables,\n- Collaborer avec les équipes Data, Maintenance, Qualité et Ingénierie.\n\nInformations pratiques :\nDémarrage : dès que possible \nHoraires : Journée \nLocalisation : Aucamville (31) \nEnvironnement : Data / Maintenance prédictive / Industrie\n\nLe profil recherché :\nIssu(e) d'un environnement industriel ou technique exigeant, vous justifiez d'une pratique confirmée de l'analyse de données, du développement Python et des modèles prédictifs appliqués à la mainte",
-   "source": "France Travail",
+   "id": "js-wM5NypuKOofp8AKNAAAAAA==",
+   "title": "Tech Lead IA / GenAI (CDI)",
+   "company": "ALTEN",
+   "location": "FR",
+   "contract": "À plein temps",
+   "date": "2026-07-04T00:00:00.000Z",
+   "url": "https://www.jobleads.com/fr/job/tech-lead-ia-genai-cdi--ile-de-france--e3281589a9c4632363d0df7b71ca72ae7",
+   "description": "ALTEN recherche un(e) Tech Lead IA pour accompagner la conception et l’industrialisation de solutions GenAI innovantes au sein de programmes stratégiques à forte visibilité.\n\nCe poste s’adresse à des profils expérimentés capables d’allier vision architecture, expertise IA et leadership technique.\n\nVos responsabilités\n\n• Concevoir des architectures IA et GenAI robustes et scalables\n\n• Encadrer techniquement des équipes IA et développement\n\n• Piloter l’intégration de LLM, RAG et agents IA dans des applications métiers\n\n• Structurer les pipelines ML/LLMOps et les pratiques MLOps\n\n• Participer aux choix d’architecture Cloud et DevOps\n\n• Garantir la gouvernance IA : sécurité, monitoring, coûts, conformité\n\n• Accompagner les équipes sur les bonnes pratiques techniques\n\nEnvironnement technique\n\nProfil recherché\n\n• Diplômé(e) d’une grande école d’ingénieurs\n\n• 5 à 10 ans d’expérience en ingénierie logicielle / IA en CDI\n\n• Excellente maîtrise des architectures IA modernes\n\n• Expérience du leadership technique et du pilotage d’équipes\n\n• Très bon niveau d’anglais professionnel\n\n• Forte culture Cloud, DevOps et industrialisation\n\nCe que nous recherchons\n\nDes experts actuellement en poste, capables d’intervenir sur des sujets complexes à fort impact business et technologique, avec une vision long terme des enjeux IA en entreprise.",
+   "source": "JobLeads",
    "score": 18,
    "matched": [
+    "llm",
     "rag",
-    "python",
-    "data scientist"
-   ]
-  },
-  {
-   "id": "ft-4494751",
-   "title": "Data Scientist (H/F)",
-   "company": "KLANIK",
-   "location": "69 - Lyon 1er Arrondissement",
-   "contract": "CDI",
-   "date": "2026-07-02T11:21:28.000Z",
-   "url": "https://candidat.francetravail.fr/offres/recherche/detail/4494751",
-   "description": "KLANIK est une société de conseil en Ingénierie IT qui accompagne ses clients dans leurs projets digitaux et technologiques.\n\nLe groupe KLANIK compte désormais plus de 750 talents, évoluant dans 16 agences en Europe, Amérique du Nord, Afrique et Moyen-Orient. Des experts engagés, atypiques et passionnés, impliqués dans des projets stratégiques grâce à leur haut niveau de compétences en Software, DevOps, Cloud, Agilité, Cybersécurité, Big Data & IA.\n\nEn parallèle de leurs métiers, les collaborateurs du groupe KLANIK sont accompagnés au quotidien dans leur développement personnel et professionnel, via différentes initiatives engageantes et innovantes :\n\nKONSCIOUS : communauté interne engagée dans les enjeux écologiques, sociaux et environnementaux\nKAMPUS : institut de formation technique certifié\nKORNER : incubateur de start-ups technologiques\nKLANIK ESPORT : club professionnel e-sport ouvert aux collaborateurs\n\nLe poste : \n\nRejoignez une équipe engagée dans l'amélioration continue des chaînes communicantes et la valorisation des données pour optimiser leur exploitation. Vous interviendrez sur des sujets à fort impact, mêlant performance, supervision et innovation.\n\nVos missions principales :\n- Analyser le fonctionnement des chaînes communicantes \n- Modéliser leur comportement nominal\n- Développer des outils de supervision en temps réel et de détection automatique d'anomalies\n- Encadrer des Data Scientists juniors et participer aux revues de code\n- Contribuer aux orientations t",
-   "source": "France Travail",
-   "score": 16,
-   "matched": [
-    "data scientist"
-   ]
-  },
-  {
-   "id": "ft-210QLWH",
-   "title": "Data Platform Trimaran Data Engineer / Data Analyst (H/F)",
-   "company": "OFI INVEST ASSET MANAGEMENT",
-   "location": "92 - Issy-les-Moulineaux",
-   "contract": "CDI",
-   "date": "2026-07-02T09:55:22.676Z",
-   "url": "https://candidat.francetravail.fr/offres/recherche/detail/210QLWH",
-   "description": "Au sein de la Direction Transformation Opérationnelle, Data & Technologies, l'équipe Data Management pilote la Data Platform Trimaran, plateforme centrale de valorisation, de mutualisation et de mise à disposition des données de l'entreprise.\nCONTEXTE DU POSTE\nTrimaran permet de casser les silos de données, d'unifier les informations issues des différents systèmes, de faciliter l'accès autonome aux données et de réduire les travaux spécifiques d'extraction, de reporting ou de retraitement Excel/VBA.\nLa plateforme couvre aujourd'hui des domaines fonctionnels variés : actifs, passifs, produits, référentiels, ESG/ISR, risques, opérations, reporting, clients et parcours client. Elle s'appuie sur un socle cloud et sur des usages de consultation via BigQuery, Excel/OFI Services, Tableau, API et outils de self-service.\nDans le cadre des chantiers 2026 de renforcement de Trimaran, de la qualité de données, de la gouvernance et de la migration progressive de certains outils de transformation, nous recherchons un alternant pour contribuer à la fois aux travaux d'implémentation, d'analyse et d'accompagnement utilisateurs.\n\nVOS FUTURES MISSIONS\nAccompagné par l'équipe Data Management, vous interviendrez sur des sujets mêlant data engineering, analyse de données, modélisation fonctionnelle et support aux métiers.\n\n1. Implémentation et évolution de la Data Platform\n- Comprendre les besoins fonctionnels exprimés par les métiers et les traduire en cas d'usage data.\n- Contribuer à la concepti",
-   "source": "France Travail",
-   "score": 16,
-   "matched": [
-    "bigquery",
-    "tableau",
-    "data analyst"
+    "genai",
+    "mlops",
+    "agent"
    ]
   },
   {
@@ -317,39 +189,6 @@
    ]
   },
   {
-   "id": "ft-210RCLB",
-   "title": "Data Analyst (H/F)",
-   "company": "SOPRA STERIA GROUP",
-   "location": "92 - COURBEVOIE",
-   "contract": "CDI",
-   "date": "2026-07-02T15:18:11.342Z",
-   "url": "https://candidat.francetravail.fr/offres/recherche/detail/210RCLB",
-   "description": "Sopra Steria accompagne la transformation Data de ses clients du secteur financier de bout en bout : de la définition de leur stratégie jusqu'au passage à l'échelle de solutions aussi bien « on Prem » que sur le cloud. \n\nVous avez pour rôle l'extraction d'Insights et de conclusions pertinentes à partir des données. Vous avez pour cela recourt à des outils de visualisation et des approches de Storytelling.\n\nVotre rôle et vos missions :\n\nVous participez à toutes les phases du développement des projets :\n-L'interaction avec le métier pour collecter leurs besoins d'analyse\n-La collecte des données pertinentes pour la réalisation des analyses\n-La vérification de la qualité des données et mise en œuvre d'actions de remédiation si nécessaire\n-La transformation et analyses multidimensionnelle des données\n-La construction de tableaux de bord permettant de visualiser les données\nL'identification d'insights et interprétation avec le métier\n-La construction storytelling pour la restitution des analyses et insights\n\n\n\nVotre profil :\n\nDiplômé(e) d'une Ecole d'Ingénieurs ou équivalent Universitaire en Informatique, vous avez déjà participé à un projet DATA et vous avez une expérience de minimum 2 ans.\n\nVous avez les compétences suivantes :\n\nBonne connaissance du métier\nConnaissance des bases de données et du langage SQL\nConnaissance des outils de visualisation de données\nConnaissance du langage python ou R\nBonne connaissance des outils de Low Code/ No Code pour la Data (Alteryx, Dataiku, et",
-   "source": "France Travail",
-   "score": 15,
-   "matched": [
-    "tableau",
-    "python",
-    "sql",
-    "data analyst"
-   ]
-  },
-  {
-   "id": "ft-4492493",
-   "title": "Chargé / Chargée d'études actuarielles en assurances (H/F)",
-   "company": "Non précisé",
-   "location": "75 - Paris 9e Arrondissement",
-   "contract": "CDI",
-   "date": "2026-07-02T11:03:43.000Z",
-   "url": "https://candidat.francetravail.fr/offres/recherche/detail/4492493",
-   "description": "Description du poste :\nAu sien de la direction Actuarielle Vie, vous rejoignez une équipe d'une dizaine de collaborateurs et reportez directement au responsable.\nAinsi, vos missions sont les suivantes Vous réalisez des études statistiques et des analyses de données afin d'améliorer la connaissance des risques, des portefeuilles, des clients et des apporteurs en assurance vie et non-vie Vous développez des modèles prédictifs, des outils de scoring et des solutions d'automatisation s'appuyant sur la data science et l'intelligence artificielle pour répondre aux enjeux métiers Vous assurez le suivi de la qualité des données, notamment dans le cadre de Solvabilité II, et contribuez à l'amélioration continue des référentiels et des processus de gestion de la donnée Vous concevez des outils de pilotage, tableaux de bord et diagnostics permettant d'accompagner la prise de décision et la performance des activités Vous présentez vos analyses et recommandations aux parties prenantes, accompagnez les équipes dans leur transformation digitale et participez à des projets transverses Vous encadrez et accompagnez les profils juniors (stagiaires) tout en assurant une veille active sur les innovations et les nouvelles pratiques liées à la data.\nDescription du profil :\nVous êtes diplômé d'une formation supérieure en Data Science, Actuariat ou équivalent Bac+5 et justifiez de 7 ans d'expérience sur des fonctions similaires.\nVous maîtrisez les outils d'analyse et de traitement de données tels qu'",
-   "source": "France Travail",
-   "score": 14,
-   "matched": [
-    "tableau"
-   ]
-  },
-  {
    "id": "ft-4519031",
    "title": "Alternance Data Analyst (H/F)",
    "company": "Forums Talents Handicap",
@@ -367,12 +206,29 @@
    ]
   },
   {
+   "id": "js-SwONOd62lVqFi5q3AAAAAA==",
+   "title": "Consultant·e Data F/H",
+   "company": "APEC - Offres Gratuites",
+   "location": "Lille, FR",
+   "contract": "À plein temps",
+   "date": "2026-07-04T00:00:00.000Z",
+   "url": "https://www.meteojob.com/jobs/54522743",
+   "description": "Description du poste\nTA MISSION :\n\n* Tu intègres une communauté Data en tant que Consultant Data.\n\n* Tu accompagnes tes Clients dans la mise en place de tableaux de bord: la définition des métriques, le design et l'ergonomie, la réalisation et la formation des équipes métiers\n\n* Tu peux être amener à concevoir et modéliser les données en identifiant les sources et flux à réaliser.\n\n* Tu peux participer à certains développements de flux.\n\n* Tu es en lien permanent avec les équipes métiers et IT.\n\n* Tu es garant·e de la qualité des livraisons.\n\nTES COMPÉTENCES :\n\nUne expertise dans les outils de Datavisualisation: PowerBI, BO, Tableau, Alterx, … et le langage SQL.\n\nLa connaissance d'outils de flux Data: Talend, infrastructures et services cloud (Azure, AWS, GCP), usage d'API, l'utilisation de l'IA comme assistant de codage serait un plus.\n\nTON PROFIL :\n\n• La manipulation et le traitement des données est une seconde nature.\n\n• Tu as le sens du service et tu apportes des solutions innovantes.\n\n• Tu aimes transmettre et partager ton savoir.\n\n• Tu justifies impérativement d'au moins 3 ans d'expérience et tu as développé·e une autonomie sur ton domaine de compétence.\n\n• Tu souhaites diversifier tes compétences pour cultiver ton expertise.\n\nPartage, progrès, plaisir... ces valeurs te parlent ?\n\nTu connais des produits tels que Opcon, Visual Tom ou Control-M ? L'ordonnancement et l'automatisation te parlent ?\n\nTu as déjà participé à la conception de chaînes de traitement ?\n\nRejoins-no",
+   "source": "Meteojob",
+   "score": 14,
+   "matched": [
+    "gcp",
+    "tableau",
+    "sql"
+   ]
+  },
+  {
    "id": "js-nI3ysx65y8O14M2FAAAAAA==",
    "title": "CDI – Ingénieur Machine Learning",
    "company": "DXOMARK",
    "location": "Boulogne-Billancourt, FR",
    "contract": "À plein temps",
-   "date": "2026-07-03T00:00:00.000Z",
+   "date": "2026-07-05T00:00:00.000Z",
    "url": "https://fr.trabajo.org/offre-2958-60395899be61068477cac22017f85066",
    "description": "Overview DXOMARK est le leader mondial de l’évaluation de la qualité des appareils multimédia. Nous équipons et conseillons les plus grandes marques de Consumer Electronics en évaluant scientifiquement les performances techniques des produits qu’elles développent. De la Silicon Valley à l’Asie de l’Est, nos techniciens et ingénieurs collaborent avec les OEM pour développer des produits toujours plus performants. Notre siège est basé à Boulogne-Billlcourt et DXOMARK emploie aujourd’hui plus de 70 personnes, de plus de dix nationalités différentes avec un éventail d’expertises très large. Au sein de l’équipe Camera, composée d’experts en qualité d’image, de développeurs et de photographes, vous intégrerez l’équipe AI responsable de développer des solutions utilisant du machine learning appliqué à la qualité image. Vous participerez au développement et à la mise en production de notre suite d’outils d’assistance à l’analyse perceptuelle par traitement d’image et intelligence artificielle. Responsibilities - Concevoir et maintenir des pipelines ML (entraînement, validation, déploiement). - Mettre en place des solutions CI/CD pour les modèles et les données. - Superviser la performance des modèles en production et gérer leur cycle de vie. - Garantir la sécurité, la scalabilité et la fiabilité des systèmes ML. Qualifications - Expérience avérée en Python dédiée au ML et à l’image (PyTorch, PyTorch Lightning, OpenCV, …). - Maîtrise des outils ML Ops (DVC, MLflow, Kubeflow, Airflow, ",
    "source": "Trabajo.org",
@@ -389,8 +245,8 @@
    "company": "Atos",
    "location": "Bezons, FR",
    "contract": "À plein temps",
-   "date": "2026-07-03T00:00:00.000Z",
-   "url": "https://www.welcometothejungle.com/fr/companies/atos/jobs/consultant-data-ia-f-h_bezons",
+   "date": "2026-07-04T00:00:00.000Z",
+   "url": "https://www.welcometothejungle.com/fr/companies/atos/jobs/consultant-data-ia-f-h_bezons_ATOS_rX4MMXm",
    "description": "Votre rôle\n\nEn tant que Consultant Data & IA, vous interviendrez sur des missions à forte valeur ajoutée, mêlant expertise technique et compréhension des enjeux métier.\nÀ ce titre, vous serez amené(e) à :\n• Participer à la conception et au développement de solutions Data & IA (data pipelines, modèles ML, dashboards…)\n• Contribuer à l’analyse des besoins métiers et à la traduction en solutions techniques Intervenir sur des projets d’innovation et de transformation data chez nos clients\n• Collaborer avec des équipes pluridisciplinaires (data engineers, data scientists, consultants métiers)\n• Participer aux phases de cadrage, POC et industrialisation\n• Assurer une veille active sur les technologies Data & IA",
    "source": "The Jungle",
    "score": 14,
@@ -413,22 +269,6 @@
    "matched": [
     "rag",
     "agent"
-   ]
-  },
-  {
-   "id": "ft-4495966",
-   "title": "Data Scientist F/H (H/F)",
-   "company": "Non précisé",
-   "location": "59 - Villeneuve-d'Ascq",
-   "contract": "CDI",
-   "date": "2026-07-02T12:35:42.000Z",
-   "url": "https://candidat.francetravail.fr/offres/recherche/detail/4495966",
-   "description": "✨Nous sommes.\nAuchan Retail France, une entreprise de distribution de plus de  collaborateurs au service de millions de clients chaque année.\nCe que nous voulons, c'est aider nos clients à bien manger et vivre mieux, tout en préservant la planète.\nQue l'on soit en entrepôt, en magasin ou sur des fonctions support, notre point commun à tous, c'est de faire en sorte que nos clients aient plaisir à faire leurs courses chez nous.\nParce que nos collaborateurs sont aussi nos premiers clients, nous veillons chaque jour à leur bien-être et leur évolution professionnelle.\nVous avez envie de.\nCollaborer et comprendre les besoins métier :\n Veiller à la bonne compréhension et traduction des besoins métier pour la création de modèles algorithmiques.\n ravailler en étroite collaboration avec les équipes métier afin de saisir leurs enjeux.\n Expliquer et justifier les choix techniques, faire preuve de transparence sur la robustesse des modèles.\n Faire preuve d'écoute et de pédagogie pour accompagner les utilisateurs dans l'appréhension des outils développés.\nConcevoir et industrialiser des algorithmes performants :\n Être garant(e) de l'élaboration des algorithmes et contribuer à l'industrialisation des modèles.\n Créer et tester des algorithmes d'apprentissage automatique (machine learning).\n Rechercher et analyser la pertinence des données nécessaires à la constitution des modèles.\n Garantir la robustesse des résultats et s'assurer de leur fiabilité.\n Partager les résultats de manière lisible",
-   "source": "France Travail",
-   "score": 11,
-   "matched": [
-    "machine learning",
-    "data scientist"
    ]
   },
   {
@@ -481,22 +321,6 @@
    ]
   },
   {
-   "id": "js-A-sJCbEMLdabg6n7AAAAAA==",
-   "title": "IA - Développeur augmenté (H/F) - Appliquer",
-   "company": "TDF",
-   "location": "FR",
-   "contract": "À plein temps",
-   "date": "2026-07-02T00:00:00.000Z",
-   "url": "https://fr.jobsora.com/offre-51345260539",
-   "description": "Acteur industriel de premier plan et fort d'un demi-siècle de transformation, TDF propose un service de bout en bout allant de la conception, au déploiement et à l'exploitation des infrastructures et des réseaux de diffusion et de télécommunication en France.\n\nAu quotidien, ce sont près de 1500 collaborateurs, tels des bâtisseurs de l'ombre, qui connectent les Français et les territoires.\n‎\nVille / Site\nMONTROUGE CEDEX‎\nIntitulé de poste\nIA - Développeur augmenté (H/F)‎\nContrat\nCDI‎\nLa Direction des Systèmes d’Information (DSI) pilote la transformation digitale de l’entreprise et la mise en œuvre des outils et processus numériques afin de soutenir la stratégie d’entreprise.\nAu sein de la DSI, l’équipe Data & Intelligence Artificielle a pour mission de diffuser les bonnes pratiques, d’accélérer l’adoption de l’IA et de développer les usages de la donnée et de l’intelligence artificielle au service de la performance et de la transformation de TDF.\nL’équipe construit une usine de développement augmenté par l’IA, articulée autour de :\n• L’IA Générative comme moteur de productivité\n\n• Des méthodologies structurées pour le développement agile piloté par l’IA\n\n• Une bibliothèque de skills, prompts et patterns réutilisables\n\n• Des pratiques d’orchestration d’agents IA et d’intégration continue\n\nVous ne venez pas seulement développer plus vite : vous venez livrer des produits utiles, fiables et bien conçus, en tirant le meilleur d’un cadre de développement augmenté par l’IA.\n🎯 Vos fut",
-   "source": "Jobsora",
-   "score": 11,
-   "matched": [
-    "ia générative",
-    "agent"
-   ]
-  },
-  {
    "id": "ft-4519892",
    "title": "Consultant·e Junior (Analyst) en Transformation Digitale - CTO Advisory / Cloud – CDI (H/F)",
    "company": "Non précisé",
@@ -536,6 +360,23 @@
    "matched": []
   },
   {
+   "id": "ft-4516304",
+   "title": "INGÉNIEUR INTÉGRATEUR LINUX H/F - H/F",
+   "company": "Non précisé",
+   "location": "31 - Toulouse",
+   "contract": "CDI",
+   "date": "2026-07-03T04:05:27.000Z",
+   "url": "https://candidat.francetravail.fr/offres/recherche/detail/4516304",
+   "description": "Votre rôle\nInfomil c'est environ 80 serveurs Linux, 10 serveurs Windows qui tournent afin de superviser plus de  équipements d'infrastructures présents dans les magasins E. Leclerc. Au total, ce sont plus de 2 million d'indicateurs remontés toutes les 5 min. Dans ce contexte, nous recherchons un ingénieur intégrateur Linux. Vous participez à la gestion et à l'évolution des infrastructures informatiques permettant le bon fonctionnement de nos outils de supervision et de gestion utilisés à grande échelle.\nVos missions\nAdministrer les infrastructures :\nServeurs Linux Red Hat et Windows\nPlateformes de supervision (Zabbix)\nClusters Kubernetes K3S\nVirtualisation KVM\nAutomatisation via AWX\nBases de données MariaDB et PostgreSQL\nMettre en place des pipelines CI/CD sous GitLab pour créer des paquets applicatifs\nConcevoir des images de conteneurs avec Podman\nQualifier les équipements pour garantir leur compatibilité avec les outils internes\nAssurer les mises en production hebdomadaires des applications\nIntervenir en support utilisateur de niveau 3\nParticiper à l'amélioration continue des environnements de supervision et d'automatisation\nUn accompagnement est prévu à votre arrivée.\nEnvironnement technique :\nSystèmes : Linux Red Hat (administration, installation, déploiement), Windows Server\nRéseau : TCP/IP, SNMP, DNS, HTTP, LDAP, proxy, mail\nOutils : Zabbix, Splunk, Ansible, Docker, Podman\nLangages de scripting : Python, Bash",
+   "source": "France Travail",
+   "score": 10,
+   "matched": [
+    "python",
+    "sql",
+    "docker"
+   ]
+  },
+  {
    "id": "js-9yq7Po5Bbhcsk8zdAAAAAA==",
    "title": "Data Scientist KYC H/F | Montrouge, FR",
    "company": "Crédit Agricole S.A.",
@@ -549,54 +390,6 @@
    "matched": [
     "nlp",
     "data scientist"
-   ]
-  },
-  {
-   "id": "js-XqukTwOVO3IBPhP3AAAAAA==",
-   "title": "CDI - AI Scientist / Engineer Senior",
-   "company": "Havas Media France",
-   "location": "FR",
-   "contract": "À plein temps",
-   "date": "2026-07-02T00:00:00.000Z",
-   "url": "https://fr.linkedin.com/jobs/view/cdi-ai-scientist-engineer-senior-at-havas-media-france-4406571165",
-   "description": "Nous sommes Havas.\n\nFondé en 1835 par Charles-Louis Havas, Havas est aujourd’hui l’un des plus grands groupes internationaux de communication, réunissant près de 23 000 collaborateurs dans plus de 100 pays, animés par une même ambition : Growth, Powered by Desire, dans un monde en quête d’originalité.\n\nChez Havas, nous sommes fiers d’être l’un des groupes les plus intégrés de notre secteur, capable de proposer à nos clients une organisation sans couture, pour anticiper, soutenir et dépasser leurs attentes.\n\nNos Havas Villages rassemblent des personnes talentueuses issues de toutes les disciplines de la communication et leur permettent de travailler ensemble, pour s’inspirer mutuellement, apprendre les uns des autres et créer les meilleures stratégies de communication.\n\nEn tant que Data Scientist Senior, vous serez un pilier technique de l'équipe, responsable de piloter de bout en bout la conception, l'industrialisation et l'amélioration de produits IA à forte valeur ajoutée. Vous jouerez un rôle de leader technique, garant des choix d'architecture, de la qualité des modèles et du respect des bonnes pratiques MLOps, tout en contribuant à la montée en compétence de l'équipe.\n\nTes principales missions si tu les acceptes :\n\n• Pilotage et Architecture : Piloter la conception et définir l'architecture technique d'agents IA complexes pour automatiser des processus internes (workflows, RAG, assistants métier).\n• Stratégie d'outillage IA : Définir la stratégie de développement et d'év",
-   "source": "LinkedIn",
-   "score": 9,
-   "matched": [
-    "rag",
-    "mlops",
-    "agent",
-    "data scientist"
-   ]
-  },
-  {
-   "id": "ft-210QQFS",
-   "title": "Ingénieur Plateforme IA (H/F)",
-   "company": "Non précisé",
-   "location": "78 - VELIZY VILLACOUBLAY",
-   "contract": "CDI",
-   "date": "2026-07-02T10:55:31.032Z",
-   "url": "https://candidat.francetravail.fr/offres/recherche/detail/210QQFS",
-   "description": "A propos de nous ?\n\nUne carrière chez Hitachi Rail est un investissement dans l'avenir.\n\nAvec des opérations aux quatre coins du monde, notre travail est à la pointe de la transformation digitale et de la technologie. De la force multiculturelle de notre organisation mondiale à l'approche durable et innovante que nous valorisons pour unir les hommes, il est facile de trouver une bonne raison de s'engager. Et c'est là que vous intervenez.\n\nUne carrière chez Hitachi Rail est un investissement dans l'avenir.\n\nAu sein des équipes localisées à Vélizy-Le-Bois, nous développons, installons et maintenons en condition opérationnelle les solutions de signalisation ferroviaire, mais également les systèmes intégrés de communication et de supervision pour les grandes lignes et les transports urbains.\n\nDans le cadre d'un nouveau poste, nous recherchons un(e) :\nIngénieur Plateforme AI H/F\n\nVotre aventure commence ici :\n\nAu sein d'une équipe d'ingénierie plateforme transverse pour l'ensemble d'Hitachi Rail SRS, nous recherchons un Ingénieur Plateforme expérimenté, spécialisé dans les technologies d'intelligence artificielle générative (LLM) et la gestion de plateformes AI.\nÀ ce poste, vous serez responsable du déploiement, de la configuration et du support de services d'IA de niveau entreprise - principalement basés sur des modèles open source (Ollama, LightLLM.) - sur des environnements Windows et Linux. Vous utiliserez Kubernetes pour l'orchestration et AWS Cloud pour garantir une infrastr",
-   "source": "France Travail",
-   "score": 8,
-   "matched": [
-    "llm"
-   ]
-  },
-  {
-   "id": "ft-210QMDK",
-   "title": "Ingénieur informatique IA (H/F)",
-   "company": "CIRAD",
-   "location": "34 - MONTPELLIER",
-   "contract": "CDI",
-   "date": "2026-07-02T10:00:43.589Z",
-   "url": "https://candidat.francetravail.fr/offres/recherche/detail/210QMDK",
-   "description": "Le CIRAD recrute en CDI un-e ingénieur-e confirmé-e en développement web-mobile et en intelligence artificielle pour concevoir, déployer et maintenir des plateformes de gestion et de valorisation de connaissances scientifiques ouvertes aux Pays du Sud au service de la transition agroécologique.\n\n\nAu sein de l'unité AÏDA, la personne recrutée contribuera à la conception et au développement de bases de connaissances structurées, fiables et interrogeables à partir de corpus hétérogènes (publications, guides, fiches techniques, retours d'expérience).\n\nElle mobilisera des approches combinant ingénierie de plateformes, modélisation et structuration des connaissances, traitement automatique du langage et Intelligence Artificielle Générative ancrée (RAG), avec une exigence forte de traçabilité des sources, de validation scientifique des réponses générées par IAG, de souveraineté des données et de sobriété énergétique.\n\nUne attention particulière sera portée aux usages de terrain dans les pays du Sud (accès multi-canaux, multilinguisme, contraintes de connectivité), afin de rendre les bases de connaissances produites par le CIRAD et avec ses partenaires des Pays du Sud, réellement opérationnelles pour les techniciens, conseillers agricoles et agriculteurs connectés par smartphone ou PC.\n\nPrincipales missions :\n\nOrganiser et fiabiliser des informations provenant de sources bibliographiques variées (publications, fiches, protocoles, retours d'expérience) en mobilisant le Web sémantique,",
-   "source": "France Travail",
-   "score": 8,
-   "matched": [
-    "rag"
    ]
   },
   {
@@ -690,29 +483,14 @@
    ]
   },
   {
-   "id": "ft-4511239",
-   "title": "Développeur Angular – éditeur de logiciel en IA sémantique (H/F)",
-   "company": "SILKHOM SAS",
-   "location": "63 - Clermont-Ferrand",
+   "id": "ft-4574662",
+   "title": "Technicien support applicatif F/H (H/F)",
+   "company": "Non précisé",
+   "location": "45 - Orléans",
    "contract": "CDI",
-   "date": "2026-07-02T23:01:07.000Z",
-   "url": "https://candidat.francetravail.fr/offres/recherche/detail/4511239",
-   "description": "DESCRIPTION DU POSTE\nVous intégrerez l’équipe front composée de 5 développeurs (dont un senior présent depuis 8 ans) sous la coordination d’un lead.\nVotre rôle sera d’intervenir sur trois applications Angular existantes, avec des enjeux majeurs de refonte, d’optimisation et d’uniformisation.\nVos missions :\n- Développement & expertise Angular\n- Développer de nouvelles fonctionnalités sur Angular (version 16 à 18+)\n- Réduire la dette technique et améliorer les performances\n- Challenger l’existant et proposer des évolutions techniques pertinentes\n- Garantir les bonnes pratiques : tests, industrialisation, pipelines qualité\n- Modernisation des interfaces & UX\n- Collaborer étroitement avec deux designers travaillant sur Figma\n- Participer à la modernisation des écrans et à l’amélioration continue de l’UX\n- Contribuer à la construction d’un design system commun aux 3 applications\n- Homogénéiser les composants pour une expérience utilisateur cohérente\nApplications sur lesquelles vous interviendrez\n1. Application de recherche multimédia Permettant aux journalistes de trouver, structurer et préparer leurs sujets.\n2. Back-office plateforme Gestion des applications, paramétrages, espace administrateur.\n3. Interface publique Outil destiné aux professionnels pour visionner et acheter du contenu.\nEnvironnement technologique : Angular (16 → 18+), Typescript, GitLab CI (DevOps), Figma, Storybook, Méthodologie : Kanban\nPourquoi rejoindre cette entreprise ?\n· Construire les futures interfaces ",
-   "source": "France Travail",
-   "score": 8,
-   "matched": [
-    "rag"
-   ]
-  },
-  {
-   "id": "ft-4504768",
-   "title": "CONSULTANT FORMATEUR LOGICIEL WMS - H/F",
-   "company": "Akanea",
-   "location": "69 - Limonest",
-   "contract": "CDI",
-   "date": "2026-07-02T19:34:00.000Z",
-   "url": "https://candidat.francetravail.fr/offres/recherche/detail/4504768",
-   "description": "Description :\n\n\nAu sein de l'équipe Projet et sous la responsabilité hiérarchique du manager de l’équipe, vous conduirez des missions d'intégration de nos solutions logicielles chez NOS CLIENTS PRESTATAIRES LOGISTIQUES.\n\nVos principales activités s'articuleront autour des missions suivantes :\n\n\t* Réaliser le paramétrage conformément aux enjeux du client et assurer la formation des utilisateurs.\n\t* Assurer la communication avec les équipes projets, commerciales, R&D, techniques, et administratives tout au long de la vie des projets.\n\t* Être le garant de la qualité de la production ; être responsable des livrables du projet que vous rédigez.\n\t* Assurer la promotion des offres complémentaires au produit.\n\t* Gérer la relation client et être force de proposition dans les ajustements nécessaires.\n\n\n\t\t\n\t\t\nProfil recherché :\n\t\t\n\t\t\n\t* De formation supérieure BAC+2 à BAC+5 en Supply Chain, vous justifiez d’une première expérience professionnelle dans le domaine de la logistique et/ou informatique et vous êtes à l’aise avec le domaine informatique. \n\t* Vous avez un bon sens relationnel, une aisance rédactionnelle et vous vous adaptez facilement à un nouvel environnement.\n\t* La pratique de l’anglais serait un plus.\n\t* Le poste nécessite des déplacements fréquents sur l’ensemble du territoire national.\n\n",
+   "date": "2026-07-05T03:42:18.000Z",
+   "url": "https://candidat.francetravail.fr/offres/recherche/detail/4574662",
+   "description": "Technicien support applicatif F/H - OrléansL'Humain, l'Expertise et l'Innovation, voilà ce qui caractérise l'ADN d'Experis France, ESN de ManpowerGroup reconnue Top Employer .\nPrésente dans 28 pays, Experis se positionne comme un acteur incontournable et innovant sur le marché des ESN.\nNous proposons une offre intégrée alliant services et solutions IT pour accompagner nos clients partenaires dans leurs projets de transformations.\nA travers la formation, Experis investit continuellement dans l'acquisition de connaissances de ses Talents afin d'anticiper les tendances et faire preuve de réactivité face aux changements.\n  Offre de mission - Technicien Support Utilisateurs (F/H)\n Localisation : Orléans\n Temps plein \n⏳ Durée : Longue mission\n Démarrage attendu : ASAP\n \n Contexte de la mission\nNous recherchons un technicien support pour renforcer un pôle assistance composé d'une équipe de 14 personnes pour l'un de nos clients sur le secteur d'Orléans. \n \nLa mission consiste à accompagner les usagers dans l'utilisation de solutions et services numériques internes/externes, à assurer le traitement des demandes d'assistance, et à contribuer à l'amélioration continue du support.\nUne période de montée en compétences de 6 semaines est prévue afin de prendre en main l'environnement, les outils et les procédures.\n \n✅ Missions principales\nAssistance aux utilisateurs\nAssurer l'accompagnement des usagers dans l'utilisation des applications et services numériques.\nTraiter les demandes via les ",
    "source": "France Travail",
    "score": 8,
    "matched": [
@@ -752,18 +530,18 @@
    ]
   },
   {
-   "id": "js-KJJDgLHoUrs3yuLwAAAAAA==",
-   "title": "Ingénieur Plateforme IA H/F",
-   "company": "France Travail",
-   "location": "Vélizy-Villacoublay, FR",
+   "id": "js-T-Oahp6J2sZcS9H-AAAAAA==",
+   "title": "Ingénieur IA - Ml pour Simulation Multiphysique et Optimisation H/F",
+   "company": "Safran",
+   "location": "Moissy-Cramayel, FR",
    "contract": "À plein temps",
    "date": "2026-07-03T00:00:00.000Z",
-   "url": "https://www.velizy-villacoublay-emplois.com/emplois/80913489.html",
-   "description": "A propos de nous ?\n\nUne carrière chez Hitachi Rail est un investissement dans l'avenir.\n\nAvec des opérations aux quatre coins du monde, notre travail est à la pointe de la transformation digitale et de la technologie. De la force multiculturelle de notre organisation mondiale à l'approche durable et innovante que nous valorisons pour unir les hommes, il est facile de trouver une bonne raison de s'engager. Et c'est là que vous intervenez.\n\nUne carrière chez Hitachi Rail est un investissement dans l'avenir.\n\nAu sein des équipes localisées à Vélizy-Le-Bois, nous développons, installons et maintenons en condition opérationnelle les solutions de signalisation ferroviaire, mais également les systèmes intégrés de communication et de supervision pour les grandes lignes et les transports urbains.\n\nDans le cadre d'un nouveau poste, nous recherchons un(e) :\nIngénieur Plateforme AI H/F\n\nVotre aventure commence ici :\n\nAu sein d'une équipe d'ingénierie plateforme transverse pour l'ensemble d'Hitachi Rail SRS, nous recherchons un Ingénieur Plateforme expérimenté, spécialisé dans les technologies d'intelligence artificielle générative (LLM) et la gestion de plateformes AI.\nÀ ce poste, vous serez responsable du déploiement, de la configuration et du support de services d'IA de niveau entreprise - principalement basés sur des modèles open source (Ollama, LightLLM.) - sur des environnements Windows et Linux. Vous utiliserez Kubernetes pour l'orchestration et AWS Cloud pour garantir une infrastr",
-   "source": "Vélizy-Villacoublay Emplois",
+   "url": "https://www.hellowork.com/fr-fr/emplois/80959011.html",
+   "description": "Les missions du poste\nSafran est un groupe international de haute technologie opérant dans les domaines de l'aéronautique (propulsion, équipements et intérieurs), de l'espace et de la défense. Sa mission : contribuer durablement à un monde plus sûr, où le transport aérien devient toujours plus respectueux de l'environnement, plus confortable et plus accessible. Implanté sur tous les continents, le Groupe emploie 110 000 collaborateurs pour un chiffre d'affaires de 31,3 milliards d'euros en 2025, et occupe, seul ou en partenariat, des positions de premier plan mondial ou européen sur ses marchés.\nSafran est la 2ème entreprise du secteur aéronautique et défense du classement « World's Best Companies 2025 » du magazine TIME.\n\nSafran Aircraft Engines conçoit, produit et commercialise, seul ou en coopération, des moteurs aéronautiques civils et militaires aux meilleurs niveaux de performance, fiabilité et respect de l'environnement. La société est notamment, à travers CFM International*, le leader mondial de la propulsion d'avions commerciaux courts et moyen-courriers.\n* CFM International est une société commune 50/50 de Safran Aircraft Engines et GE Aerospace.\n\nParce que nous sommes persuadés que chaque talent compte, nous valorisons et encourageons les candidatures de personnes en situation de handicap pour nos opportunités d'emploi.\n\nAfin de concevoir les différents éléments qui composent un turboréacteur, les bureaux d'études de Safran Aircraft Engines s'appuient sur des outil",
+   "source": "Hellowork",
    "score": 8,
    "matched": [
-    "llm"
+    "rag"
    ]
   },
   {
@@ -786,93 +564,82 @@
    ]
   },
   {
-   "id": "ft-4486702",
-   "title": "Architecte intelligence artificielle (H/F)",
-   "company": "Non précisé",
-   "location": "92 - Hauts-de-Seine",
+   "id": "js-uc6MoG3tjEko6Gj5AAAAAA==",
+   "title": "Senior Data Scientist - Computer Vision & Deep Learning (IT)",
+   "company": "Okara",
+   "location": "FR",
+   "contract": "À plein temps",
+   "date": "2026-07-05T00:00:00.000Z",
+   "url": "https://fr.jooble.org/jdp/-6273247698604617836",
+   "description": "L?enjeu : Réinventer l'expérience en magasin pour l'un des plus grands leaders mondiaux du sport et du retail connecté. En tant que consultant·e Okara, tu rejoins l'équipe Digital In-Store - Data de notre client pour propulser l'usage de la donnée visuelle au c?ur des points de vente. Ton terrain de jeu ? L'analyse d'images en temps réel, l'optimisation de l'écosystème d'outils physiques et le déploiement de modèles innovants pour impacter des millions d'utilisateurs au quotidien.\n\n? Ton rôle\n\nTu es le moteur de l'expertise Computer Vision au sein de l'équipe. Tu ne te contentes pas de faire de la R&D dans ton coin, tu conçois des solutions industrielles robustes et tu challenges l'écosystème existant.\n\nConcrètement, tu vas :\n\nFaçonner le Computer Vision de demain : Concevoir et implémenter des modèles avancés (reconnaissance d'images, object detection, segmentation) pour des applications temps réel et asynchrones.\n\nChallenger les partenaires (Audit & Benchmark) : Évaluer de manière critique les solutions de fournisseurs tiers. Tu crées des benchmarks internes rigoureux pour valider leurs performances et orienter les décisions stratégiques (Build vs Buy).\n\nIndustrialiser et Passer à l'Échelle (MLOps) : Intégrer tes modèles dans des environnements de production complexes. Tu optimises la tuyauterie (monitoring, scalabilité, CI/CD, automatisation des backtests) pour garantir des performances optimales.\n\nFédérer et Documenter : Être le pont entre la technique de pointe et le bus",
+   "source": "Jooble",
+   "score": 7,
+   "matched": [
+    "deep learning",
+    "computer vision",
+    "mlops",
+    "data scientist"
+   ]
+  },
+  {
+   "id": "ft-210SNYQ",
+   "title": "Développeur web Full Stack H/F",
+   "company": "P.B.O.",
+   "location": "86 - CHASSENEUIL DU POITOU",
    "contract": "CDI",
-   "date": "2026-07-02T08:53:53.000Z",
-   "url": "https://candidat.francetravail.fr/offres/recherche/detail/4486702",
-   "description": "Description du poste :\nEn tant qu'organisateur de forums de recrutement, Talents Handicap accompagne de très nombreuses entreprises & organisations en France dans leurs recrutements de collaborateurs en situation de handicap. Participant actuellement à l'un de nos forums.\nL'entreprise STIME Direction des Systèmes d'Information (Groupement Les Mousquetaires) recherche actuellement des profils :\nDescription de l'entreprise\nLe Groupement Les Mousquetaires , ce sont 7 enseignes de la grande distribution portées haut et fort par plus de 3000 chefs d'entreprise indépendants ! Ce sont aussi 150000 collaborateurs mobilisés autour de notre modèle unique de producteurs et commerçants . Et nous en sommes fiers ! Dans toutes les fonctions au service des points de vente, de la logistique à l'immobilier, en passant par l'industrie agroalimentaire ou l'informatique, nos équipes font nos succès.\nRejoindre la Stime c'est contribuer à des projets à fort enjeu et être challengé dans ses missions au sein d'un environnement dynamique.\nNotre volonté est d'ouvrir le champ des possibles et permettre à chacun de se réaliser. La Stime met donc en place un management qui favorise l'élaboration de solutions en commun, en s'appuyant sur des pratiques agiles.\nAu sein du Datalab rattaché à la direction des SI mutualisés, en tant que Responsable du pôle Data Science, vous pilotez une équipe de 5 à 6 data scientists et data engineers, a vec pour objectif de concevoir, développer et industrialiser des solutio",
+   "date": "2026-07-03T15:48:15.594Z",
+   "url": "https://candidat.francetravail.fr/offres/recherche/detail/210SNYQ",
+   "description": "Vos principales missions sont : \n\n\n\nDévelopper de nouvelles applications web avec des technologies récentes\nConcevoir et développer de nouvelles fonctionnalités côté front-end et back-end\nMaintenir, faire évoluer et optimiser les applications existantes\nParticiper aux différentes phases des projets (analyse, conception, développement, livraison) en étant force de proposition\nGarantir la qualité, la maintenabilité, la sécurité et la performance du code (revue, refactoring, tests)\nMettre en place et maintenir des tests fonctionnels et techniques afin de pérenniser les outils\nParticiper à la définition et à l'application des bonnes pratiques (architecture, CI/CD, documentation, sécurité)\nCollaborer étroitement avec les chefs de projets, Product Owners, web designer et équipes infrastructure\nEnvironnement technique \n\n \n\nFront-end : HTML5, CSS3, SCSS/SASS, JavaScript (ReactJS, NextJS), Redux, Tailwind, Jest\nBack-end : PHP 8+, Symfony (7 ou supérieur), API REST\nBases de données : MySQL, PostgreSQL\nOutils & DevOps : Git, Docker, CI/CD, pnpm, Storybook, Redis, ElasticSearch\nOutils de travail : VS Code, PHPStorm, Jira, GitHub Copilot (IA)\nInfrastructure : ROSA - Red Hat OpenShift, AWS\nAu sein d'une communauté technique active, vous participerez à des projets ambitieux dans un environnement moderne favorisant l'échange, l'apprentissage continu et l'autonomie.\n\nSalaire à partir de 37K€ brut annuel\nStatut cadre au forfait 218 jours avec RTT\nMutuelle IRP Auto et prévoyance\nRestaurant d'en",
    "source": "France Travail",
    "score": 6,
    "matched": [
-    "data scientist"
+    "sql",
+    "docker"
    ]
   },
   {
-   "id": "js-wpVDCoNBHN8XHrCTAAAAAA==",
-   "title": "Data Scientist H/F",
-   "company": "MixScience",
-   "location": "Bruz, FR",
+   "id": "js-vexEluugiIOdrUtEAAAAAA==",
+   "title": "Data scientist pour la surveillance de l’IA (H/F) - Appliquer",
+   "company": "Banque de France",
+   "location": "FR",
    "contract": "À plein temps",
-   "date": "2026-07-02T00:00:00.000Z",
-   "url": "https://www.hellowork.com/fr-fr/emplois/80873456.html",
-   "description": "Détail du poste\n\nMixscience recrute un (une) DATA SCIENTIST\n\nà\n2 A 4 AVENUE DE KERLANN, CS 17228\nBRUZ, 35170\nFrance\n\nPermanent contract\n\nMiXscience,\nfiliale d'Avril, est acteur majeur de la nutrition animale en France et à\nl'international. Son savoir-faire et ses compétences, développés depuis plus\nde 10 ans, contribuent au développement des filières d'élevage durables et\nrespectueuses de l'environnement.\n\nPortées par les valeurs de respect, d'audace et de\nperformance, nos équipes MiXscience se mobilisent pour nos clients : fabricants\nd'aliments, intégrateurs et distributeurs.\n\nNos 500 collaborateurs en France et à l'étranger\ndéveloppent et commercialisent une offre de services et de produit composée de\nprémix, minéraux, spécialités innovantes et solutions de biocontrôle adaptée à\ndifférentes espèces.\n\nMixscience investit dans la recherche et\nl'innovation pour comprendre les besoins nutritionnels des animaux d'élevage et\ndévelopper des solutions adaptées.\n\nVenez rejoindre notre équipe de passionnés !\n\nVous vous reconnaissez au travers de notre société ?\n\nQuels seront les enjeux du poste et votre contribution ?\n\nAu sein du Datalab, vous\ninterviendrez en lien étroit avec les équipes Formulation dans le cadre d'un\nprojet innovant de transformation des processus métiers par l'exploitation des\ndonnées :\n\n- Concevoir, développer et maintenir des pipelines de traitement de données automatisés (collecte, nettoyage, transformation, mise à disposition) pour les équipes en charge de pre",
-   "source": "Hellowork",
+   "date": "2026-07-04T00:00:00.000Z",
+   "url": "https://fr.jobsora.com/offre-51427601795",
+   "description": "Type de recrutement : ‎\nCDI‎\nDomaine de compétences :\nDonnée‎\nVille :\nParis‎\nDépartement :\nParis‎\nDescription du poste:\n‎\nVotre futur poste :\nAu sein de la Direction de l'innovation, des données et des risques technologiques (DIDRIT), le Service de surveillance des risques technologiques (SRT) comprend deux pôles : le pôle résilience numérique (CRN) en charge de missions DORA (tests d'intrusion TLPT, participation à la surveillance européenne des prestataires tiers critiques ...), et un pôle de surveillance de l'IA, qui pilote les missions relatives à la surveillance de l'IA dans le secteur financier (coordinations nationale et européenne, surveillance de marché, appui aux contrôles, méthodologies d'audit de l'IA). Le SRT s'appuie sur et fournit un appui aux différentes directions de contrôle.\nVos activités :\nAu sein du pôle IA, vous préparerez et structurerez la future surveillance des systèmes d’IA du secteur financier, avant de prendre part directement à l’évaluation de leur conformité :\n- Élaborer la méthodologie ACPR d’évaluation des systèmes d’IA du secteur financier (en particulier sur les dimensions suivantes : performance, robustesse, explicabilité, équité) et, le cas échéant, concevoir ou tester des outils d’évaluation.\n- Formuler les attentes de l’ACPR et contribuer à l’accompagnement du secteur financier.\n- Participer activement aux discussions méthodologiques avec les autorités européennes de surveillance (AES), avec les autres évaluateurs nationaux de l’IA (Cnil",
+   "source": "Jobsora",
    "score": 6,
    "matched": [
     "data scientist"
    ]
   },
   {
-   "id": "js-13YMKhkjM_PK0KLrAAAAAA==",
-   "title": "Consultant Data Scientist IA (H/F)",
-   "company": "Exakis Nelite",
-   "location": "Aix-en-Provence, FR",
+   "id": "js-kDSt9pt3nVdTWOvqAAAAAA==",
+   "title": "Consultant Data Scientist IA (H/F) - Appliquer",
+   "company": "Magellan",
+   "location": "Valbonne, FR",
    "contract": "À plein temps",
-   "date": "2026-07-02T00:00:00.000Z",
-   "url": "https://fr.linkedin.com/jobs/view/consultant-data-scientist-ia-h-f-at-exakis-nelite-4422396143",
-   "description": "Prêt à transformer la vision en action ?\n\nMagellan est un Groupe international de Conseil en management et de Technologies. Notre force réside dans notre capacité à activer à la fois expertise métier et maîtrise technologique pour accompagner les entreprises et les organisations publiques dans toutes leurs transformations.\n\nVISION IN ACTION\n\nDans un environnement où les mutations s'accélèrent, les organisations doivent en permanence réinventer leurs modèles pour rester compétitives. Pour y répondre, nous accompagnons nos clients de la définition de leur stratégie à sa mise en œuvre opérationnelle, en combinant expertise métier, maîtrise technologique et capacité d'exécution.\n\nRejoindre Magellan, c'est intégrer un collectif de 6 700 talents engagés, unis par une même exigence : comprendre les enjeux dans toute leur complexité pour construire des solutions concrètes et activables au plus près des réalités du terrain.\n\nMagellan est classé 3e Best Workplace France (Palmarès Great Place To Work 2024) et n°1 des entreprises où faire accélérer sa carrière (Classement Linkedin Top Companies 2025).\n\nDescription du poste\n\nL'industrialisation des plateformes Data sur l'écosystème Microsoft Azure constitue un chantier stratégique pour les organisations data-driven. Ce poste s'adresse à un Consultant Data Scientist IA expérimenté, autonome sur des projets d'envergure pouvant représenter plusieurs centaines de jours.\n\n💡 VOS MISSIONS\n\nEn tant que Consultant Data Scientist IA (H/F), vous jou",
-   "source": "LinkedIn",
+   "date": "2026-07-04T00:00:00.000Z",
+   "url": "https://fr.jobsora.com/offre-51427605598",
+   "description": "Description de l'entreprise:\nPrêt à transformer la vision en action ?\nMagellan est un Groupe international de Conseil en management et de Technologies. Notre force réside dans notre capacité à activer à la fois expertise métier et maîtrise technologique pour accompagner les entreprises et les organisations publiques dans toutes leurs transformations.\nVISION IN ACTION\nDans un environnement où les mutations s'accélèrent, les organisations doivent en permanence réinventer leurs modèles pour rester compétitives. Pour y répondre, nous accompagnons nos clients de la définition de leur stratégie à sa mise en œuvre opérationnelle, en combinant expertise métier, maîtrise technologique et capacité d'exécution.\nRejoindre Magellan, c'est intégrer un collectif de 6 700 talents engagés, unis par une même exigence : comprendre les enjeux dans toute leur complexité pour construire des solutions concrètes et activables au plus près des réalités du terrain.\nMagellan est classé 3e Best Workplace France (Palmarès Great Place To Work 2024) et n°1 des entreprises où faire accélérer sa carrière (Classement Linkedin Top Companies 2025).\n\nDescription du poste:\nL'industrialisation des plateformes Data sur l'écosystème Microsoft Azure constitue un chantier stratégique pour les organisations data-driven. Ce poste s'adresse à un Consultant Data Scientist IA expérimenté, autonome sur des projets d'envergure.\n💡 VOS MISSIONS\nEn tant que Consultant Data Scientist IA (H/F), vous jouez un rôle central dans la ",
+   "source": "Jobsora",
    "score": 6,
    "matched": [
     "data scientist"
    ]
   },
   {
-   "id": "ft-210SJLB",
-   "title": "Machine Learning Engineer (H/F)",
-   "company": "OCTIME",
-   "location": "75 - Paris",
-   "contract": "CDI",
-   "date": "2026-07-03T14:17:53.400Z",
-   "url": "https://candidat.francetravail.fr/offres/recherche/detail/210SJLB",
-   "description": "A propos du Groupe Octime\n\nDepuis plus de 25 ans, le Groupe Octime accompagne les entreprises de toutes tailles et de tous secteurs dans la digitalisation de leurs ressources humaines pour optimiser la performance et créer les conditions d'équité et de bien-être au travail. Présent dans tous les secteurs d'activité (retail, services, hôtellerie, etc.), le Groupe est le numéro 1 sur le secteur de la santé et du médico-social. Fin 2025, il consolide son leadership en France avec l'acquisition de Qoia, éditeur historique de la gestion des temps et des activités auprès des grands comptes, des établissements de santé et des collectivités. Le Groupe Octime est également présent en Espagne, au Portugal, et en Amérique Latine au travers de ses filiales : Grupo SPEC, leader en ingénierie de solutions de gestion des temps et de contrôle d'accès et aTurnos, spécialiste de la planification RH.\nLe Groupe Octime gère 7 000 clients, soit 6 millions de salariés. Il enregistre un chiffre d'affaires de 48 millions d'euros en 2025. Son ambition : devenir l'acteur européen de référence de la gestion stratégique des effectifs d'ici 2030.\n\nLe poste\n\nDans une dynamique de croissance et d'innovation, notamment portée par l'intelligence artificielle, Octime développe son offre dédiée au Workforce Performance Management. Le Machine Learning Engineer joue un rôle clé dans le développement de la stack IA de la plateforme, de la modélisation jusqu'à la mise en production. Il contribue à la fois aux modèl",
-   "source": "France Travail",
+   "id": "js-7L3WCjTj8cG6JENsAAAAAA==",
+   "title": "Consultant AI Builder / Machine Learning (CDI - H/F)",
+   "company": "Talan",
+   "location": "Bordeaux, FR",
+   "contract": "À plein temps",
+   "date": "2026-07-04T00:00:00.000Z",
+   "url": "https://lesjeudis.com/fr/job/consultant-ai-builder-machine-learning-cdi-hf-445125",
+   "description": "Description de l'entreprise\n\nFondé en France, Talan est aujourd'hui un groupe international qui accompagne ses clients dans leur transformation Data & IA, de bout en bout, en combinant conseil en management et expertise technologique.\n\nAvec plus de 6000 collaborateurs sur 5 continents, nous accélérons les transformations de nos clients à travers des partenariats de long terme, en créant un impact mesurable et durable.\n\nNotre proposition de valeur repose sur un écosystème d'innovation structuré : 2 500 experts Data & IA, des solutions propriétaires construites sur des modèles avancés et un laboratoire de recherche appliquée, de développement expérimental et d'innovation.\n\nNous traduisons l'innovation technologique en avantage concurrentiel depuis plus de 20 ans dans des secteurs stratégiques : banques et services financiers, énergie, transport et mobilité, luxe et distribution, santé.\n\nPorté par sa promesse de Positive Innovation, Talan s'impose comme un acteur de référence pour répondre à la complexité croissante des environnements économiques, technologiques et réglementaires.\n\nTalan Sud-Ouest représente un collectif de plus de 150 consultants répartis sur les agences de Bordeaux, Toulouse et Montpellier. En plein développement, nos agences s'agrandissent.\n\nwww.talan.com\n\nDescription du poste\n\nVous rejoignez l'équipe Data & IA de Talan Sud-Ouest à Bordeaux et intervenez auprès d'un client de référence dans les plateformes digitales et l'IA appliquée aux enjeux métiers.\n\nVotr",
+   "source": "Les Jeudis",
    "score": 5,
    "matched": [
     "machine learning"
-   ]
-  },
-  {
-   "id": "ft-4494426",
-   "title": "Ingénieur Computer Vision (H/F)",
-   "company": "SOHOFT",
-   "location": "31 - Toulouse",
-   "contract": "CDI",
-   "date": "2026-07-02T11:21:27.000Z",
-   "url": "https://candidat.francetravail.fr/offres/recherche/detail/4494426",
-   "description": "SoHoft est une  société de conseil à taille humaine basée à Toulouse. Notre identité s'articule autour de 3 empreintes : SoTech, SoGood, SoOffTheWall\n\nSoTech c'est s'engager à proposer la meilleure des expertises techniques à ses collaborateurs et clients. Consultants et Coachs forment une équipe complémentaire prête à relever les enjeux \"tech\". Quand on parle tous le même langage, en général, on se comprend.\nL'idée ! Grandir ensemble, développer nos compétences, satisfaire nos clients.\n#TeamDev #TestFactory #DevOps #Infra&Cloud #SafeTeam #DataDriver #LeadMyProject\n\nSoGood c'est s'engager à mettre à disposition le meilleur environnement de travail.\nUne équipe qui se régale techniquement c'est bien mais le faire dans un cadre qui te fait vivre une belle expérience de consultant c'est encore mieux !\nNous avons (re)pensé toutes les étapes clés comme l'onboarding, le parcours... bref on n'est pas parfait mais on est animé par cette volonté de bien faire notre métier... en étant SoGood quoi !\n#ConsultantIsKing #GoodVibes #FrenchQualitat #CoachsPassionnés #CousuMain #SoGreen\n\nSoOffTheWall c'est s'engager à faire vivre des expériences qui permettent d'aller au-delà. Bien faire son métier c'est bien mais pourquoi s'arrêter là ?\nNotre volonté est de faire de notre entreprise un instrument d'épanouissement personnel, une invitation à la découverte, une douce parenthèse et pourquoi pas une machine à rêves.\n#LifeCoach #PersonalInvest #BigEvents #CherryOnTheCake\n\nLe poste : \n\nSoWho !- Si ",
-   "source": "France Travail",
-   "score": 5,
-   "matched": [
-    "computer vision"
-   ]
-  },
-  {
-   "id": "ft-4485630",
-   "title": "Expert intelligence artificielle (H/F)",
-   "company": "Non précisé",
-   "location": "75 - Paris 9e Arrondissement",
-   "contract": "CDI",
-   "date": "2026-07-02T08:42:51.000Z",
-   "url": "https://candidat.francetravail.fr/offres/recherche/detail/4485630",
-   "description": "Description du poste :\nEn postulant à cette offre vous aurez l'opportunité de rejoindre un laboratoire d'innovation en Intelligence Artificielle de premier plan. Cette start-up technologique en hyper-croissance développe des modèles de fondation (Foundation Models) de nouvelle génération spécialisés dans la représentation des données structurées. Portée par une équipe d'experts issus des plus grands centres de recherche mondiaux, l'entreprise combine une ambition scientifique rare avec des moyens de calcul (compute) et des volumes de données exceptionnels pour transformer la recherche en impact industriel concret.\nVos missions si vous les acceptez Conception d'algorithmes : Contribuer au développement et à l'optimisation des modèles d'embedding maison pour la représentation de données complexes (Tabular Foundation Models Évaluation et Performance : Définir des métriques innovantes et optimiser les modèles de Deep Learning en collaboration étroite avec les partenaires industriels et académiques.***Stratégie de Données : Piloter l'apprentissage actif (Active Learning) et concevoir des datasets d'entraînement à grande échelle pour maximiser les capacités de transfert d'apprentissage.***Recherche et Veille : Maintenir un état de l'art permanent sur les avancées ML et proposer des ruptures technologiques pour améliorer les capacités des modèles de fondation.***Collaboration Multidisciplinaire : Travailler main dans la main avec les ingénieurs ML et les clients pour traduire les co",
-   "source": "France Travail",
-   "score": 5,
-   "matched": [
-    "deep learning"
    ]
   }
  ]
