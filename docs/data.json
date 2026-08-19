@@ -1,7 +1,28 @@
 {
- "updated": "2026-08-18T05:27:37.718431+00:00",
- "count": 31,
+ "updated": "2026-08-19T05:28:16.197814+00:00",
+ "count": 32,
  "offers": [
+  {
+   "id": "ft-212MVQH",
+   "title": "Ingénieur IA junior (H/F)",
+   "company": "SO-API CONSULTING",
+   "location": "75 - PARIS",
+   "contract": "CDI",
+   "date": "2026-08-16T22:40:50.262Z",
+   "url": "https://candidat.francetravail.fr/offres/recherche/detail/212MVQH",
+   "description": "Description du poste :\n\nEn tant que GenAI Engineer Junior chez So-API Consulting, vous participez au développement et à l'intégration de solutions d'IA générative au sein des systèmes d'information de nos clients.\nVous travaillez notamment sur des agents IA capables de comprendre un besoin, d'interagir avec des APIs, d'exploiter des données ou documents et de produire des résultats directement utilisables.\nVous êtes accompagné(e) par des profils plus expérimentés dans les phases de conception, de développement, de test et d'industrialisation.\n\nResponsabilités :\n\n- Comprendre le besoin fonctionnel et le cas d'usage à adresser\n- Participer au développement d'agents IA spécialisés\n- Intégrer des LLM dans des applications et services existants\n- Concevoir et améliorer les prompts et instructions utilisées par les agents\n- Connecter les agents aux APIs et services du système d'information\n- Participer à la mise en place de mécanismes de RAG pour exploiter des données ou documents internes\n- Développer les composants backend nécessaires en Python\n- Manipuler et produire des données structurées, notamment en JSON\n- Participer à l'intégration de mécanismes de tool calling / function calling\n- Tester les comportements des agents et vérifier la qualité des résultats générés\n- Identifier les erreurs, incohérences et limites des solutions développées\n- Participer à la mise en place de jeux de tests et de critères d'évaluation\n- Corriger et améliorer les solutions à partir des résultats o",
+   "source": "France Travail",
+   "score": 55,
+   "matched": [
+    "llm",
+    "rag",
+    "genai",
+    "ia générative",
+    "python",
+    "agent",
+    "ai engineer"
+   ]
+  },
   {
    "id": "ft-6030257",
    "title": "Ingénieur IA (M/F/D) Livange - CDI - h () (H/F)",
@@ -23,40 +44,20 @@
    ]
   },
   {
-   "id": "ft-6021876",
-   "title": "INGÉNIEUR MLOPS (H/F)",
+   "id": "ft-6090375",
+   "title": "Développeur IA (H/F)",
    "company": "Non précisé",
-   "location": "38 - Meylan",
+   "location": "75 - Paris 9e Arrondissement",
    "contract": "CDI",
-   "date": "2026-08-15T11:52:48.712Z",
-   "url": "https://candidat.francetravail.fr/offres/recherche/detail/6021876",
-   "description": "Détail de posteSpécialiste de l'intérim et du recrutement par secteur, LIP compte plus de 190 agences en France et à l'étranger. Nos agences d'emploi Tertiaire, Commerce & Ingénierie recrutent en CDI, CDD et intérim. Comptabilité, finance, vente, commerce, informatique. Tous les domaines sont concernés. Avec LIP, menez votre projet professionnel vers la réussite ! En tant qu'Ingénieur MLOps, vous : Participez à l'industrialisation des modèles machine learning en production Concevez et développez des pipelines de données et de modèles robustes Automatisez les workflows CI/CD pour les projets ML Déployez, surveillez et maintenez des modèles scalables sur des environnements cloud ou on-premise Collaborez étroitement avec les Data Scientists, Data Engineers et l'équipe DevOps Assurez le versioning, la traçabilité et la gouvernance des données et des modèles Garantissez la qualité, la sécurité et la performance des solutions mises en productionVotre quotidien pourra inclure les technologies suivantes (indicatif) :Langages : PythonPipeline & orchestration : Airflow, Kubeflow, Prefect ou équivalentsCI/CD : GitLab CI, GitHub Actions, JenkinsConteneurs & Orchestration : Docker, KubernetesCloud : AWS / GCP / AzureModèles & suivi : MLflow, DVC, Seldon, Feast (Feature Store)Monitoring & alerting : Prometheus, Grafana, autres outils MLOpsLe poste est basé à MEYLAN",
+   "date": "2026-08-19T03:27:50.264Z",
+   "url": "https://candidat.francetravail.fr/offres/recherche/detail/6090375",
+   "description": "Description du poste :\n\nL'équipe MTA (Modélisation et Technologies Avancées) conçoit et industrialise les composants IA utilisés par les métiers.***Développement des API***Développement de chatbots : internes (ex. Jarvis) et externes (assistants métiers Création d'agents IA : capables d'exécuter des workflows, interagir avec des API, orchestrer des outils, et automatiser des tâches complexes.***Intégration avancée des modèles LLM : Mistral, GPT, Claude, etc.***Contribution technique aux plateformes transverses : IALAB, IAP, GED/PHX, RPA, etc.***Participation aux démonstrations système : sujets chatbots, workflows automatisés, IALAB, etc.\n\nPour soutenir la montée en puissance des usages IA, Bpifrance souhaite renforcer l'équipe MTA avec un développeur expérimenté spécialisé en agents IA, orchestration, chatbots avancés et intégrations SI.\n\nMissions\n\n1. Développer des agents IA avancés pour les métiers Conception d'agents capables d'appeler des API, déclencher des outils internes, et exécuter des actions complexes Gestion de scénarios multi-étapes : analyse → décision → action → supervision Construction de tooling IA : actions, connecteurs, permissions, wrappers Alignement avec les procédures SSI, DPO et gouvernance IA.\n\n2. Conception ou amélioration de chatbots métiers Développement d'assistants IA pour piloter la documentation, les workflows, la qualification documentaire, etc Implémentation des mécanismes clés : mémoire, récupération d'information, contextualisation Optimisa",
    "source": "France Travail",
-   "score": 31,
-   "matched": [
-    "gcp",
-    "machine learning",
-    "python",
-    "docker",
-    "mlops",
-    "data scientist"
-   ]
-  },
-  {
-   "id": "ft-6019792",
-   "title": "Développeur / Développeuse IA (H/F)",
-   "company": "Non précisé",
-   "location": "29 - Relecq-Kerhuon",
-   "contract": "CDI",
-   "date": "2026-08-15T11:03:38.229Z",
-   "url": "https://candidat.francetravail.fr/offres/recherche/detail/6019792",
-   "description": "Nous recherchons notre nouveau responsable de l'assistant développeur IA, basé au sein de la Factory Expérience et Plateforme Développeur de la Direction Informatique du Crédit Mutuel Arkéa.\nVotre mission principale consistera à faire le lien entre l'outillage IA proposé au développeur et les différentes squads en charge des frameworks de développement de notre groupe bancaire (Java/SpringBoot, Typescript/VueJS, Python/Flask).\nOn vous en dit plus sur vos missions !\nVos activités consisteront à :\n- Assurer la synchronisation des objectifs de missions des squads web et api/microservices (en charge des socles de développement internes) et notre IA Factory (en charge de la distribution des LLM chez Arkéa) ; \n- Travailler, avec les squads impliquées, à la définition et l'implémentation de la roadmap IA pour le développeur ;\n- Être garant de la pertinence et du bon fonctionnement des assistants IA pour le développeur ; \n- Assurer une veille technologique sur les avancées dans le domaine de l'IA générative / agentique au service du développeur.",
-   "source": "France Travail",
-   "score": 23,
+   "score": 25,
    "matched": [
     "llm",
-    "ia générative",
-    "python",
+    "rag",
+    "chatbot",
     "agent"
    ]
   },
@@ -79,26 +80,6 @@
    ]
   },
   {
-   "id": "js-THF2aGpkQ1FfaVVVRGxaYUFBQUFBQT09OkVzd0JD",
-   "title": "Senior AI Product Manager - Agentic & ML",
-   "company": "Wivoo, a Wavestone company",
-   "location": "Paris, FR",
-   "contract": "À plein temps",
-   "date": "2026-08-17T08:00:00.000Z",
-   "url": "https://www.welcometothejungle.com/fr/companies/wigroup/jobs/consultant-e-ai-product-manager_paris",
-   "description": "🚀 Ton rôle\nAu sein de Wivoo, tu interviens chez nos clients (90% de Grands Comptes et 10% de scale-ups) pour transformer des modèles algorithmiques en véritables produits générateurs de valeur.\nFini le “Proof of Concept” qui reste dans un tiroir, tu es là pour délivrer de l’impact avec un fort bias for action !\n• Discovery & Cadrage : Mener une Discovery pour identifier les vrais problèmes utilisateurs nécessitant (ou non) de l’IA. Définir les cas d’usage avec une approche Lean.\n\n• Delivery IA & MLOps : Rédiger des spécifications adaptées aux LLMs et au Machine Learning. Définir les métriques de performance IA (Précision, Recall, F1-Score) et les métriques Produit (Adoption, Rétention).\n\n• Bridge Tech/Métier : Faire le pont au quotidien entre les équipes Data (Data Scientists, ML/Data Engineers) et les sponsors métiers. Intégrer les contraintes de sécurité et de Data Privacy dès la conception.",
-   "source": "Welcome To The Jungle",
-   "score": 22,
-   "matched": [
-    "llm",
-    "rag",
-    "machine learning",
-    "mlops",
-    "agent",
-    "data scientist"
-   ]
-  },
-  {
    "id": "ft-6059868",
    "title": "Ingénieur Middleware (H/F)",
    "company": "Non précisé",
@@ -111,6 +92,37 @@
    "score": 18,
    "matched": [
     "rag"
+   ]
+  },
+  {
+   "id": "ft-6078256",
+   "title": "Data Scientist (H/F)",
+   "company": "KLANIK",
+   "location": "69 - Lyon 1er Arrondissement",
+   "contract": "CDI",
+   "date": "2026-08-18T11:25:49.932Z",
+   "url": "https://candidat.francetravail.fr/offres/recherche/detail/6078256",
+   "description": "KLANIK est une société de conseil en Ingénierie IT qui accompagne ses clients dans leurs projets digitaux et technologiques.\n\nLe groupe KLANIK compte désormais plus de 750 talents, évoluant dans 16 agences en Europe, Amérique du Nord, Afrique et Moyen-Orient. Des experts engagés, atypiques et passionnés, impliqués dans des projets stratégiques grâce à leur haut niveau de compétences en Software, DevOps, Cloud, Agilité, Cybersécurité, Big Data & IA.\n\nEn parallèle de leurs métiers, les collaborateurs du groupe KLANIK sont accompagnés au quotidien dans leur développement personnel et professionnel, via différentes initiatives engageantes et innovantes :\n\nKONSCIOUS : communauté interne engagée dans les enjeux écologiques, sociaux et environnementaux\nKAMPUS : institut de formation technique certifié\nKORNER : incubateur de start-ups technologiques\nKLANIK ESPORT : club professionnel e-sport ouvert aux collaborateurs\n\nLe poste : \n\nRejoignez une équipe engagée dans l'amélioration continue des chaînes communicantes et la valorisation des données pour optimiser leur exploitation. Vous interviendrez sur des sujets à fort impact, mêlant performance, supervision et innovation.\n\nVos missions principales :\n- Analyser le fonctionnement des chaînes communicantes \n- Modéliser leur comportement nominal\n- Développer des outils de supervision en temps réel et de détection automatique d'anomalies\n- Encadrer des Data Scientists juniors et participer aux revues de code\n- Contribuer aux orientations t",
+   "source": "France Travail",
+   "score": 16,
+   "matched": [
+    "data scientist"
+   ]
+  },
+  {
+   "id": "js-Y1FnT0tDVkEwSWpFRDc4S0FBQUFBQT09OkVzd0JD",
+   "title": "Consultant IA Générative / Claude (Anthropic)",
+   "company": "SMARTPOINT",
+   "location": "FR",
+   "contract": "À plein temps et Prestataire",
+   "date": "2026-08-17T00:00:00.000Z",
+   "url": "https://www.free-work.com/fr/tech-it/job-mission/consultant/consultant-ia-generative-claude-anthropic",
+   "description": "Contexte de la missionDans le cadre du développement et de l’industrialisation des usages de l’Intelligence Artificielle Générative, nous recherchons un Consultant IA Générative spécialisé sur Claude d’Anthropic.\nLe consultant accompagnera les équipes métier et IT dans l’identification, la conception, l’intégration et l’optimisation de cas d’usage exploitant les modèles Claude.\nMissions principales• Recueillir et analyser les besoins métier liés à l’IA générative.\n\n• Identifier les cas d’usage pertinents pour l’utilisation de Claude / Anthropic.\n\n• Concevoir et optimiser des prompts adaptés aux différents cas d’usage.\n\n• Expérimenter et évaluer les capacités des modèles Claude.\n\n• Mettre en place des POC et contribuer à leur industrialisation.\n\n• Concevoir des solutions exploitant les API et modèles d’Anthropic.\n\n• Participer à l’intégration de Claude dans les applications et outils existants.\n\n• Travailler sur des architectures de type RAG (Retrieval-Augmented Generation).\n\n• Participer à la mise en place de systèmes exploitant les bases documentaires et/ou vectorielles.\n\n• Évaluer la qualité, la pertinence et la fiabilité des réponses générées par les modèles.\n\n• Mettre en place des mécanismes de contrôle, de sécurité et de gouvernance des usages IA.\n\n• Documenter les solutions et accompagner les équipes dans leur adoption.\n\n• Assurer une veille sur les évolutions des modèles et fonctionnalités Anthropic.",
+   "source": "Free-Work",
+   "score": 15,
+   "matched": [
+    "rag",
+    "ia générative"
    ]
   },
   {
@@ -130,18 +142,19 @@
    ]
   },
   {
-   "id": "ft-6027446",
-   "title": "Data scientist (H/F)",
-   "company": "NEW NET 3D",
-   "location": "11 - Aude",
-   "contract": "CDI",
-   "date": "2026-08-16T03:26:31.191Z",
-   "url": "https://candidat.francetravail.fr/offres/recherche/detail/6027446",
-   "description": "Description du poste :\n\nEn tant qu'organisateur de forums de recrutement, Talents Handicap accompagne de très nombreuses entreprises & organisations en France dans leurs recrutements de collaborateurs en situation de handicap. Participant actuellement à l'un de nos forums.\nL'entreprise EDF recherche actuellement des profils La Division Numérique (DivNum) de la DPNT (Direction du Parc Nucléaire et Thermique) a pour ambition de placer l'IT au cœur de la performance industrielle de la DPNT. Elle vise à refondre le système d'information, renforcer la cybersécurité et la gestion des données, et s'appuie sur quatre piliers stratégiques : la standardisation, la cloud'isation, la data'isation et l'industrialisation.\n\nLa Force d'Action Rapide du Numérique (FARNum) est l'expression d'une volonté de répondre efficacement aux enjeux des grands chantiers industriels de la DPNT. Véritable catalyseur d'innovation, la FARNum réunit une équipe agile et pluridisciplinaire, dont la mission première est de déployer et industrialiser des solutions numériques à forte valeur ajoutée. L'ADN de la FARNum repose sur une approche résolument pragmatique et orientée résultats. À travers une organisation flexible, l'équipe privilégie la rapidité d'exécution et la création de valeur immédiate, tout en s'adaptant aux besoins concrets du terrain.\n\nLa FARNum est organisé en 3 pôles Affaires et projets\n* FAST AI IT\n* Data Ops\n\nL'équipe Data OPS de la FARNum porte la mise en œuvre opérationnelle des cas d'usage",
-   "source": "France Travail",
+   "id": "js-cmYxX1AyMEFqTjR3bnpKWEFBQUFBQT09OkVzd0JD",
+   "title": "Ingénieur IA - Data Scientist F/H",
+   "company": "APEC - Offres Gratuites",
+   "location": "Nantes, FR",
+   "contract": "À plein temps",
+   "date": "2026-08-18T00:00:00.000Z",
+   "url": "https://www.meteojob.com/jobs/56178283",
+   "description": "Description du poste\nPour aller plus loin, nous recherchons un(e) ingénieur(e) IA / Data Scientist, pour renforcer notre équipe nantaise et intervenir sur des projets pour des clients dans des domaines variés (Services Publics, Banque/Assurance, Transport, Industrie, Retail). Vous interviendrez sur des périmètres variés, et selon les missions, vous prendrez plus au moins part aux activités suivantes :\n\n• Concevoir, entraîner et industrialiser des modèles d'apprentissage automatique et d'intelligence artificielle (générative, agentique, …), de la première analyse jusqu'à la mise en production.\n\n• Construire et fiabiliser nos briques d'intelligence artificielle générative : moteurs d'inférence, évaluation des modèles, chaînes de génération augmentée par la recherche.\n\n• Développer en Python des composants robustes et réutilisables (cadres et gabarits de projet) pour accélérer les équipes.\n\n• Mettre en place l'industrialisation des modèles : intégration et déploiement continus, supervision et observabilité.\n\n• Partager : revues de code, documentation, veille technologique et diffusion des bonnes pratiques.\n\nLes atouts pour réussir :\n\n• Bac+5 en informatique, mathématiques, statistiques ou science des données, vous avez au minimum 3 ans d'expérience professionnelle en science des données et en ingénierie de l'intelligence artificielle.\n\n• Votre expérience est variée et vous disposez d'un socle technique solide dans les domaines suivants :\n\n• Science des données : analyse explorat",
+   "source": "Meteojob",
    "score": 14,
    "matched": [
-    "rag",
+    "python",
+    "agent",
     "data scientist"
    ]
   },
@@ -151,7 +164,7 @@
    "company": "DXOMARK",
    "location": "Boulogne-Billancourt, FR",
    "contract": "À plein temps",
-   "date": "2026-08-17T00:00:00.000Z",
+   "date": "2026-08-18T00:00:00.000Z",
    "url": "https://fr.trabajo.org/offre-2958-60395899be61068477cac22017f85066",
    "description": "Overview DXOMARK est le leader mondial de l’évaluation de la qualité des appareils multimédia. Nous équipons et conseillons les plus grandes marques de Consumer Electronics en évaluant scientifiquement les performances techniques des produits qu’elles développent. De la Silicon Valley à l’Asie de l’Est, nos techniciens et ingénieurs collaborent avec les OEM pour développer des produits toujours plus performants. Notre siège est basé à Boulogne-Billlcourt et DXOMARK emploie aujourd’hui plus de 70 personnes, de plus de dix nationalités différentes avec un éventail d’expertises très large. Au sein de l’équipe Camera, composée d’experts en qualité d’image, de développeurs et de photographes, vous intégrerez l’équipe AI responsable de développer des solutions utilisant du machine learning appliqué à la qualité image. Vous participerez au développement et à la mise en production de notre suite d’outils d’assistance à l’analyse perceptuelle par traitement d’image et intelligence artificielle. Responsibilities - Concevoir et maintenir des pipelines ML (entraînement, validation, déploiement). - Mettre en place des solutions CI/CD pour les modèles et les données. - Superviser la performance des modèles en production et gérer leur cycle de vie. - Garantir la sécurité, la scalabilité et la fiabilité des systèmes ML. Qualifications - Expérience avérée en Python dédiée au ML et à l’image (PyTorch, PyTorch Lightning, OpenCV, …). - Maîtrise des outils ML Ops (DVC, MLflow, Kubeflow, Airflow, ",
    "source": "Trabajo.org",
@@ -179,22 +192,6 @@
    ]
   },
   {
-   "id": "ft-212MVQP",
-   "title": "Ingénieur Data & Intelligence Artificielle (H/F)",
-   "company": "DESTOCK MP",
-   "location": "76 - Harfleur",
-   "contract": "CDI",
-   "date": "2026-08-16T23:00:31.738Z",
-   "url": "https://candidat.francetravail.fr/offres/recherche/detail/212MVQP",
-   "description": "Descriptif du poste :\n\nDESTOCK MP, société de négoce spécialisée dans la vente de pièces détachées automobiles neuves, basée à Harfleur (76), recherche un ingénieur Data & Intelligence Artificielle (H/F) dans le cadre de sa transformation numérique.\nRattaché(e) à la direction, vous êtes responsable de la conception, du développement et du déploiement du système d'information de l'entreprise (ERP) et de la valorisation de ses données. Vous intervenez sur l'ensemble du cycle : analyse des besoins métier, architecture des données, développement des applications, mise en production et accompagnement des utilisateurs.\n\nVos missions principales :\n\n* Piloter le projet de transformation numérique de l'entreprise : cadrage des besoins, planification, suivi des réalisations et recettes.\n* Concevoir et modéliser les bases de données ; garantir leur qualité, leur intégrité et leur traçabilité.\n* Concevoir et développer les applications métier (web et mobile) et leurs interfaces de programmation (API).\n* Mettre en place et maintenir les pipelines de données et les échanges entre applications.\n* Concevoir les tableaux de bord et indicateurs d'aide à la décision (stocks, achats, activité commerciale).\n* Développer et intégrer des solutions d'intelligence artificielle : traitement automatisé de documents, assistants conversationnels, automatisation de processus.\n* Assurer la sécurité du système d'information : gestion des accès et des habilitations, authentification, sauvegardes, conformité ",
-   "source": "France Travail",
-   "score": 12,
-   "matched": [
-    "rag",
-    "tableau"
-   ]
-  },
-  {
    "id": "ft-6030230",
    "title": "Responsable IA & automatisation / FR (H/F)",
    "company": "Non précisé",
@@ -208,22 +205,6 @@
    "matched": [
     "genai",
     "chatbot"
-   ]
-  },
-  {
-   "id": "ft-6050111",
-   "title": "Data Analyst Financement (H/F)",
-   "company": "VESTRALA",
-   "location": "75 - Paris",
-   "contract": "CDI",
-   "date": "2026-08-17T21:00:58.830Z",
-   "url": "https://candidat.francetravail.fr/offres/recherche/detail/6050111",
-   "description": "Entreprise \n\nVESTRALA est un cabinet de conseil spécialisé dans la transformation des organisations, l'AMOA, la Data et le pilotage de projets. Nous accompagnons les grandes entreprises dans leurs projets de transformation en apportant une expertise métier, fonctionnelle et technologique, avec une approche pragmatique, collaborative et orientée résultats.\n\nDans le cadre d'un important programme de transformation d'un acteur majeur du secteur financier, nous recherchons un Data Analyst Financement afin de contribuer à la mise en place d'une plateforme Data & IA dans un environnement Cloud.\n\n \n\nPoste \n\nAu sein d'une organisation Agile (SAFe), vous interviendrez sur le domaine Financement & Contentieux en étroite collaboration avec les équipes métiers, Data et IT.\n\nÀ ce titre, vous serez notamment amené(e) à :\n\n  * Recueillir et analyser les besoins métiers liés aux activités de financement et de contentieux.\n  * Définir et spécifier les données nécessaires aux différents usages métiers.\n  * Concevoir et modéliser les entités métiers et les modèles de données.\n  * Définir les Data Products répondant aux besoins opérationnels, décisionnels et analytiques.\n  * Garantir la qualité des données et mettre en place les contrôles associés.\n  * Participer à la recette fonctionnelle des données intégrées.\n  * Collaborer avec les équipes Data Engineering, Architecture et Métiers dans un environnement Cloud AWS.\n  * Contribuer aux cérémonies Agile SAFe et à l'amélioration continue.\n\n\n\n \n\nPr",
-   "source": "France Travail",
-   "score": 12,
-   "matched": [
-    "rag",
-    "data analyst"
    ]
   },
   {
@@ -259,38 +240,6 @@
    ]
   },
   {
-   "id": "ft-6018290",
-   "title": "Data analyst - coordinateur(trice) noria f/h (H/F)",
-   "company": "Non précisé",
-   "location": "40 - Tarnos",
-   "contract": "CDI",
-   "date": "2026-08-15T08:23:05.925Z",
-   "url": "https://candidat.francetravail.fr/offres/recherche/detail/6018290",
-   "description": "Safran est un groupe international de haute technologie opérant dans les domaines de l'aéronautique (propulsion, équipements et intérieurs), de l'espace et de la défense. Sa mission : contribuer durablement à un monde plus sûr, où le transport aérien devient toujours plus respectueux de l'environnement, plus confortable et plus accessible. Implanté sur tous les continents, le Groupe emploie 110 000 collaborateurs pour un chiffre d'affaires de 31,3 milliards d'euros en 2025, et occupe, seul ou en partenariat, des positions de premier plan mondial ou européen sur ses marchés. \n\nSafran est la 2ème entreprise du secteur aéronautique et défense du classement « World's Best Companies 2025 » du magazine TIME.\n\n\n\nSafran Helicopter Engines est le leader mondial des moteurs d'hélicoptères et le seul industriel à s'être spécialisé sur ce marché. Implantée dans le monde entier, la société emploie 6100 personnes dans le monde et possède plus de 2 500 clients répartis dans 155 pays et plus de 21 500 moteurs en service.\n\n\n\nParce que nous sommes persuadés que chaque talent compte, nous valorisons et encourageons les candidatures de personnes en situation de handicap pour nos opportunités d'emploi.\n\n\nDescriptif missionAu sein du Département Maintenance Repair and Overhaul (MRO) de la Direction Support et Services (D2S) de Safran Helicopter Engines, le service Noria recherche son ou sa futur-e collaborateur-trice.\n\n\n\nNotre équipe pilote les activités de retrofit des flottes en service (Noria, ",
-   "source": "France Travail",
-   "score": 12,
-   "matched": [
-    "rag",
-    "data analyst"
-   ]
-  },
-  {
-   "id": "ft-6018232",
-   "title": "Data analyst f/h (H/F)",
-   "company": "Non précisé",
-   "location": "Île-de-France",
-   "contract": "CDI",
-   "date": "2026-08-15T08:21:02.678Z",
-   "url": "https://candidat.francetravail.fr/offres/recherche/detail/6018232",
-   "description": "Safran est un groupe international de haute technologie opérant dans les domaines de l'aéronautique (propulsion, équipements et intérieurs), de l'espace et de la défense. Sa mission : contribuer durablement à un monde plus sûr, où le transport aérien devient toujours plus respectueux de l'environnement, plus confortable et plus accessible. Implanté sur tous les continents, le Groupe emploie 110 000 collaborateurs pour un chiffre d'affaires de 31,3 milliards d'euros en 2025, et occupe, seul ou en partenariat, des positions de premier plan mondial ou européen sur ses marchés. \n\nSafran est la 2ème entreprise du secteur aéronautique et défense du classement « World's Best Companies 2025 » du magazine TIME.\n\n\n\nLeader mondial des systèmes électriques aéronautiques, Safran Electrical & Power est un acteur dans l'électrification des équipements et de la propulsion électrique et hybride. Maîtrisant la chaîne énergétique embarquée, l'entreprise conçoit et fournit des architectures et des solutions modulaires, innovantes et optimisées.\n\n\n\nParce que nous sommes persuadés que chaque talent compte, nous valorisons et encourageons les candidatures de personnes en situation de handicap pour nos opportunités d'emploi.\n\n\nDescriptif missionMettre en oeuvre des outils informatiques, des techniques statistiques et des méthodes analytiques pour organiser, modéliser et valoriser les données.\n\nFournir un appui analytique à la conduite d'exploration et à l'analyse complexe des données.\n\nIndustrialise",
-   "source": "France Travail",
-   "score": 12,
-   "matched": [
-    "rag",
-    "data analyst"
-   ]
-  },
-  {
    "id": "ft-6033743",
    "title": "Architecte Logiciel Android Automotive & IA Agentic H/F",
    "company": "Non précisé",
@@ -307,14 +256,14 @@
    ]
   },
   {
-   "id": "ft-6018268",
-   "title": "Ingénieur-e développement logiciel f/h (H/F)",
+   "id": "ft-6078896",
+   "title": "Ingénieur QA Testeur Logiciel (F/H)",
    "company": "Non précisé",
-   "location": "78 - Plaisir",
+   "location": "64 - Pau",
    "contract": "CDI",
-   "date": "2026-08-15T08:23:05.802Z",
-   "url": "https://candidat.francetravail.fr/offres/recherche/detail/6018268",
-   "description": "Safran est un groupe international de haute technologie opérant dans les domaines de l'aéronautique (propulsion, équipements et intérieurs), de l'espace et de la défense. Sa mission : contribuer durablement à un monde plus sûr, où le transport aérien devient toujours plus respectueux de l'environnement, plus confortable et plus accessible. Implanté sur tous les continents, le Groupe emploie 110 000 collaborateurs pour un chiffre d'affaires de 31,3 milliards d'euros en 2025, et occupe, seul ou en partenariat, des positions de premier plan mondial ou européen sur ses marchés. \n\nSafran est la 2ème entreprise du secteur aéronautique et défense du classement « World's Best Companies 2025 » du magazine TIME.\n\n\n\nRejoignez Safran Aerosystems : leader international dans la sécurité aéronautique, la gestion des fluides et du carburant. Notre force ? Innover pour la sécurité des vols (oxygène, évacuation, flottabilité) et piloter la transition vers une aviation décarbonée grâce aux carburants durables. 6 200 collaborateurs, 7 pays et un seul objectif : un ciel plus sûr.\n\n\n\nParce que nous sommes persuadés que chaque talent compte, nous valorisons et encourageons les candidatures de personnes en situation de handicap pour nos opportunités d'emploi.\n\n\nDescriptif missionVous souhaitez intégrer un grand Groupe aéronautique leader sur ses marchés avec de grands défis à relever ?\n\n\n\nSafran Aerosystems (SAO) conçoit des solutions de haute technologie qui optimisent la performance des aéronefs e",
+   "date": "2026-08-18T12:00:13.444Z",
+   "url": "https://candidat.francetravail.fr/offres/recherche/detail/6078896",
+   "description": "Notre client, leader sur son segment, souhaite aggrandir son équipe et recherche ainsi un Ingénieur QA Testeur Logiciel (F/H). Vous contribuez à la qualité et à la fiabilité d'une plateforme SaaS de gestion RH à fort impact. Vous jouez un rôle central dans la définition des stratégies de test et l'amélioration continue en collaboration avec les équipes produit et techniques.\nLe poste est en CDI et basé à Pau.En tant qu'Ingénieur QA Testeur Logiciel (F/H), vous garantissez la fiabilité des solutions SaaS et contribuez à une démarche Quality by Design. Vos missions :\n\n\nDéfinir et piloter la stratégie de tests (fonctionnels, techniques, performance, sécurité) en cohérence avec les objectifs produits et les standards qualité.\nDévelopper et maintenir des tests automatisés (Cypress, Playwright, SeleniumMettre en place des indicateurs de qualité logicielle (taux de couverture, temps de réponse, stabilité,dette technique) et assurer leur suivi ;\nCollaborer étroitement avec les équipes produit, dev et support pour optimiser l'expérience utilisateur ;\nParticiper activement au cycle de développement (revues, validation des user stories, intégration continue et déploiement continu CI/CD)\nAssurer une veille technologique : IA, observabilité, test cloud, chaos engineering\n\n\n\n\nProcessus de recrutement rapide ; \nSystème de covoiturage ;\n2 jours de télétravail / semaine ; \nEnvironnement international, collaboratif et tourné vers l'innovation ;\nIngénieur QA Testeur Logiciel (F/H)",
    "source": "France Travail",
    "score": 8,
    "matched": [
@@ -322,14 +271,14 @@
    ]
   },
   {
-   "id": "ft-6018084",
-   "title": "Responsable produit logiciel embarqué f/h (H/F)",
-   "company": "Non précisé",
-   "location": "78 - Plaisir",
+   "id": "ft-6077865",
+   "title": "Ingénieur Intégration, Vérification & Validation Logiciel (IVV) (H/F)",
+   "company": "Act Digital France",
+   "location": "91 - Limours",
    "contract": "CDI",
-   "date": "2026-08-15T08:20:00.056Z",
-   "url": "https://candidat.francetravail.fr/offres/recherche/detail/6018084",
-   "description": "Safran est un groupe international de haute technologie opérant dans les domaines de l'aéronautique (propulsion, équipements et intérieurs), de l'espace et de la défense. Sa mission : contribuer durablement à un monde plus sûr, où le transport aérien devient toujours plus respectueux de l'environnement, plus confortable et plus accessible. Implanté sur tous les continents, le Groupe emploie 110 000 collaborateurs pour un chiffre d'affaires de 31,3 milliards d'euros en 2025, et occupe, seul ou en partenariat, des positions de premier plan mondial ou européen sur ses marchés. \n\nSafran est la 2ème entreprise du secteur aéronautique et défense du classement « World's Best Companies 2025 » du magazine TIME.\n\n\n\nRejoignez Safran Aerosystems : leader international dans la sécurité aéronautique, la gestion des fluides et du carburant. Notre force ? Innover pour la sécurité des vols (oxygène, évacuation, flottabilité) et piloter la transition vers une aviation décarbonée grâce aux carburants durables. 6 200 collaborateurs, 7 pays et un seul objectif : un ciel plus sûr.\n\n\n\nParce que nous sommes persuadés que chaque talent compte, nous valorisons et encourageons les candidatures de personnes en situation de handicap pour nos opportunités d'emploi.\n\n\nDescriptif missionIntégré(e) à la Direction Technique, au sein du Département Logiciel Embarqué, vous aurez la responsabilité d'organiser et certifier le développement de logiciels embarqués destinés aux calculateurs des systèmes électriques ",
+   "date": "2026-08-18T11:21:40.154Z",
+   "url": "https://candidat.francetravail.fr/offres/recherche/detail/6077865",
+   "description": "act digital est un groupe international de conseil et d'ingénierie qui accompagne ses clients dans leurs projets de transformation numérique.\n\nPrésent dans 12 pays et fort de plus de 5 600 collaborateurs, nous mettons nos expertises au service de leurs enjeux en développement logiciel, cybersécurité, data, cloud et IA.\n\nNotre ambition : devenir le partenaire technologique de confiance des entreprises les plus innovantes, en concevant et sécurisant des systèmes qui renforcent leur performance et leur résilience.\n\nRejoindre act digital France, c'est intégrer une organisation agile et engagée, qui fait avancer les projets avec ses clients pour transformer les idées en résultats concrets, avec pragmatisme et exigence.\n\nLe poste : \n\nVos missions seront les suivantes : \n\n- Comprendre et analyser les exigences systèmes à tester : interfaces externes, fonctionnalités cyber, IHM, fonctions radar, etc.\n- Réceptionner les livraisons logicielles issues de multiples équipes et assurer leur intégration cohérente sur la plateforme de test\n- Vérifier que les différents composants communiquent correctement entre eux dans un environnement d'intégration système\n- Spécifier, intégrer, tester et maintenir les outils de simulation (simulation de cibles, environnements simulés, etc.)\n- Rédiger, gérer en configuration et maintenir les fiches de tests ainsi que les analyses automatiques associées\n- Créer et assurer le suivi des faits techniques liés aux dysfonctionnements identifiés\n- Maintenir la pl",
    "source": "France Travail",
    "score": 8,
    "matched": [
@@ -337,14 +286,14 @@
    ]
   },
   {
-   "id": "ft-6006238",
-   "title": "Ingénieur FMDS/RAMS logiciel (EN50128) H/F",
-   "company": "SOM Ligeron",
-   "location": "92 - Bagneux",
+   "id": "ft-6078994",
+   "title": "Expert Microsoft 365 / Exchange (F/H)",
+   "company": "Non précisé",
+   "location": "13 - Aix-en-Provence",
    "contract": "CDI",
-   "date": "2026-08-15T04:31:32.503Z",
-   "url": "https://candidat.francetravail.fr/offres/recherche/detail/6006238",
-   "description": "RESPONSABILITÉS : \n\nDans le cadre de nos projets ferroviaires, SOM Ligeron recrute un ingénieur SdF Logiciel pour réaliser les missions suivantes :\n - Réaliser les analyses de sécurité du logiciel et des données de paramétrage\n - Identifier les risques et défaillances (AMDEC, analyses fonctionnelles...)\n - Contribuer à la validation des données de pilotage automatique\n - Produire les livrables de Vérification & Validation conformément à la norme EN 50128 :\n - Plans V&V\n - Spécifications de tests (composant, intégration, système)\n - Rapports de vérification et de validation\n\n - Assurer la traçabilité exigences → tests → validation\n\n\nPourquoi nous rejoindre ?\n - Rémunération sur 12,5 mois, prime de participation, prime d'intéressement, panier repas à 10,30€, frais de transport rembourser à hauteur de 75%, CSE (cinéma, chèques vacances, cartes cadeaux, activités...),\n - Intégrer des équipes dynamiques et bienveillantes : l'humain au centre de nos valeurs,\n - Bénéficier d'une intégration encadrée et suivie,\n - Evoluer sur des fonctions techniques, projets ou managériales au sein de SOM ou du Groupe Ortec, école interne de formation (O'METIERS), reconnaissance de nos experts et de notre corps d'élite (Casques d'Or),\n - Une politique RH, autour d'une démarche solidaire globale : fonds de solidarité, action sociale, action logement, action handicap,\n - Trouver un équilibre vie professionnelle / personnelle : accord télétravail, environs 10 jours de RTT/an.\n\nPROFIL RECHERCHÉ : \n\nDans",
+   "date": "2026-08-18T12:00:17.034Z",
+   "url": "https://candidat.francetravail.fr/offres/recherche/detail/6078994",
+   "description": "Experis recherche un(e) Expert Microsoft 365 / Exchange (F/H) pour intervenir au sein d'un environnement informatique exigeant et à forte criticité. Vous contribuerez aux évolutions d'architecture, à l'exploitation des infrastructures de messagerie Microsoft et à l'industrialisation des services tout en apportant votre expertise sur les sujets complexes de production.L'Humain, l'Expertise et l'Innovation, voilà ce qui caractérise l'ADN d'Experis France, ESN de ManpowerGroup reconnue Top Employer .\nPrésente dans 28 pays, Experis se positionne comme un acteur incontournable et innovant sur le marché des ESN.\nNous proposons une offre intégrée alliant services et solutions IT pour accompagner nos clients partenaires dans leurs projets de transformations.\nA travers la formation, Experis investit continuellement dans l'acquisition de connaissances de ses Talents afin d'anticiper les tendances et faire preuve de réactivité face aux changements.\n \nVos missions :\n\nParticiper aux études techniques et aux projets d'évolution des infrastructures Microsoft 365 et Exchange.\nConcevoir et définir des architectures techniques adaptées aux besoins métiers et aux enjeux d'exploitation.\nAssurer l'ingénierie d'installation, de configuration et de paramétrage des plateformes.\nPrendre en charge les incidents complexes et contribuer à la résolution des problèmes à forte valeur ajoutée technique.\nGarantir la disponibilité, la stabilité et les performances des infrastructures de messagerie.\nParticiper",
    "source": "France Travail",
    "score": 8,
    "matched": [
@@ -364,6 +313,22 @@
    "score": 8,
    "matched": [
     "rag"
+   ]
+  },
+  {
+   "id": "ft-212PNNQ",
+   "title": "Data Analyst (H/F)",
+   "company": "NEO SOFT SERVICES",
+   "location": "79 - NIORT",
+   "contract": "CDI",
+   "date": "2026-08-18T11:55:16.433Z",
+   "url": "https://candidat.francetravail.fr/offres/recherche/detail/212PNNQ",
+   "description": "Nous recherchons pour intégrer notre Agence de Niort un Data Analyst (H/F) .\n\nVous bénéficierez dans un premier temps d'une période d'intégration vous permettant de découvrir le groupe, nos enjeux et nos équipes.\n\nVoici des exemples de missions qui vous seront proposés :\n\nVos missions\n\nAu sein de notre Practice Data, vous rejoignez une équipe dynamique en charge de soutenir la transformation data d'un client grand compte du secteur assurance. Votre rôle sera d'analyser les besoins métiers, d'évaluer l'impact des évolutions sur les systèmes de données existants, et de produire des livrables clairs pour guider la réalisation technique.\n\nVous intervenez sur les projets de gouvernance et d'harmonisation des référentiels transverses, en lien étroit avec les équipes métiers, les Data Engineers et les architectes. Votre mission s'articule autour de :\n\n\nMissions\n\nL'analyse des flux de données et des échanges API (TIBCO) pour identifier les impacts des évolutions,\nL'étude des données maîtrisées via Informatica MDM et Informatica Data Quality,\nLa conception de spécifications fonctionnelles, schémas de données et présentations exploitables (Confluence, JIRA),\nLa validation de la qualité et de la cohérence des données avant toute mise en oeuvre technique,\nLa conception et le suivi de traitements de préparation, transformation et intégration de données à l'aide d'outils ETL/ELT tels que Talend et Dataiku,\nLa réalisation de restitutions et tableaux de bord avec des outils de reporting et d",
+   "source": "France Travail",
+   "score": 8,
+   "matched": [
+    "tableau",
+    "data analyst"
    ]
   },
   {
@@ -399,19 +364,49 @@
    ]
   },
   {
-   "id": "ft-6043930",
-   "title": "Spécialiste test et validation logiciel ou application (H/F)",
-   "company": "Non précisé",
-   "location": "44 - Nantes",
+   "id": "ft-6077842",
+   "title": "Business Analyst - Calypso (H/F)",
+   "company": "Act Digital France",
+   "location": "92 - Montrouge",
    "contract": "CDI",
-   "date": "2026-08-17T11:02:57.297Z",
-   "url": "https://candidat.francetravail.fr/offres/recherche/detail/6043930",
-   "description": "Automaticien de Tests / QA Automation (H/F) Localisation : Nantes - Centre-ville Description du poste Dans le cadre d'un renforcement de l'équipe QA évoluant dans un contexte Agile à l'échelle, nous recherchons un profil capable de contribuer à la mise en place et à l'exécution de tests automatisés sur un socle technique standard du test logiciel. Missions principales - Automatisation des tests IHM et batchs - Maintenance et évolution des scripts Robot Framework existants - Création et enrichissement de jeux de données - Vérification des traitements et contrôles en base PostgreSQL - Analyse des fichiers XML et validation des traitements - Participation à l'amélioration continue de la qualité logicielle - Contribution aux travaux de fiabilisation et modernisation de l'application Environnement technique : - Robot Framework / Selenium - PostgreSQL / SQL - Linux - Python - XML / XSD - Jenkins - Java / Webservices REST - Squash TM",
+   "date": "2026-08-18T11:21:39.413Z",
+   "url": "https://candidat.francetravail.fr/offres/recherche/detail/6077842",
+   "description": "act digital est un groupe international de conseil et d'ingénierie qui accompagne ses clients dans leurs projets de transformation numérique.\n\nPrésent dans 12 pays et fort de plus de 5 600 collaborateurs, nous mettons nos expertises au service de leurs enjeux en développement logiciel, cybersécurité, data, cloud et IA.\n\nNotre ambition : devenir le partenaire technologique de confiance des entreprises les plus innovantes, en concevant et sécurisant des systèmes qui renforcent leur performance et leur résilience.\n\nRejoindre act digital France, c'est intégrer une organisation agile et engagée, qui fait avancer les projets avec ses clients pour transformer les idées en résultats concrets, avec pragmatisme et exigence.\n\nLe poste : \n\nLes activités principales seront les suivantes :\n\n- Responsabilité d'études et/ou de développements de projets sur Calypso\n- Intervention sur l'évolution de la chaine business des produits ainsi que des éléments de CI/CD\n- Estimations de charges et plannings de réalisation\n- Suivi des développements et accompagnement des tests UAT\n\nProfil recherché : \n\nQuel profil pour ce poste :\n\n- Vous êtes issu(e) d'une formation Bac+5 (École d'ingénieur, Université ou équivalent ?) en informatique\n- Vous justifiez d'une expérience significative d'au moins 5 ans dans une équipe de développement. \n\nQuelles compétences/connaissances pour ce poste :\n\n- Maîtrise de la solution Calyspo",
+   "source": "France Travail",
+   "score": 8,
+   "matched": [
+    "rag"
+   ]
+  },
+  {
+   "id": "ft-212MZBL",
+   "title": "Développeur API (Python) (H/F)",
+   "company": "GANDI",
+   "location": "75 - Paris 13e Arrondissement",
+   "contract": "CDI",
+   "date": "2026-08-17T10:03:31.121Z",
+   "url": "https://candidat.francetravail.fr/offres/recherche/detail/212MZBL",
+   "description": "Nous cherchons des développeurs API (Python) pour consolider notre équipe TLD. Vous aurez pour mission de concevoir, développer et maintenir des API robustes et sécurisées. Vous collaborez étroitement avec nos développeurs pour garantir que nos API répondent aux exigences fonctionnelles et techniques.\n\nPrincipales responsabilités :\n\n * L'étude, la maintenance, le développement des outils de productions, des interfaces EPP avec les registres (verisign, AFNIC), des nouvelles fonctionnalités.\n * Résolution des problèmes et anomalies signalé par les utilisateurs ou détectés lors des tests.\n * La production des solutions et d'un code de qualité (testé, revu, documenté, performant, maintenu et évolutif)\n * La participation active et collaborative au sein de l'équipe (souci de la protection des données, optimisation, force de proposition)\n * Le respect des délais de développements définis en accord avec le Management et les Product Owners\n * Maintient et mise à jour de la documentation pour faciliter les utilisations par les développeurs internes\n\n- Diplôme en informatique, ingénierie logicielle ou un domaine connexe\n- Maîtrise de Python\n- Compréhension profonde des protocoles HTTP et des API REST\n- Familiarité avec les bases de données relationnelles et les requêtes SQL\n- Connaissance des outils de gestion de version comme Git\n- Excellentes compétences en communication et en travail d'équipe\n- La connaissance du protocole EPP est un plus",
    "source": "France Travail",
    "score": 7,
    "matched": [
     "python",
     "sql"
+   ]
+  },
+  {
+   "id": "js-UldvQTdQb0xTVy1vR0tUOEFBQUFBQT09OkVzd0JD",
+   "title": "Account Executive IA/Data — Catalyse ROI et IA Générative",
+   "company": "BeTomorrow – SARL",
+   "location": "Bordeaux, FR",
+   "contract": "À plein temps",
+   "date": "2026-08-18T00:00:00.000Z",
+   "url": "https://fr.trabajo.org/offre-2958-4634f759dddb489077cf9b076195b765",
+   "description": "BeTomorrow recherche un Business Account Executive IA/Data pour développer une activité axée IA et data, avec une approche stratégique et consultative. Vous travaillez directement avec les décideurs métiers et techniques sur des cycles de vente complexes. Votre rôle consiste à transformer les problématiques client en propositions de valeur et à co-construire des offres avec les équipes Data, IA et produit, tout en pilotant des cycles longs et multi-interlocuteurs. J-18808-Ljbffr",
+   "source": "Trabajo.org",
+   "score": 7,
+   "matched": [
+    "ia générative"
    ]
   },
   {
@@ -490,12 +485,27 @@
    ]
   },
   {
+   "id": "ft-6076453",
+   "title": "Ingénieur / Ingénieure machine learning (H/F)",
+   "company": "Non précisé",
+   "location": "38 - Charancieu",
+   "contract": "CDI",
+   "date": "2026-08-18T11:02:35.100Z",
+   "url": "https://candidat.francetravail.fr/offres/recherche/detail/6076453",
+   "description": "Sous la responsabilité du responsable de ligne, vos missions seront les suivantes :- Assurer le bon fonctionnement des machines de votre poste de travail (mise en route et surveillance) et effectuer leur réglage en fonction des consignes données, - Exécuter les opérations de production en respectant les règles d'hygiène, de traçabilité, et de sécurité requises,- Surveiller le bon déroulement du process de l'ensemble de la zone affectée,- Réaliser des autocontrôles, réagir en cas d'écart et alerter, - Résoudre les défauts les plus courants en matière d'hygiène, de qualité et de technique - Nettoyer et ranger le poste de travail en se référant systématiquement aux consignes et procédures mises en place.Poste en horaires postés : 3x8 (5h/13 ou 13h/21h ou 21h/5h)Disponibilités : Week-end - Vacances Scolaires - EtéPour l'été, disponibilités obligatoires sur : JUILLET ET AOUT",
+   "source": "France Travail",
+   "score": 5,
+   "matched": [
+    "machine learning"
+   ]
+  },
+  {
    "id": "js-bEdfUDliQXFGM3M1SHpfaEFBQUFBQT09OkVzd0JD",
    "title": "Développeur IA Technico-Fonctionnel ITSM - ServiceNow (H/F)",
    "company": "STORM GROUP",
    "location": "FR",
    "contract": "À plein temps et Prestataire",
-   "date": "2026-08-17T13:00:00.000Z",
+   "date": "2026-08-17T00:00:00.000Z",
    "url": "https://www.free-work.com/fr/tech-it/job-mission/developpeur-fonctionnel/developpeur-ia-technico-fonctionnel-itsm-servicenow-h-f",
    "description": "Contexte :\nDans le cadre d’un projet de transformation et d’industrialisation des processus ITSM, une grande organisation recherche un Développeur IA Technico-Fonctionnel N3 afin de renforcer une équipe dédiée à l’amélioration de la gestion des incidents.\nLe projet vise à intégrer des solutions d’intelligence artificielle, de machine learning et d’automatisation au sein d’une plateforme ITSM afin d’améliorer la qualification, le traitement et le suivi des incidents.\nMissions :\nLe consultant interviendra notamment sur les activités suivantes :\n• Développer et intégrer des API permettant l’orchestration des processus liés à la gestion des incidents.\n\n• Concevoir et mettre en œuvre des solutions d’intelligence artificielle pour la classification automatique des tickets et l’assistance à leur rédaction.\n\n• Créer et optimiser des prompts pour améliorer la catégorisation et le traitement des tickets.\n\n• Mettre en œuvre et ajuster des modèles de machine learning, notamment pour la classification et le clustering.\n\n• Analyser les échanges, les résultats et les performances des solutions IA.\n\n• Intégrer les solutions IA aux outils et processus ITSM existants.\n\n• Participer à l’amélioration et à l’automatisation des processus de gestion des incidents.\n\n• Définir et suivre des indicateurs de performance permettant de mesurer l’efficacité des solutions développées.\n\n• Contribuer à la documentation et à la capitalisation des connaissances.\n\n• Collaborer avec les équipes de développement, ",
    "source": "Free-Work",
