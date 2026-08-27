@@ -1,7 +1,48 @@
 {
- "updated": "2026-08-26T05:32:48.983386+00:00",
- "count": 28,
+ "updated": "2026-08-27T16:06:05.386255+00:00",
+ "count": 43,
  "offers": [
+  {
+   "id": "ft-6325835",
+   "title": "Ingénieur IA (H/F)",
+   "company": "Non précisé",
+   "location": "Luxembourg",
+   "contract": "CDI",
+   "date": "2026-08-27T07:00:55.404Z",
+   "url": "https://candidat.francetravail.fr/offres/recherche/detail/6325835",
+   "description": "Vous participerez à la conception, au développement et à la mise en production de solutions d'IA générative, notamment autour des LLM, RAG, agents, copilotes et automatisations IA, tout en contribuant à transformer les besoins métiers en solutions IA robustes, performant/antes et sécurisées. Vous collaborerez étroitement avec les équipes Data, IT et métiers afin d'industrialiser les différents cas d'usage et évoluerez dans un environnement exigeant en matier/ière de gouvernance des données, de sécurité et de conformité à l'AI Act.                       Ce que nous attendons de vous :  À partir de 3 ans d'expérience en développement IA / GenAI, avec une forte orientation vers la mise en production.Excellente maîtrise de Python et des frameworks IA tels que LangChain, Hugging Face ou équivalents.Expérience pratique des LLM, RAG, agents IA et intégrations d'API.Bonne maîtrise des concepts de Machine Learning et des enjeux liés à l'industrialisation des solutions IA.Connaissance des bases de données SQL/NoSQL, des API et des environnements distribués.Connaissances en Cloud / DevOps : Docker, CI/CD, etc. appréciées.Expérience dans l'utilisation des outils d'assistance au développement basés sur l'IA.Profil curieux, autonome, rigoureux et orienté résultats.Excellent niveau de communication, à l'écrit comme à l'oral.  Ce que vous pouvez attendre de nous: Pourquoi choisir Employeneurship ? Notre modèle Employeneurship est unique, une véritable innovation dans le secteur de la consult",
+   "source": "France Travail",
+   "score": 49,
+   "matched": [
+    "llm",
+    "rag",
+    "genai",
+    "ia générative",
+    "machine learning",
+    "python",
+    "sql",
+    "docker"
+   ]
+  },
+  {
+   "id": "ft-212YWRS",
+   "title": "Ingénieur Développement IA & Automatisation Junior F/H (H/F)",
+   "company": "LORDS IT",
+   "location": "92 - Meudon",
+   "contract": "CDI",
+   "date": "2026-08-26T23:42:12.928Z",
+   "url": "https://candidat.francetravail.fr/offres/recherche/detail/212YWRS",
+   "description": "Type de contrat : CDI\nSalaire: Débutant / Nouveau diplômé\nDisponibilité : à partir d'octobre 2026\nExpérience requise : Première expérience obligatoire en stage ou alternance\n\nÀ propos de nous\n\nLORDS IT est spécialisée dans l'IA, le Cloud et le Devops. Nous aidons nos clients à sécuriser leurs applications, pipelines et environnements IA et cloud tout en intégrant la sécurité au cœur du développement logiciel.\n\nDans le cadre de notre développement, nous recherchons un(e) Ingénieur(e) Développement IA & Automatisation Junior F/H pour intervenir auprès de l'un de nos clients grand compte basé à Meudon.\n\nVos missions\n\nVous participerez à la conception, au développement et à l'industrialisation de solutions mêlant développement logiciel, intelligence artificielle générative et automatisation.\n\nVos principales missions seront :\n\n- Recueillir et formaliser les besoins métiers et techniques ;\n- Concevoir et développer des solutions d'IA générative et des modules utilisant des LLM ;\n- Développer en Python, notamment avec FastAPI ;\n- Concevoir et mettre en œuvre des architectures RAG : ingestion, embeddings, recherche sémantique, contextualisation et génération ;\n- Réaliser du Prompt Engineering afin d'améliorer la pertinence et la structuration des réponses ;\n- Contrôler, normaliser et valider les sorties générées par les LLM ;\n- Participer à l'automatisation des tests avec des outils tels que Robot Framework, Selenium, Playwright ou équivalents ;\n- Automatiser des tests API, UI et ap",
+   "source": "France Travail",
+   "score": 42,
+   "matched": [
+    "llm",
+    "rag",
+    "ia générative",
+    "python",
+    "embeddings"
+   ]
+  },
   {
    "id": "ft-6227183",
    "title": "Ingénieur IA (M/F/D) Livange - CDI - h () (H/F)",
@@ -43,93 +84,77 @@
    ]
   },
   {
-   "id": "js-Ri1aSHhBMDZZLVh6WkJWUEFBQUFBQT09OkVzd0JD",
-   "title": "Expert Cybersécurité spécialisé en IA",
-   "company": "ASAP TECHNOLOGIES",
-   "location": "Charenton-le-Pont, FR",
-   "contract": "À plein temps et Prestataire",
-   "date": "2026-08-24T00:00:00.000Z",
-   "url": "https://www.free-work.com/fr/tech-it/job-mission/consultant-cyber-securite/expert-cybersecurite-specialise-en-ia",
-   "description": "Notre client, acteur majeur du secteur bancaire, recherche un Expert Cybersécurité spécialisé en IA pour accompagner ses équipes sur la sécurisation des architectures et usages de l’Intelligence Artificielle.\nVous intervenez au croisement de la Cybersécurité, de l’Architecture et de l’IA, avec un rôle d’expertise et d’accompagnement des projets.\nL’objectif : identifier les risques liés à l’IA, définir les architectures sécurisées et intégrer la sécurité dès la conception des projets.\nVos missionsSécurité IA & Threat Modeling\n• Identifier et analyser les risques spécifiques à l’IA : Prompt Injection, Data Poisoning, Model Theft, Model Evasion...\n\n• Réaliser des analyses de risques et Threat Modeling.\n\n• Définir les mesures de protection et de remédiation.\n\n• Assurer une veille sur les menaces et technologies IA.\n\nArchitecture & Security by Design\n• Définir les patterns d’architecture sécurisés pour les solutions IA.\n\n• Apporter une expertise sur les architectures agentiques.\n\n• Accompagner les projets IA de la phase de cadrage jusqu’à l’implémentation.\n\n• Définir les exigences et mesures de sécurité.\n\n• Évaluer les solutions techniques et les risques liés aux fournisseurs Third-Party AI.\n\nTechnologies & sécurité\n• Intervenir sur des sujets MLOps / LLMOps, IAM, API, filtrage IA, validation des modèles et MCP.\n\n• Traduire les exigences Cyber et réglementaires en contrôles techniques.\n\n• Contribuer à la sécurisation des nouveaux usages IA.\n\nGouvernance & expertise\n• Contribuer à ",
-   "source": "Free-Work",
-   "score": 26,
+   "id": "ft-212WZKZ",
+   "title": "Ingénieur(e) en IA (H/F)",
+   "company": "HARMONIE SARL",
+   "location": "49 - SAUMUR",
+   "contract": "CDI",
+   "date": "2026-08-25T14:35:19.949Z",
+   "url": "https://candidat.francetravail.fr/offres/recherche/detail/212WZKZ",
+   "description": "Agence Harmonie recrute un(e) Ingénieur(e) en Intelligence Artificielle en CDI pour son site à Saumur.\nPrincipales missions : \n1. Conception de solutions IA \n2. Développement et prototypage \n3. Préparation et traitement de la donnée \n4. Tests et validation \n5. Veille technologique et innovation \n6. Documentation et reporting\n\nProfil recherché\n- Formation : Diplôme d'Ingénieur spécialisé en IA, Data Science, Informatique ou\nMathématiques Appliquées.\n- Compétences techniques : Maîtrise avancée de Python et des frameworks de référence (PyTorch,\nTensorFlow, Scikit-Learn, Hugging Face).\n- Outils & Cloud : Expérience pratique des outils de versioning (Git), de conteneurisation (Docker) et\nd'infrastructures Cloud (AWS, Azure ou GCP).\n- Qualités : Rigueur scientifique, forte capacité de résolution de problèmes complexes et esprit d'équipe\nprononcé.\nCe que nous offrons\n- Environnement de travail stimulant\n- Mutuelle d'entreprise premium\nSalaire selon expérience \nPour postuler\nEnvoyez votre CV à jour ainsi qu'un lien vers votre portfolio (GitHub, GitLab ou profil Kaggle) à l'adresse mail indiquée.",
+   "source": "France Travail",
+   "score": 27,
    "matched": [
-    "llm",
-    "rag",
-    "mlops",
-    "agent"
+    "gcp",
+    "pytorch",
+    "tensorflow",
+    "scikit",
+    "python",
+    "docker"
    ]
   },
   {
-   "id": "js-YkM4em9oa2VObjhjZ0p3WUFBQUFBQT09OkVzd0JD",
-   "title": "CDI - AI Engineer / Data Scientist - Edtech à Impact (H/F/N)",
-   "company": "My Job Glasses",
-   "location": "FR",
-   "contract": "À plein temps",
+   "id": "js-TkN3YndhU0YtTkhWZ3d4RkFBQUFBQT09OkVzd0JD",
+   "title": "AI Engineer Python Senior - IA Générative (H/F)",
+   "company": "Signe +",
+   "location": "Massy, FR",
+   "contract": "À plein temps et Prestataire",
    "date": "2026-08-25T00:00:00.000Z",
-   "url": "https://bebee.com/fr/jobs/cdi-ai-engineer-data-scientist-edtech-a-impact-h-f-n-my-job-glasses-22-rue-oberkampf-75011-paris-fra--t7xk-816234465",
-   "description": "Le projet “Immersion” a pour ambition de développer une médiathèque de contenus thématiques autour de l’orientation professionnelle. L’objectif est d’offrir un accès gratuit et universel à des ressources immersives et engageantes, adaptées au contexte socioculturel de chaque utilisateur, afin de réduire les barrières des déterminismes sociaux, géographiques ou de genre.\n\nPosition dans l’équipe : Tu seras le premier AI Engineer, référent sur les sujets IA dans l’entreprise. Ton interlocuteur et manager sera le CTPO, et tu travailleras avec les équipes Data et Produit.\n\nMode de management ? Un management direct avec ton manager, un suivi régulier avec les équipes, des objectifs semestriels individuels.\n\nTon rôle consistera à transformer des concepts de recherche en solutions opérationnelles et scalables, en te concentrant sur l’implémentation pratique des technologies d’IA pour le projet “Immersion”.\n\n• Concevoir et développer des pipelines de traitement vidéo et audio automatisés : Mettre en place des solutions robustes pour le traitement de données à l’échelle.\n\n• Implémenter des solutions de traitement du langage naturel (NLP) avec des techniques d’intelligence artificielle. Une partie concernant l’IA générative. :\n\n• Identifier et exploiter des informations pertinentes grace à la recherche sémantique et l’enrichissement terminologique.\n\n• Utiliser des techniques de prompt engineering et de fine-tuning pour adapter les modèles de langage aux besoins spécifiques du projet, en",
-   "source": "BeBee",
-   "score": 24,
+   "url": "https://www.free-work.com/fr/tech-it/job-mission/developpeur-python/ai-engineer-python-senior-ia-generative-h-f",
+   "description": "Un acteur majeur du secteur de la grande distribution recherche un AI Engineer Senior spécialisé en IA générative et systèmes agentiques pour contribuer à un projet stratégique d'optimisation des processus de négociation. Vous rejoindrez une équipe pluridisciplinaire travaillant sur la conception et le déploiement de solutions d'intelligence artificielle avancées, dans un environnement technologique moderne fondé sur Python, PyTorch, TensorFlow et GCP.\n\nCe projet s'inscrit dans une stratégie d'entreprise ambitieuse visant à démocratiser l'usage des données et des approches analytiques rationnelles, ainsi que le développement de systèmes agentiques d'assistance aux équipes métier. Vous participerez à la conception et à la réalisation du « Négociateur Augmenté », une plateforme destinée à fournir des outils analytiques et agentiques permettant d'optimiser les accords conclus avec les fournisseurs.\n\nVotre mission couvrir l'ensemble du cycle de vie des projets data et IA : de l'identification des besoins métier à la mise en production, en passant par l'exploration des données, la modélisation, le développement agentique, le déploiement, et le suivi des performances. Vous travaillerez en étroite collaboration avec les équipes opérationnelles pour comprendre leurs enjeux, ainsi qu'avec les équipes techniques pour arbitrer les choix algorithmiques, d'architecture et d'implémentation. Vous serez responsable de l'application des bonnes pratiques de software engineering afin d'assurer ",
+   "source": "Free-Work",
+   "score": 23,
    "matched": [
     "ia générative",
-    "nlp",
-    "data scientist",
+    "gcp",
+    "pytorch",
+    "tensorflow",
+    "python",
+    "agent",
     "ai engineer"
    ]
   },
   {
-   "id": "ft-6240246",
-   "title": "Data scientist (H/F)",
-   "company": "NEW NET 3D",
-   "location": "95 - Val-d'Oise",
+   "id": "ft-6325841",
+   "title": "Data Scientist (H/F)",
+   "company": "Non précisé",
+   "location": "Luxembourg",
    "contract": "CDI",
-   "date": "2026-08-25T03:24:08.828Z",
-   "url": "https://candidat.francetravail.fr/offres/recherche/detail/6240246",
-   "description": "Description du poste :\n\nEn tant qu'organisateur de forums de recrutement, Talents Handicap accompagne de très nombreuses entreprises & organisations en France dans leurs recrutements de collaborateurs en situation de handicap. Participant actuellement à l'un de nos forums.\nL'entreprise Atos recherche actuellement des profils Vos missions à nos côtés\n\nEn tant que consultant(e), vous intervenez directement chez nos clients ou au sein de notre centre d'excellence pour transformer des besoins métiers en solutions algorithmiques performantes.***Cadrage et Conseil : Accompagner les clients dans la définition de leurs besoins Data, évaluer la faisabilité technique des cas d'usage et choisir les technologies les plus adaptées.***Développement de modèles : Concevoir, tester et optimiser des algorithmes de Machine Learning ou de NLP pour répondre à des enjeux concrets (prédiction de demande, détection de fraude, analyse de sentiment Accompagnement au déploiement : Collaborer avec les équipes IT clientes pour intégrer vos modèles dans leurs écosystèmes existants et assurer le transfert de compétences.***Rayonnement technique : Participer à l'animation des ateliers techniques et contribuer à la capitalisation du savoir-faire de l'agence.",
+   "date": "2026-08-27T07:00:56.634Z",
+   "url": "https://candidat.francetravail.fr/offres/recherche/detail/6325841",
+   "description": "Vous serez amené(e) à concevoir, développer et industrialiser des solutions de Data Science et de Machine Learning répondant à des enjeux métiers concrets. Vous collaborerez avec les équipes Data, IT et métiers pour piloter les cas d'usage de bout en bout, de l'analyse des données à la mise en production et au monitoring des modèles, dans le respect des exigences de performance, d'explicabilité et de conformité. Ce que nous attendons de vous : À partir de 5 ans d'expérience en Data Science, Machine Learning ou Analytique Avancée.Maîtrise solide de Python et SQL, ainsi que des principales techniques de Machine Learning.Expérience en mise en production, industrialisation et monitoring de modèles.Bonne compréhension de la qualité des données, de la performance et de la dérive des modèles.Sensibilité aux enjeux d'explicabilité, de conformité et d'IA responsable.Excellentes capacités de communication et de collaboration.Capacité à jouer un rôle de référent technique et à accompagner des profils s.Excellent niveau de communication en français, à l'oral comme à l'écrit. Ce que vous pouvez attendre de nous: Pourquoi choisir Employeneurship ?Notre modèle Employeneurship est unique, une véritable innovation dans le secteur de la consultance en haute technologie. Il représente LA relation professionnelle du e siècle pour les professionnels techniques hautement qualifiés. Ce modèle repose sur 5 piliers principaux :Vous bénéficierez d'un contrat permanent, garantissant stabilité et sécuri",
    "source": "France Travail",
-   "score": 23,
+   "score": 18,
    "matched": [
-    "rag",
     "machine learning",
-    "nlp",
+    "python",
+    "sql",
     "data scientist"
    ]
   },
   {
-   "id": "ft-6216982",
-   "title": "Ingénieur en Intelligence Artificielle et Machine Learning (H/F)",
-   "company": "Non précisé",
-   "location": "75 - Paris 9e Arrondissement",
+   "id": "ft-212YDGY",
+   "title": "Diététicien(ne) support client- logiciel HESTIA (H/F)",
+   "company": "ALPES DEIS",
+   "location": "74 - Marignier",
    "contract": "CDI",
-   "date": "2026-08-23T03:30:55.719Z",
-   "url": "https://candidat.francetravail.fr/offres/recherche/detail/6216982",
-   "description": "Description du poste :\n\nEn postulant à cette offre, vous aurez l'opportunité de rejoindre une entreprise innovante, née de l'alliance entre l'agilité d'une startup et l'envergure d'un leader mondial du supply chain retail. Spécialisée dans les solutions technologiques de pointe pour le retail moderne, cette entité construit les moteurs de décision basés sur l'IA qui optimisent en temps réel les opérations en magasin sur des dizaines de millions de séries temporelles (forecasting probabiliste de la demande, planification de production, pricing dynamique Ils sont à la recherche d'un(e) AI Engineer pour posséder des features IA de bout en bout et assumer la responsabilité directe de leur impact business : moins de gaspillage, moins de ruptures et plus de marge visibles sur le terrain dès le lendemain.\n\nVos missions si vous les acceptez Posséder des features IA de bout en bout, du cadrage du besoin à la conception, au build, à l'intégration produit et au déploiement en production.***Assurer la responsabilité du cycle de vie complet des modèles : feature engineering, entraînement, évaluation et monitoring.***Faire progresser le cœur technologique de forecasting et d'optimisation (gestion de la demande censurée par les ruptures, estimation du gaspillage, détection d'anomalies d'inventaire Concevoir des systèmes auto-améliorants grâce à des boucles de feedback mesurant la qualité des décisions en production pour accorder automatiquement les modèles.***Contribuer à l'infrastructure a",
+   "date": "2026-08-26T12:08:46.957Z",
+   "url": "https://candidat.francetravail.fr/offres/recherche/detail/212YDGY",
+   "description": "Acquérir le logiciel Hestia c'est avoir accès à un service client de qualité : Le centre de services HESTIA, répondant aux besoin quotidiens d'utilisations et aux problématiques rencontrées par nos clients.\nDans le cadre du renforcement du Centre de Services Hestia, Alpes DEIS recherche de nouveaux chargés d'assistance client pour assurer une prise en charge des demandes fonctionnelles de nos clients.\nAprès une période de Formation sur nos activités et notre logiciel Hestia, vous intégrerez l'équipe du Centre de Services composée de 10 personnes.\n\nVos missions: \n\n * Prise en charge des demandes clients par téléphone et/ou mail : \n\n-Accompagner les clients à l'utilisation quotidienne du logiciel HESTIA\n-Comprendre et résoudre leurs problématiques fonctionnelles\n-Gestion et suivi des tickets pris en charge\n-Remontée de dysfonctionnement au service développement\n-Assurer des prestations complémentaires (paramétrage, conseil...) \n\n * Rédaction de procédures internes et/ou clients\n * Participer à l'amélioration continue du logiciel et du Centre de Services\n\n\nAvantages :\n- Salaire sur 13 mois + intéressement\n- L'amicale des salariés vous proposera régulièrement des sorties afterwork et week-end \n- Mutuelle\n- Tickets restaurants\n- Formations régulières\n- Forte Dynamique d'équipe et d'entreprise\n\nDurée hebdomadaire de travail : 39H\n\nPrise de poste : Septembre 2026\n\nExpérience : Débutant accepté\nFormation : Bac +2 minimum\n\nCompétences et qualités attendues :\n\n- Esprit d'analyse et de ",
    "source": "France Travail",
-   "score": 20,
+   "score": 18,
    "matched": [
-    "rag",
-    "machine learning",
-    "ai engineer"
-   ]
-  },
-  {
-   "id": "ft-6217237",
-   "title": "Data analyst (H/F)",
-   "company": "Non précisé",
-   "location": "972 - Saint-Esprit",
-   "contract": "CDI",
-   "date": "2026-08-23T03:31:17.143Z",
-   "url": "https://candidat.francetravail.fr/offres/recherche/detail/6217237",
-   "description": "Description du poste :\n\nDans le cadre du développement de notre activité, nous recherchons un(e) Data Analyst pour rejoindre notre équipe et transformer les données en informations utiles à la prise de décision.\n\nVous serez chargé(e) de collecter, analyser et interpréter les données afin d'identifier des tendances, mesurer les performances et proposer des recommandations concrètes.\n\nVos principales missions\nCollecter, nettoyer et structurer les données provenant de différentes sources\nAnalyser les données afin d'identifier des tendances et opportunités\nConcevoir et automatiser des tableaux de bord et reportings\nProduire des indicateurs de performance (KPI)\nRéaliser des analyses statistiques et des études ponctuelles\nPrésenter les résultats de manière claire et accessible\nFormuler des recommandations basées sur les données\nCollaborer avec les équipes métiers, commerciales, marketing et techniques\nVérifier la qualité et la fiabilité des données\nParticiper à l'amélioration des outils et processus d'analyse\n\nDescription du profil :\n\nNous recherchons une personne analytique, rigoureuse, curieuse et organisée, avec un réel intérêt pour la donnée et la résolution de problèmes.\n\nVous maîtrisez les outils d'analyse et de visualisation de données. La connaissance de SQL, Excel, Power BI, Tableau, Python ou d'outils similaires constitue un atout.",
-   "source": "France Travail",
-   "score": 19,
-   "matched": [
-    "power bi",
-    "tableau",
-    "python",
-    "sql",
-    "data analyst"
+    "rag"
    ]
   },
   {
@@ -151,19 +176,167 @@
    ]
   },
   {
-   "id": "ft-6284562",
-   "title": "Data Scientist (H/F)",
-   "company": "Forums Talents Handicap",
-   "location": "11 - Carcassonne",
+   "id": "ft-212XMPF",
+   "title": "DATA SCIENTIST (H/F)",
+   "company": "MATCHMAKER RECRUTEMENT",
+   "location": "93 - ST DENIS",
    "contract": "CDI",
-   "date": "2026-08-26T05:01:12.471Z",
-   "url": "https://candidat.francetravail.fr/offres/recherche/detail/6284562",
-   "description": "La Division Numérique (DivNum) de la DPNT (Direction du Parc Nucléaire et Thermique) a pour ambition de placer l'IT au cœur de la performance industrielle de la DPNT. Elle vise à refondre le système d'information, renforcer la cybersécurité et la gestion des données, et s'appuie sur quatre piliers stratégiques : la standardisation, la cloud'isation, la data'isation et l'industrialisation.La Force d'Action Rapide du Numérique (FARNum) est l'expression d'une volonté de répondre efficacement aux enjeux des grands chantiers industriels de la DPNT. Véritable catalyseur d'innovation, la FARNum réunit une équipe agile et pluridisciplinaire, dont la tâche première est de déployer et industrialiser des solutions numériques à forte valeur ajoutée. L'ADN de la FARNum repose sur une approche résolument pragmatique et orientée résultats. À travers une organisation flexible, l'équipe privilégie la rapidité d'exécution et la création de valeur immédiate, tout en s'adaptant aux besoins concrets du terrain.La FARNum est organisé en 3 pôles :Affaires et projetsFAST AI ITData OpsL'équipe Data OPS de la FARNum porte la mise en œuvre opérationnelle des cas d'usage Data et IA, depuis le cadrage technique du besoin métier jusqu'à la mise en production, en s'appuyant sur une approche industrialisée, sécurisée et à valeur.Dans ce cadre, l'équipe Data OPS cherche un.e Data Scientist qui concrétisera l'implémentation et l'usage de l'IA performante et industrielle pour répondre aux besoins métiers mais ",
+   "date": "2026-08-25T19:21:55.451Z",
+   "url": "https://candidat.francetravail.fr/offres/recherche/detail/212XMPF",
+   "description": "MaMa recrute pour son client, société spécialisée dans la collecte, le traitement et la valorisation de données appliquées aux infrastructures industrielles, un DATA SCIENTIST - F/H.\n\nVous rejoignez une équipe Data Science à taille humaine qui conçoit et déploie des solutions permettant de transformer des données complexes issues notamment de capteurs embarqués en informations directement exploitables par les métiers.\n\nDans un environnement où les projets évoluent de la R&D vers une logique croissante d'industrialisation, vous intervenez sur l'ensemble du cycle de vie des projets : compréhension du besoin, traitement des données, développement des modèles et mise en production.\n\nL'équipe fonctionne avec un haut niveau d'autonomie et intervient sur des sujets techniques variés. Si votre cœur de métier reste la Data Science, vous pourrez ainsi être amené à élargir progressivement votre champ de compétences, notamment sur des problématiques Cloud, DevOps ou d'industrialisation.\n\nConcrètement, vos missions seront les suivantes :\n\n- Développer des modèles de Machine Learning et de Deep Learning pour le traitement de données complexes, notamment d'images et de nuages de points 3D ;\n- Concevoir des algorithmes permettant notamment d'automatiser l'extraction d'informations, l'identification d'objets et la détection d'anomalies ;\n- Participer à la préparation, au nettoyage, à la transformation et à la valorisation des données ;\n- Mettre en place des pipelines de traitement, de l'inges",
+   "source": "France Travail",
+   "score": 16,
+   "matched": [
+    "machine learning",
+    "deep learning",
+    "data scientist"
+   ]
+  },
+  {
+   "id": "ft-6324332",
+   "title": "Data Scientist (H/F)",
+   "company": "VYV3",
+   "location": "49 - Angers",
+   "contract": "CDI",
+   "date": "2026-08-27T05:16:43.439Z",
+   "url": "https://candidat.francetravail.fr/offres/recherche/detail/6324332",
+   "description": "Rattaché au responsable du service Accélérateur Data et IA, vous concevez, développer et déployer des solutions d'intelligence artificielle, pour répondre aux enjeux métiers (automatisation, analyse et génération de contenu, assistants intelligents). Vous exploitez et structurez les données du SI afin d'en extraire des connaissances utiles à la décision et vous concevez des modèles prédictifs ou explicatifs. Vous structurez et analyser les données utilisées.A ce titre, vos tâches principales sont les suivantes :Concevoir, développer et industrialiser des solutions Data et IA :Concevoir, entraîner et déployer des modèles de Machine Learning et de Deep Learning répondant aux besoins métiers.Intégrer les solutions d'intelligence artificielle dans les applications et systèmes existants.Assurer l'optimisation, la maintenance et l'amélioration continue des modèles déployés.Collecter, préparer et structurer les données :Identifier et exploiter les sources de données pertinentes (bases internes, APIs, données externes, etc.).Préparer les données en garantissant leur qualité : nettoyage, normalisation, enrichissement et transformation.Contribuer à la structuration et à la modélisation des données en collaboration avec les équipes Data Engineering.Analyser les données et développer des modèles :Réaliser des analyses exploratoires afin d'identifier tendances, corrélations et anomalies.Concevoir des modèles prédictifs ou explicatifs adaptés aux enjeux métiers.Évaluer et améliorer les per",
+   "source": "France Travail",
+   "score": 16,
+   "matched": [
+    "machine learning",
+    "deep learning",
+    "data scientist"
+   ]
+  },
+  {
+   "id": "ft-6323833",
+   "title": "Data Scientist F/H",
+   "company": "VYV 3",
+   "location": "49 - Angers",
+   "contract": "CDI",
+   "date": "2026-08-27T04:31:50.674Z",
+   "url": "https://candidat.francetravail.fr/offres/recherche/detail/6323833",
+   "description": "RESPONSABILITÉS : \n\nRattaché au responsable du service Accélérateur Data & IA, vous concevez, développer et déployer des solutions d'intelligence artificielle, pour répondre aux enjeux métiers (automatisation, analyse et génération de contenu, assistants intelligents). Vous exploitez et structurez les données du SI afin d'en extraire des connaissances utiles à la décision et vous concevez des modèles prédictifs ou explicatifs. Vous structurez et analyser les données utilisées.\nA ce titre, vos missions principales sont les suivantes :\nConcevoir, développer et industrialiser des solutions Data & IA :\n - Concevoir, entraîner et déployer des modèles de Machine Learning et de Deep Learning répondant aux besoins métiers.\n - Intégrer les solutions d'intelligence artificielle dans les applications et systèmes existants.\n - Assurer l'optimisation, la maintenance et l'amélioration continue des modèles déployés.\n\n\n\nCollecter, préparer et structurer les données\n\nAnalyser les données et développer des modèles :\n - Réaliser des analyses exploratoires afin d'identifier tendances, corrélations et anomalies.\n - Concevoir des modèles prédictifs ou explicatifs adaptés aux enjeux métiers.\n - Évaluer et améliorer les performances des modèles à l'aide de méthodes de validation et de suivi adaptées.\n\n\nValoriser les résultats et accompagner la prise de décision :\n - Interpréter les résultats des analyses et restituer les conclusions de manière claire et pédagogique.\n - Collaborer avec les équipes mé",
+   "source": "France Travail",
+   "score": 16,
+   "matched": [
+    "machine learning",
+    "deep learning",
+    "data scientist"
+   ]
+  },
+  {
+   "id": "ft-6307448",
+   "title": "Ingénieure / Ingénieur Logiciel Junior H/F",
+   "company": "Non précisé",
+   "location": "08 - Girondelle",
+   "contract": "CDI",
+   "date": "2026-08-26T12:14:40.134Z",
+   "url": "https://candidat.francetravail.fr/offres/recherche/detail/6307448",
+   "description": "En tant qu'organisateur de forums de recrutement, Talents Handicap accompagne de très nombreuses entreprises & organisations en France dans leurs recrutements de collaborateurs en situation de handicap. Participant actuellement à l'un de nos forums. L'entreprise Capgemini recherche actuellement des profils : Vos missions : Au sein d'une équipe Agile, vous intervenez sur des projets à forts enjeux pour des clients grands comptes multi-secteurs. Développer des applications backend en Java et frontend en Angular Participer à la conception technique et aux choix d'architecture Collaborer avec les différentes parties prenantes pour garantir la qualité des livrables Contribuer à l'amélioration continue des pratiques de développement Assurer la performance et la fiabilité des solutions mises en production ",
+   "source": "France Travail",
+   "score": 16,
+   "matched": [
+    "gemini"
+   ]
+  },
+  {
+   "id": "ft-6348298",
+   "title": "Data Analyst Expert PowerBI, EasyMorph impératif - domaine bancaire  F/H",
+   "company": "CTS Corporate",
+   "location": "75 - Paris 1er Arrondissement",
+   "contract": "CDI",
+   "date": "2026-08-27T14:34:21.816Z",
+   "url": "https://candidat.francetravail.fr/offres/recherche/detail/6348298",
+   "description": "Au sein de notre société de conseil en informatique, nous accompagnons les grandes institutions financières dans la rationalisation et l'optimisation de leurs systèmes décisionnels. Pour intégrer l'équipe Gouvernance Administration et Monitoring Datalake Transverse (GMA) au sein de la DSI Filière Finances, nous recherchons un(e) Data Analyst Expert PowerBI.\n\nVous interviendrez sur des projets stratégiques de grande ampleur (reprise d'états financiers de consolidation, rationalisation d'outils EPM, migration de Tableau vers PowerBI) nécessitant des réponses haute performance sur de forts volumes de données.\n\nCe poste est basé sur Paris, au sein d'une équipe internationale (échanges quotidiens en anglais avec des collaborateurs au Portugal).\n\nVos Missions :\n1. Cadrage Fonctionnel, Conception et Maquettage\n- Analyse du Besoin : Organiser et animer les ateliers de cadrage avec les équipes métiers et les Business Analysts pour traduire les exigences financières en indicateurs et parcours de navigation.\n- Rétro-ingénierie : Analyser les rapports existants (notamment sous Tableau) pour les réadapter et les optimiser sous PowerBI ou EasyMorph.\n- Prototypage : Concevoir et proposer des maquettes ergonomiques adaptées aux usages métiers.\n\n2. Modélisation, Optimisation et Industrialisation PowerBI\n- Modélisation et DAX : Construire, modéliser et optimiser les Datasets, Dataflows et expressions DAX sous PowerBI.\n- Performance sur Forts Volumes : Élaborer la stratégie d'optimisation optim",
+   "source": "France Travail",
+   "score": 16,
+   "matched": [
+    "rag",
+    "tableau",
+    "data analyst"
+   ]
+  },
+  {
+   "id": "ft-6307966",
+   "title": "Analytics Engineer H/F",
+   "company": "Non précisé",
+   "location": "59 - Villeneuve-d'Ascq",
+   "contract": "CDI",
+   "date": "2026-08-26T12:15:08.017Z",
+   "url": "https://candidat.francetravail.fr/offres/recherche/detail/6307966",
+   "description": "Rejoignez notre Centre d'Excellence (CoE) Data France, un hub collaboratif réunissant nos talents analytiques pour décupler l'impact de la donnée au service de nos ambitions de croissance. Au sein de ce collectif, nous recherchons un(e) Analytics Engineer doté(e) d'une très forte hybridation : une solide base en Data Engineering couplée à une compréhension fine des enjeux business.Votre rôle sera d'agir comme le pont stratégique entre nos données brutes et nos ambitions d'innovation. Pour mener à bien ces missions, vous évoluerez dans un cadre de travail moderne en vous appuyant au quotidien sur Databricks, Airflow, DBT, GCP...Attention, il ne s'agit pas uniquement d'ingénierie pure ! Votre quotidien sera également rythmé par des demandes métiers auxquelles il faudra répondre avec un véritable œil de Business Analyst. Vous saurez faire preuve de pragmatisme pour livrer des insights très opérationnels et rapides, là où le développement complexe n'est pas toujours la meilleure réponse.Vos responsabilités principales :Réponse Opérationnelle & Business Analysis : Accompagner le quotidien des métiers avec réactivité. Vous saurez traduire des besoins complexes en recommandations stratégiques simples et actionnables, en privilégiant l'impact opérationnel direct.Ingénierie & Modélisation : Créer et fournir des modèles de données spécifiques à l'entreprise afin d'accélérer et de standardiser l'analyse. Vous concevrez des modèles permettant aux équipes d'analyser les données en toute a",
+   "source": "France Travail",
+   "score": 15,
+   "matched": [
+    "rag",
+    "gcp"
+   ]
+  },
+  {
+   "id": "js-VUkyaG4xMFhOUDFiT09KQUFBQUFBQT09OkVzd0JD",
+   "title": "Ingénieur Intégration Validation – Framework IA",
+   "company": "Le Mercato de l'Emploi",
+   "location": "Meudon, FR",
+   "contract": "À plein temps",
+   "date": "2026-08-25T00:00:00.000Z",
+   "url": "https://www.meteojob.com/jobs/56328869",
+   "description": "Description du poste\nNous recherchons un Ingénieur Intégration et Validation pour garantir la qualité, la fonctionnalité, les performances et la fiabilité de la stack logicielle IA de Vsora. Le rôle porte sur la validation des livraisons logicielles de bout en bout, incluant la compilation de modèles, l'exécution runtime, le serving d'inférence et les workflows de déploiement sur la plateforme matérielle Vsora.\n\nResponsabilités principales\n\n• Définir et exécuter des plans de validation de bout en bout couvrant l'ensemble du workflow de déploiement IA, depuis l'ingestion et la compilation de modèles jusqu'à l'exécution et le serving sur le matériel Vsora.\n\n• Développer et maintenir des suites de tests automatisées pour vérifier la fonctionnalité, la stabilité, la robustesse et la régression logicielle entre les releases.\n\n• Valider le support d'une large gamme de modèles IA : LLMs, modèles multimodaux, réseaux de vision par ordinateur, modèles de reconnaissance vocale et charges de travail d'IA générative.\n\n• Vérifier la précision des modèles et la correction numérique en comparant les résultats d'exécution matérielle aux outputs de frameworks de référence et aux datasets golden.\n\n• Vérifier les performances des livraisons en évaluant le débit, la latence, la scalabilité, l'utilisation des ressources et la stabilité système sous des charges représentatives.\n\n• Reproduire, vérifier et suivre les anomalies logicielles jusqu'à leur résolution et livraison.\n\n• Développer des critè",
+   "source": "Meteojob",
+   "score": 15,
+   "matched": [
+    "llm",
+    "ia générative"
+   ]
+  },
+  {
+   "id": "ft-6345449",
+   "title": "Data Scientist F/H",
+   "company": "Non précisé",
+   "location": "03 - Audes",
+   "contract": "CDI",
+   "date": "2026-08-27T12:42:50.177Z",
+   "url": "https://candidat.francetravail.fr/offres/recherche/detail/6345449",
+   "description": "En tant qu'organisateur de forums de recrutement, Talents Handicap accompagne de très nombreuses entreprises & organisations en France dans leurs recrutements de collaborateurs en situation de handicap. Participant actuellement à l'un de nos forums. L'entreprise EDF recherche actuellement des profils : La Division Numérique (DivNum) de la DPNT (Direction du Parc Nucléaire et Thermique) a pour ambition de placer l'IT au cœur de la performance industrielle de la DPNT. Elle vise à refondre le système d'information, renforcer la cybersécurité et la gestion des données, et s'appuie sur quatre piliers stratégiques : la standardisation, la cloud'isation, la data'isation et l'industrialisation.La Force d'Action Rapide du Numérique (FARNum) est l'expression d'une volonté de répondre efficacement aux enjeux des grands chantiers industriels de la DPNT. Véritable catalyseur d'innovation, la FARNum réunit une équipe agile et pluridisciplinaire, dont la mission première est de déployer et industrialiser des solutions numériques à forte valeur ajoutée. L'ADN de la FARNum repose sur une approche résolument pragmatique et orientée résultats. À travers une organisation flexible, l'équipe privilégie la rapidité d'exécution et la création de valeur immédiate, tout en s'adaptant aux besoins concrets du terrain.La FARNum est organisé en 3 pôles :Affaires et projetsFAST AI ITData OpsL'équipe Data OPS de la FARNum porte la mise en œuvre opérationnelle des cas d'usage Data et IA, depuis le cadrage te",
    "source": "France Travail",
    "score": 14,
    "matched": [
     "rag",
     "data scientist"
+   ]
+  },
+  {
+   "id": "ft-6320078",
+   "title": "Data scientist (H/F)",
+   "company": "NEW NET 3D",
+   "location": "11 - Aude",
+   "contract": "CDI",
+   "date": "2026-08-27T03:25:45.642Z",
+   "url": "https://candidat.francetravail.fr/offres/recherche/detail/6320078",
+   "description": "Description du poste :\n\nEn tant qu'organisateur de forums de recrutement, Talents Handicap accompagne de très nombreuses entreprises & organisations en France dans leurs recrutements de collaborateurs en situation de handicap. Participant actuellement à l'un de nos forums.\nL'entreprise EDF recherche actuellement des profils La Division Numérique (DivNum) de la DPNT (Direction du Parc Nucléaire et Thermique) a pour ambition de placer l'IT au cœur de la performance industrielle de la DPNT. Elle vise à refondre le système d'information, renforcer la cybersécurité et la gestion des données, et s'appuie sur quatre piliers stratégiques : la standardisation, la cloud'isation, la data'isation et l'industrialisation.\n\nLa Force d'Action Rapide du Numérique (FARNum) est l'expression d'une volonté de répondre efficacement aux enjeux des grands chantiers industriels de la DPNT. Véritable catalyseur d'innovation, la FARNum réunit une équipe agile et pluridisciplinaire, dont la mission première est de déployer et industrialiser des solutions numériques à forte valeur ajoutée. L'ADN de la FARNum repose sur une approche résolument pragmatique et orientée résultats. À travers une organisation flexible, l'équipe privilégie la rapidité d'exécution et la création de valeur immédiate, tout en s'adaptant aux besoins concrets du terrain.\n\nLa FARNum est organisé en 3 pôles Affaires et projets\n* FAST AI IT\n* Data Ops\n\nL'équipe Data OPS de la FARNum porte la mise en œuvre opérationnelle des cas d'usage",
+   "source": "France Travail",
+   "score": 14,
+   "matched": [
+    "rag",
+    "data scientist"
+   ]
+  },
+  {
+   "id": "ft-212XRWC",
+   "title": "Data analyst - F/H (H/F)",
+   "company": "SAINT-GOBAIN DISTRIBUTION BATIMENT FRANC",
+   "location": "92 - Courbevoie",
+   "contract": "CDI",
+   "date": "2026-08-26T08:47:27.919Z",
+   "url": "https://candidat.francetravail.fr/offres/recherche/detail/212XRWC",
+   "description": "Pourquoi a-t-on besoin de vous?\nDans un contexte de croissance rapide des projets IA au sein de l'organisation, l'équipe Data Science de Saint-Gobain Distribution Bâtiment France recherche son prochain Data Analyst. Au sein d'une équipe composée de Product Managers, Data Scientists et Data Analysts, vous contribuerez à des projets à fort impact business sur des domaines variés tels que le Pricing, la Supply Chain, le Marketing, les Ventes, le Crédit ou encore les Achats.\n\nVotre rôle sera de transformer les données en insights et outils d'aide à la décision pour les métiers, tout en accompagnant les équipes projet dans la mesure de la valeur créée par les initiatives Data & IA. Rattaché(e) au Lead Tech de l'équipe Data Science, vous interviendrez en contact direct avec les équipes métiers et contribuerez aux différentes verticales de l'équipe en fonction des priorités de l'organisation.\n\nVos principales missions seront les suivantes :\n\n1. Collecte et préparation des données :\n\nCréation des pipelines de données & tables pour analyses BI\nParticipation à la gestion de la qualité des données.\n2. Analyse de Données :\n\nRéalisation d'analyses exploratoires et statistiques descriptives pour répondre aux problématiques métiers.\nConstruction autonome de dashboards et indicateurs de performance (Power BI ou outils équivalents).\nIdentification pro-active d'insights permettant d'orienter les décisions business.\n\n3. Collaboration avec les Data Scientists et les métiers :\n\nSoutien aux Data S",
+   "source": "France Travail",
+   "score": 14,
+   "matched": [
+    "power bi",
+    "data scientist",
+    "data analyst"
    ]
   },
   {
@@ -248,49 +421,59 @@
    ]
   },
   {
-   "id": "js-ZElScVAzSjBoQlo4ek1TRUFBQUFBQT09OkVzd0JD",
-   "title": "Consultant Junior IA et Technologies Digitales",
-   "company": "WITH",
-   "location": "FR",
-   "contract": "À plein temps",
-   "date": "2026-08-24T00:00:00.000Z",
-   "url": "https://fr.trabajo.org/offre-2958-82f7ef9a58836f3d63f7dc4e4077a8f2",
-   "description": "WITH recherche et analyse technologique pour des projets clients dans les secteurs de la beauté, du luxe et de l’alimentaire. Vous analyserez des technologies émergentes et des outils IA génératifs et informerez les recommandations stratégiques. Vous contribuerez à des roadmaps digitales et technologiques et à des plans de mise en œuvre (content, e-commerce, social, CRM). Vous coordonnerez des stagiaires pour assurer le suivi des projets et participerez à des programmes de formation interne. J-18808-Ljbffr",
-   "source": "Trabajo.org",
+   "id": "ft-212XGZV",
+   "title": "Developpeur Front End Javascript HTML (H/F)",
+   "company": "LUNALOGIC",
+   "location": "75 - PARIS",
+   "contract": "CDI",
+   "date": "2026-08-25T16:18:18.979Z",
+   "url": "https://candidat.francetravail.fr/offres/recherche/detail/212XGZV",
+   "description": "Créé en 2000, Lunalogic est un cabinet de conseil structuré autour de deux pôles de compétences :\n\nFinance, Risk & Réglementaire : accompagnement des institutions financières, assureurs et entreprises industrielles sur le risque, la conformité et la modélisation quantitative.\nData Science, Intelligence Artificielle & Blockchain : conception et déploiement de solutions avancées en machine learning, deep learning, data engineering et blockchain pour tous les secteurs.\n\n\nDepuis plus de 20 ans, nous développons des algorithmes et infrastructures sophistiqués permettant d'exploiter le potentiel de la data science et de la blockchain sur des problématiques concrètes : modélisation quantitative, automatisation de process métier, détection de fraude, optimisation de systèmes industriels ou analyse prédictive.\n\nNous intervenons auprès de grands comptes et PME dans la finance, la banque, l'assurance, la santé et l'industrie, avec des références comme Mérieux, Limagrain, AXA, Servier.\n\nNotre force : R&D et innovation, et formation continue pour attirer les meilleurs talents, issus des formations les plus prestigieuses.\n\n\n\nChez Lunalogic, nous transformons les défis technologiques et financiers de nos clients en solutions concrètes, opérationnelles et à fort impact, dans un environnement stimulant et collaboratif.\n\n\n\nVous sortez d'une école d'ingénieur ou d'un cursus informatique (fac ou école) et vous cherchez votre première ou deuxième expérience professionnelle ? Nous recrutons en Fra",
+   "source": "France Travail",
+   "score": 10,
+   "matched": [
+    "machine learning",
+    "deep learning"
+   ]
+  },
+  {
+   "id": "ft-6307536",
+   "title": "Consultant-e Junior (Analyst) en Transformation Digitale - CTO Advisory / Cloud - CDI H/F",
+   "company": "Non précisé",
+   "location": "92 - Nanterre",
+   "contract": "CDI",
+   "date": "2026-08-26T12:14:43.666Z",
+   "url": "https://candidat.francetravail.fr/offres/recherche/detail/6307536",
+   "description": "En tant qu'organisateur de forums de recrutement, Talents Handicap accompagne de très nombreuses entreprises & organisations en France dans leurs recrutements de collaborateurs en situation de handicap. Participant actuellement à l'un de nos forums. L'entreprise Wavestone recherche actuellement des profils : Description de l'entrepriseRejoignez un cabinet de conseil international qui accompagne les grandes transformations stratégiques.Nous sommes Wavestone : des expert-es passionné-es et orienté-es solutions, qui placent l'humain au cœur de la performance et de la croissance. Ambitieux-ses et en pleine expansion, nous développons sans cesse notre portefeuille de clients et de projets, avec une portée internationale et une réelle volonté de générer un impact positif.Êtes-vous un vrai team player, porté par des valeurs fortes ? Êtes-vous curieux-se et déterminé-e, avec l'envie d'apprendre chaque jour ? Êtes-vous du genre à relever les défis sans hésiter ? Alors vous êtes au bon endroit. Rejoignez Wavestone et exprimez votre potentiel dans un environnement stimulant et collaboratif, où l'on transforme les défis d'aujourd'hui en opportunités de demain.Description du posteLa business unit CTO Advisory est composée d'un collectif multi-compétences, de plus de 600 consultant-es, qui combinent compréhension des enjeux business des clients et expertise technologique de premier plan. L'objectif de ces équipes est de contribuer à positionner Wavestone comme le partenaire conseil de conf",
+   "source": "France Travail",
    "score": 10,
    "matched": []
   },
   {
-   "id": "ft-6231681",
-   "title": "Développeur Python / Machine Learning Engineer (H/F)",
-   "company": "Soors",
-   "location": "33 - Bordeaux",
+   "id": "ft-6307469",
+   "title": "Consultant-e Junior (Analyst) en Transformation Digitale - CTO Advisory / Smart Connectivity - CDI H/F",
+   "company": "Non précisé",
+   "location": "92 - Nanterre",
    "contract": "CDI",
-   "date": "2026-08-24T11:21:50.717Z",
-   "url": "https://candidat.francetravail.fr/offres/recherche/detail/6231681",
-   "description": "Soors est un cabinet de conseil et de recrutement spécialisé dans les métiers du numérique, du digital et de l'IT. Fort de son expertise et de son réseau, Soors accompagne ses clients dans la recherche de talents qualifiés et propose des opportunités de carrière attractives au sein d'environnements innovants. L'entreprise valorise l'exigence technique, l'esprit d'équipe et l'accompagnement sur-mesure afin de garantir la réussite des projets et l'épanouissement professionnel des candidats. Travailler avec Soors, c'est rejoindre un acteur reconnu pour son engagement, son professionnalisme et sa capacité à connecter les meilleurs profils aux enjeux technologiques d'aujourd'hui et de demain.\n\nLe poste : \n\nNous recherchons un Développeur Python / Machine Learning Engineer H/F pour intervenir dans le cadre de projets à forte dimension IA et machine learning. Vous contribuerez à la performance technique des solutions data en apportant votre expertise logicielle et votre sens de l'optimisation.\n\nMissions principales :\n- Développer, optimiser et industrialiser du code Python au sein d'environnements orientés ML/AI.\n- Relire, refactorer et structurer le code existant afin d'améliorer la robustesse et la maintenabilité des solutions.\n- Concevoir et maintenir des scripts, modules et pipelines pour des projets de machine learning.\n- Participer à la mise en place de bonnes pratiques de développement, de tests et de déploiement.\n- Collaborer avec les équipes data et tech pour garantir la qu",
+   "date": "2026-08-26T12:14:40.932Z",
+   "url": "https://candidat.francetravail.fr/offres/recherche/detail/6307469",
+   "description": "En tant qu'organisateur de forums de recrutement, Talents Handicap accompagne de très nombreuses entreprises & organisations en France dans leurs recrutements de collaborateurs en situation de handicap. Participant actuellement à l'un de nos forums. L'entreprise Wavestone recherche actuellement des profils : Description de l'entrepriseRejoignez un cabinet de conseil international qui accompagne les grandes transformations stratégiques.Nous sommes Wavestone : des expert-es passionné-es et orienté-es solutions, qui placent l'humain au cœur de la performance et de la croissance. Ambitieux-ses et en pleine expansion, nous développons sans cesse notre portefeuille de clients et de projets, avec une portée internationale et une réelle volonté de générer un impact positif.Êtes-vous un vrai team player, porté par des valeurs fortes ? Êtes-vous curieux-se et déterminé-e, avec l'envie d'apprendre chaque jour ? Êtes-vous du genre à relever les défis sans hésiter ? Alors vous êtes au bon endroit. Rejoignez Wavestone et exprimez votre potentiel dans un environnement stimulant et collaboratif, où l'on transforme les défis d'aujourd'hui en opportunités de demain.Description du posteLa business unit CTO Advisory est composée d'un collectif multi-compétences, de plus de 600 consultant-es, qui combinent compréhension des enjeux business des clients et expertise technologique de premier plan. L'objectif de ces équipes est de contribuer à positionner Wavestone comme le partenaire conseil de conf",
    "source": "France Travail",
-   "score": 9,
-   "matched": [
-    "machine learning",
-    "python"
-   ]
+   "score": 10,
+   "matched": []
   },
   {
-   "id": "js-ZmxaZEZud1VsZ0NoUThRQkFBQUFBQT09OkVzd0JD",
-   "title": "Ingenieur Projet Technique Machine Learning H/F",
-   "company": "Stass Conseil",
-   "location": "Nanterre, FR",
-   "contract": "À temps partiel",
-   "date": "2026-08-24T00:00:00.000Z",
-   "url": "https://www.jobintree.com/emplois/82601173.html",
-   "description": "STASS CONSEIL est un cabinet de recrutemnt spécilaisé dans la recherche de profils ingénieurs dans les domaines de l'industrie, de l'IT et de la construction.\nStart up qui conçoit et fabrique des capteurs connectés à des réseaux FO permettant de détecter des anomalies à distance POSTEVous intervenez sur toute la phase de la vie du produit, et notamment :la conception de la partie liée à l'intelligence artificielle l'élaboration et la rédaction/vérification des documents techniques (notes techniques, cahier des charges...)les essais et la qualification des prototypesla supervision et la mise en service directement sur sitesCette description prend en compte les principales responsabilités ; elle n'est pas limitative. A terme, vous pouvez devenir responsable de toute la partie software Des déplacements sont à prévoir de manière ponctuelle sur sites clients à l'étranger.\nDiplômé d'une école d'ingénieur ou équivalent universitaire avec une première expérience d'au moins 2 ans ou d'un doctorat avec une spécialisation en machine learning, Compétences techniques indispensables :Vous avez une maîtrise de Python ainsi que les principaux concepts de l'intelligence artificielle (Modélisation, algorithmique)Bonnes qualités de communication, autonomie et capacités d'analyse de problèmes techniquesAnglais professionnel (clients internationaux) Process de recrutement:Entretien téléphonique rapideEntretien RH en visioEntretien en physique avec le responsable opérationnel",
-   "source": "Jobintree",
-   "score": 9,
-   "matched": [
-    "machine learning",
-    "python"
-   ]
+   "id": "ft-6307466",
+   "title": "Consultant-e Junior (Analyst) en Transformation Digitale - CTO Advisory / Digital Workplace - CDI H/F",
+   "company": "Non précisé",
+   "location": "92 - Nanterre",
+   "contract": "CDI",
+   "date": "2026-08-26T12:14:40.930Z",
+   "url": "https://candidat.francetravail.fr/offres/recherche/detail/6307466",
+   "description": "En tant qu'organisateur de forums de recrutement, Talents Handicap accompagne de très nombreuses entreprises & organisations en France dans leurs recrutements de collaborateurs en situation de handicap. Participant actuellement à l'un de nos forums. L'entreprise Wavestone recherche actuellement des profils : Description de l'entrepriseRejoignez un cabinet de conseil international qui accompagne les grandes transformations stratégiques.Nous sommes Wavestone : des expert-es passionné-es et orienté-es solutions, qui placent l'humain au cœur de la performance et de la croissance. Ambitieux-ses et en pleine expansion, nous développons sans cesse notre portefeuille de clients et de projets, avec une portée internationale et une réelle volonté de générer un impact positif.Êtes-vous un vrai team player, porté par des valeurs fortes ? Êtes-vous curieux-se et déterminé-e, avec l'envie d'apprendre chaque jour ? Êtes-vous du genre à relever les défis sans hésiter ? Alors vous êtes au bon endroit. Rejoignez Wavestone et exprimez votre potentiel dans un environnement stimulant et collaboratif, où l'on transforme les défis d'aujourd'hui en opportunités de demain.Description du posteLa business unit CTO Advisory est composée d'un collectif multi-compétences, de plus de 600 consultant-es, qui combinent compréhension des enjeux business des clients et expertise technologique de premier plan. L'objectif de ces équipes est de contribuer à positionner Wavestone comme le partenaire conseil de conf",
+   "source": "France Travail",
+   "score": 10,
+   "matched": []
   },
   {
    "id": "ft-212XGGF",
@@ -323,44 +506,90 @@
    ]
   },
   {
-   "id": "ft-6261052",
-   "title": "Architecte logiciel & calculateurs  segment sol spatial (f/h) (H/F)",
+   "id": "ft-6344663",
+   "title": "Consultant Chef de Projet Logiciel H/F",
    "company": "Non précisé",
+   "location": "31 - Mervilla",
+   "contract": "CDI",
+   "date": "2026-08-27T12:42:06.994Z",
+   "url": "https://candidat.francetravail.fr/offres/recherche/detail/6344663",
+   "description": "Je suis Lisa, consultante spécialisée dans l'IT, et je recrute aujourd'hui pour l'un de mes clients : un éditeur de logiciel reconnu dans le domaine de la santé, acteur clé dans l'accompagnement des professionnels et établissements du secteur.Nous recherchons un(e) Consultant-e / Chef de Projet expérimenté(e) afin de renforcer l'équipe et d'assurer la réussite des projets clients.Vos missionsVous interviendrez sur un périmètre complet :Pilotage de projet - Planification, coordination et suivi du déploiement des solutions - Animation des comités et gestion des plannings Conseil & accompagnement client - Analyse des besoins et formulation de recommandations adaptées - Accompagnement dans la mise en œuvre et diffusion des bonnes pratiques Expertise sectorielle santé - Compréhension des enjeux du système de santé, du parcours patient et des réglementations en vigueur - Contribution à l'évolution et à l'optimisation des processus métier Participation aux réponses aux appels d'offres - Analyse des besoins et rédaction des volets fonctionnels et techniques Formation & déploiement - Animation de formations auprès des utilisateurs - Installation et paramétrage des solutions Qualité & tests - Participation aux tests de non-régression Vérification et contrôle qualité avant livraison  Pré-requisCe que nous offronsUn poste au sein d'un éditeur de logiciel médical reconnu, en pleine croissance.Une rémunération entre 35 et 45K€, selon expérience.Un rôle stratégique avec une forte autonomie.",
+   "source": "France Travail",
+   "score": 8,
+   "matched": [
+    "rag"
+   ]
+  },
+  {
+   "id": "ft-6338355",
+   "title": "Ingénieur intégration système - logiciel embarqué h/f (H/F)",
+   "company": "Non précisé",
+   "location": "64 - Bordes",
+   "contract": "CDI",
+   "date": "2026-08-27T08:16:02.184Z",
+   "url": "https://candidat.francetravail.fr/offres/recherche/detail/6338355",
+   "description": "Safran est un groupe international de haute technologie opérant dans les domaines de l'aéronautique (propulsion, équipements et intérieurs), de l'espace et de la défense. Sa mission : contribuer durablement à un monde plus sûr, où le transport aérien devient toujours plus respectueux de l'environnement, plus confortable et plus accessible. Implanté sur tous les continents, le Groupe emploie 110 000 collaborateurs pour un chiffre d'affaires de 31,3 milliards d'euros en 2025, et occupe, seul ou en partenariat, des positions de premier plan mondial ou européen sur ses marchés. \n\nSafran est la 2ème entreprise du secteur aéronautique et défense du classement « World's Best Companies 2025 » du magazine TIME.\n\n\n\nLeader mondial des systèmes électriques aéronautiques, Safran Electrical & Power est un acteur dans l'électrification des équipements et de la propulsion électrique et hybride. Maîtrisant la chaîne énergétique embarquée, l'entreprise conçoit et fournit des architectures et des solutions modulaires, innovantes et optimisées.\n\n\n\nParce que nous sommes persuadés que chaque talent compte, nous valorisons et encourageons les candidatures de personnes en situation de handicap pour nos opportunités d'emploi.\n\n\nDescriptif missionDans le cadre du développement de nos activités dans le domaine Système, nous recherchons un Ingénieur Intégration Système et Automatique afin de renforcer nos équipes techniques et intervenir sur différents systèmes de régulation de turbomachines.\n\n\n\nÀ ce ti",
+   "source": "France Travail",
+   "score": 8,
+   "matched": [
+    "rag"
+   ]
+  },
+  {
+   "id": "ft-6312133",
+   "title": "Formateur Logiciel Comptable Sage 1000 H/F",
+   "company": "Comptalents",
+   "location": "44 - Chapelle-sur-Erdre",
+   "contract": "CDI",
+   "date": "2026-08-26T14:35:31.310Z",
+   "url": "https://candidat.francetravail.fr/offres/recherche/detail/6312133",
+   "description": "Comptalents, cabinet de recrutement spécialisé en Comptabilité, Gestion et Finance, vous propose chaque jour de nouvelles offres d'emploi ciblées. Notre équipe de 30 collaborateurs vous accompagne dans vos projets de recherche d'emploi.\n \n\n        Nous recrutons pour notre client un FORMATEUR LOGICIEL COMPTABLE SAGE 1000 H/F en CDI, basé à proximité de Nantes.\n\nRattaché(e) au Responsable de Pôle, vous aurez pour principales responsabilités :\n\n * Être l'interlocuteur privilégié des clients et assurer la relation (téléphone / email) afin de traiter leurs demandes\n * Prendre en charge les demandes de renseignements et les incidents liés à l'outil de gestion SAGE 1000 (périmètre comptabilité / gestion)\n * Conseiller et accompagner les utilisateurs dans l'exploitation et le paramétrage de leurs dossiers\n * Identifier et remonter les anomalies aux interlocuteurs concernés (consultants techniques, fonctionnels ou directement à l'éditeur Sage)\n * Suivre et répertorier les demandes et incidents ainsi que leurs résolutions dans l'outil de helpdesk interne\n * Mettre à jour la base documentaire\n  \n PROFIL RECHERCHÉ\n\n * Formation en comptabilité (Bac Pro à BTS Comptabilité)\n * Expérience minimum de 2 ans en comptabilité\n * Une expérience sur SAGE 1000 est fortement appréciée\n\nCONDITIONS\n\n * CDI - 38h hebdomadaires -  7 RTT\n * Rémunération : 28 à 32 KEUR sur 12 mois\n * Tickets restaurant : 8 EUR (prise en charge à 60 %)\n * Intéressement & participation\n * Télétravail : 2 jours / semaine ap",
+   "source": "France Travail",
+   "score": 8,
+   "matched": [
+    "rag"
+   ]
+  },
+  {
+   "id": "ft-6341959",
+   "title": "Data Analyst - Fraude & Business Intelligence (H/F)",
+   "company": "Red Hot Talents",
    "location": "31 - Toulouse",
    "contract": "CDI",
-   "date": "2026-08-25T08:15:55.301Z",
-   "url": "https://candidat.francetravail.fr/offres/recherche/detail/6261052",
-   "description": "ProfilTechniques\no    Conception d'architectures distribuées (haute dispo, tolérance aux pannes, performance).\no    Gouvernance des API/contrats, modélisation données/flux, capacity planning.\no    DevSecOps end to end : tests (unit/int/charge), CI/CD, packaging, déploiements, observabilité.\no    Documentation claire (schémas C4, ADR, ICD) et vulgarisation auprès des parties prenantes.\nSoft skills\no    Leadership technique, sens du collectif et de la transmission.\no    Rigueur, arbitrage et priorisation dans des contextes multi contraintes.\no    Excellente communication (oral/écrit), esprit d'analyse & synthèse, orientation valeur.\nExpérience\no    5+ ans en systèmes distribués (dev/ops/plateforme), dont 2+ ans en architecture ou tech lead.\no    Expérience en environnements critiques/industriels (spatial, défense, avionique, énergie...) appréciée.\no    Connaissance des bonnes pratiques ECSS (ingénierie système/logicielle) et de la cybersécurité.\no    Anglais professionnel.\nMissionPour soutenir la croissance de nos activités chez un acteur majeur du spatial, nous renforçons notre pôle Segment Sol. En tant qu'Architecte Logiciel & Calculateurs, tu conçois et fais évoluer les architectures logicielles et l'infrastructure de calcul (serveurs, virtualisation, conteneurisation) qui portent les sous systèmes du segment sol (MCS, PDGS, FDS, planification, supervision). Tu es le/la référent(e) technique, en lien direct avec le Responsable Programme et les équipes Dev/Infra/Sécurité.Miss",
+   "date": "2026-08-27T11:22:05.612Z",
+   "url": "https://candidat.francetravail.fr/offres/recherche/detail/6341959",
+   "description": "Notre client est un établissement de paiement agréé, éditeur d'une solution SaaS permettant aux enseignes retail et e-commerce de déployer des programmes d'acquisition et de fidélisation client. Basé à Toulouse, il accompagne plusieurs centaines de marques dans la structuration et la sécurisation de leurs activités de paiement, dans un environnement réglementé où la maîtrise de la fraude et la fiabilité des données sont des enjeux clés.\n\n\nLe poste : \n\nLe poste\nRattaché(e) à la Direction Produit et Opérations, vous rejoignez les équipes en charge de la lutte anti-fraude et du pilotage de l'activité. Le poste se répartit entre analyse fraude et reporting business intelligence, avec une dominante sur ce second volet. Vous travaillerez en lien avec les équipes Produit, Account Management, Finance et Technique, ainsi qu'avec le CODIR pour le reporting business.\nVos missions\nQualifier quotidiennement les transactions à risque à partir des données de paiement et des règles de scoring définies avec chaque client\nIdentifier des patterns de fraude et enrichir l'outil de détection automatique\nProposer des évolutions des règles de scoring pour renforcer la détection\nAnalyser les données de vente pour construire des indicateurs de tendances et d'axes d'amélioration\nConcevoir et maintenir les tableaux de bord de suivi d'activité (clients, pays, marchands, distributeurs, canaux)\nAlimenter le reporting de pilotage à destination du CODIR\nInterfacer avec la Finance : mise à disposition des don",
    "source": "France Travail",
    "score": 8,
    "matched": [
-    "rag"
+    "tableau",
+    "data analyst"
    ]
   },
   {
-   "id": "ft-6231836",
-   "title": "Consultant-e Support - Logiciel de comptabilité H/F",
-   "company": "Non précisé",
-   "location": "73 - Chambéry",
-   "contract": "CDI",
-   "date": "2026-08-24T12:17:15.379Z",
-   "url": "https://candidat.francetravail.fr/offres/recherche/detail/6231836",
-   "description": "Notre client est une PME d'environ 100 collaboratrices et collaborateurs, située autour de Chambéry / Aix Les Bains et spécialisée dans l'intégration de logiciels utilisés par les directions financières. Il accompagne ses clients dans le déploiement et l'utilisation de solutions de gestion, en garantissant proximité, qualité et réactivité. Le poste de Consultant-e Support Fonctionnel s'inscrit dans le renforcement de l'équipe support pour répondre aux demandes croissantes de ses utilisateurs\nEn tant que Consultant-e Support Fonctionnel, en CDI, vous rejoindrez le pôle support et contribuerez à accompagner les utilisateurs dans leurs problématiques liées à l'usage de l'ERP. Vos missions seront les suivantes :\n\n\n\nRépondre aux demandes des utilisateurs via la hotline\n\nPrendre en charge les tickets, analyser les problématiques et proposer une solution adaptée\nAssurer la prise en main à distance lorsque nécessaire\nRésoudre les difficultés courantes de paramétrage et d'utilisation de l'ERP\nRédiger et transmettre des procédures d'utilisation\nCollaborer avec les consultantes/consultants fonctionnel-le-s pour les cas nécessitant un relais\nParticiper aux actions de suivi \nÉchanger avec des interlocuteurs tels que directions financières, contrôle de gestion, responsables comptables\nTravailler au sein d'un open space permettant les échanges quotidiens\n\nCDI - 39H\nPrime annuelle\nTickets restaurant\nCE\n1 jour de congé supplémentaire par an",
-   "source": "France Travail",
-   "score": 8,
-   "matched": [
-    "rag"
-   ]
-  },
-  {
-   "id": "ft-6264397",
-   "title": "Business Analyst - Base de données (H/F)",
-   "company": "Act Digital France",
+   "id": "ft-6304247",
+   "title": "Business Analyst MCO (H/F)",
+   "company": "STEP UP",
    "location": "44 - Nantes",
    "contract": "CDI",
-   "date": "2026-08-25T11:21:57.878Z",
-   "url": "https://candidat.francetravail.fr/offres/recherche/detail/6264397",
-   "description": "act digital est un groupe international de conseil et d'ingénierie qui accompagne ses clients dans leurs projets de transformation numérique.\n\nPrésent dans 12 pays et fort de plus de 5 600 collaborateurs, nous mettons nos expertises au service de leurs enjeux en développement logiciel, cybersécurité, data, cloud et IA.\n\nNotre ambition : devenir le partenaire technologique de confiance des entreprises les plus innovantes, en concevant et sécurisant des systèmes qui renforcent leur performance et leur résilience.\n\nRejoindre act digital France, c'est intégrer une organisation agile et engagée, qui fait avancer les projets avec ses clients pour transformer les idées en résultats concrets, avec pragmatisme et exigence.\n\nLe poste : \n\nVos missions seront les suivantes :\n\nExpertise & vision projet\n\n- Avoir une vision globale des projets du périmètre : enjeux, parties prenantes (MOA, MOE, Thesop, management interne et client)\n- Prendre de la hauteur pour comprendre le fonctionnement de chaque composante du projet et ses interactions avec son environnement\n- Identifier les points forts à capitaliser et les axes d'amélioration continue, aux niveaux opérationnel et organisationnel\n- Connaître et maîtriser l'architecture fonctionnelle du projet (interfaces externes, interactions avec les SI externes, modules du SI, conventions)\n\nRelation client & équipes\n\n- Créer un lien fort avec l'équipe de réalisation du projet\n- Être force de proposition sur les améliorations fonctionnelles et métier ",
+   "date": "2026-08-26T11:21:31.364Z",
+   "url": "https://candidat.francetravail.fr/offres/recherche/detail/6304247",
+   "description": "STEP UP est une société d'ingénierie experte en pilotage de projets industriels et informatiques (+ 250 collaborateurs sur 11 agences en France), plaçant le potentiel humain comme 1er vecteur d'excellence et de performance en entreprise.\nOubliez les sociétés d'ingénierie qui ne valorisent que vos seules compétences, chez STEP UP, nous visons également l'adéquation entre votre personnalité et la culture d'entreprise de nos clients. Cela se traduit pour vous par une différence fondamentale en termes de bien être, d'épanouissement au travail et de succès dans vos missions.\n\nCe que nous vous proposons :\n - Un cadre de travail épanouissant, stimulant et collaboratif, nous sommes certifiés entreprise où il fait bon vivre !\n - Des projets innovants et variés.\n - La possibilité de se perfectionner continuellement avec des formations internes.\n - Des perspectives d'évolution de carrière.\n - Un accompagnement individualisé avec un programme de développement du potentiel humain.\n - Un programme de cooptation.\nEt bien sûr, nous prenons en charge 70% de votre mutuelle santé et encourageons financièrement la mobilité douce.\n\nLe poste : \n\nContexte\n\nDans le cadre du renforcement d'une équipe chez un acteur majeur du service public, nous recherchons un Business Analyst pour intervenir sur le maintien en conditions opérationnelles (MCO) et les évolutions d'applications métier.\nLa mission est basée à Nantes centre-ville, dans un environnement projet organisé en cycle en V.\nMissions\n- Recueillir",
+   "source": "France Travail",
+   "score": 8,
+   "matched": [
+    "rag"
+   ]
+  },
+  {
+   "id": "ft-6343479",
+   "title": "SPM Performance & Transformation F/H",
+   "company": "Non précisé",
+   "location": "71 - Chalon-sur-Saône",
+   "contract": "CDI",
+   "date": "2026-08-27T12:39:48.534Z",
+   "url": "https://candidat.francetravail.fr/offres/recherche/detail/6343479",
+   "description": "Vos missions : Membre du CODIR IBC-F et rattaché(e) à la Directrice IBC-F, vous êtes en charge du pilotage de la performance et de la transformation de la Business Line.Définir et déployer les méthodes de pilotage et de suivi des projets IBC-F.Manager la cellule Performance, regroupant les expertises chiffrage/offres, planification, PMO, gestion des risques, contrôle de gestion et approvisionnements.Définir et mettre en œuvre les processus applicables à IBC-F dans une démarche d'excellence opérationnelle.Piloter les activités de transformation nécessaires à l'amélioration de la performance de la Business Line.Assurer la coordination et l'efficacité des interfaces avec les fonctions Commerce, Finance, Achats et Juridique.Accompagner les équipes dans l'amélioration continue des pratiques, méthodes et outils de pilotage.",
    "source": "France Travail",
    "score": 8,
    "matched": [
@@ -375,11 +604,43 @@
    "contract": "CDI",
    "date": "2026-08-25T12:17:00.871Z",
    "url": "https://candidat.francetravail.fr/offres/recherche/detail/6268731",
-   "description": "En tant qu'organisateur de forums de recrutement, Talents Handicap accompagne de très nombreuses entreprises & organisations en France dans leurs recrutements de collaborateurs en situation de handicap. Participant actuellement à l'un de nos forums. L'entreprise Dassault Systèmes recherche actuellement des profils : Dassault Systèmes, l'entreprise de la 3DEXPERIENCE, est un « accélérateur de progrès humain ». Elle propose aux entreprises et aux particuliers des environnements virtuels collaboratifs qui leur permettent d'imaginer des innovations plus durables. En développant un jumeau virtuel du monde réel, grâce à la plateforme 3DEXPERIENCE et à ses applications, Dassault Systèmes donne à ses clients les moyens de repousser les limites de l'innovation, de l'apprentissage et de la production.\n\nLes collaborateurs de Dassault Systèmes travaillent à créer de la valeur pour nos clients de toutes tailles, dans toutes les industries, dans plus de 140 pays. Pour plus d'informations, visitez notre site www.3ds.com/fr\n\nAu sein de l'organisation ENOVIA, vous définissez et pilotez la stratégie des capacités d'Intelligence Artificielle Générative et des Compagnons Virtuels qui façonneront les futures expériences utilisateurs de la plateforme.\n\nÀ l'interface entre la R&D, les équipes Produit, le Marketing, les clients stratégiques et les partenaires technologiques, vous transformez les innovations en solutions créatrices de valeur pour les industriels. Vous portez la vision du portefeuille",
+   "description": "En tant qu'organisateur de forums de recrutement, Talents Handicap accompagne de très nombreuses entreprises & organisations en France dans leurs recrutements de collaborateurs en situation de handicap. Participant actuellement à l'un de nos forums. L'entreprise Dassault Systèmes recherche actuellement des profils : Dassault Systèmes, l'entreprise de la 3DEXPERIENCE, est un « accélérateur de progrès humain ». Elle propose aux entreprises et aux particuliers des environnements virtuels collaboratifs qui leur permettent d'imaginer des innovations plus durables. En développant un jumeau virtuel du monde réel, grâce à la plateforme 3DEXPERIENCE et à ses applications, Dassault Systèmes donne à ses clients les moyens de repousser les limites de l'innovation, de l'apprentissage et de la production. Les collaborateurs de Dassault Systèmes travaillent à créer de la valeur pour nos clients de toutes tailles, dans toutes les industries, dans plus de 140 pays. Pour plus d'informations, visitez notre site www.3ds.com/frAu sein de l'organisation ENOVIA, vous définissez et pilotez la stratégie des capacités d'Intelligence Artificielle Générative et des Compagnons Virtuels qui façonneront les futures expériences utilisateurs de la plateforme.À l'interface entre la R&D, les équipes Produit, le Marketing, les clients stratégiques et les partenaires technologiques, vous transformez les innovations en solutions créatrices de valeur pour les industriels. Vous portez la vision du portefeuille, ide",
    "source": "France Travail",
    "score": 7,
    "matched": [
     "ia générative"
+   ]
+  },
+  {
+   "id": "ft-6343559",
+   "title": "Ingénieur Logiciel H/F",
+   "company": "Non précisé",
+   "location": "56 - Lorient",
+   "contract": "CDI",
+   "date": "2026-08-27T12:39:59.008Z",
+   "url": "https://candidat.francetravail.fr/offres/recherche/detail/6343559",
+   "description": "Notre client conçoit et opère des solutions numériques pour optimiser les performances opérationnelles de navires à travers le monde.\nLeur culture repose sur l'innovation, l'agilité et l'esprit d'équipe.\nQuelques atouts qui font la différence :\n\nProjets à la pointe : SaaS, streaming vidéo, architectures haute disponibilité,\nAmbiance collaborative : Equipe à taille humaine, passionnée par la tech.\nL'Ingénieur-e Logiciel Backend - conçoit, développe et maintient les services backend d'une plateforme de connectivité maritime. Le rôle couvre l'architecture logicielle, le développement d'API sécurisées et la supervision des flux, dans un contexte Informatique distribué, orienté performance, fiabilité et sécurité.\nMissions principales\n\n\nConcevoir, développer et maintenir les services backend en Python (framework Flask)\n\nParticiper aux choix d'architecture logicielle et à l'évolution d'une plateforme micro-services\nDévelopper et maintenir des API\nIntégrer et administrer des bases de données MySQL et InfluxDB (séries temporelles)\nMettre en œuvre des mécanismes de monitoring et supervision via Grafana\nCollaborer avec les équipes frontend, infrastructure et produit pour garantir la cohérence globale de la solution\nLa rémunération et les avantages pour ce poste sont :\n\nRémunération selon expérience,\nTitres restaurants (60% employeurs),\nIntéressement suivant résultats,\nMutuelle aux conditions avantageuses et 100% employeurs.",
+   "source": "France Travail",
+   "score": 7,
+   "matched": [
+    "python",
+    "sql"
+   ]
+  },
+  {
+   "id": "ft-212YYXJ",
+   "title": "DATA ANALYST (H/F)",
+   "company": "POK",
+   "location": "10 - NOGENT SUR SEINE",
+   "contract": "CDI",
+   "date": "2026-08-27T09:03:05.328Z",
+   "url": "https://candidat.francetravail.fr/offres/recherche/detail/212YYXJ",
+   "description": "Dans le cadre du développement de la société POK, vous serez responsable de l'analyse de données issues de l'activité de l'entreprise. \n\nPoste à pourvoir dès que possible, en Temps Plein ou Temps Partiel\n\nVos missions :\nPréparation d'un plan de travail de correction des données\nRecueillir toutes les données statiques pour L'ERP de l'entreprise\nSaisir, mettre à jour, vérifier la cohérence, contrôler la qualité des données\nCatégoriser les données afin de les exploiter au mieux\nCréer et mettre à jour des manuels de gestion de données\nParticiper à la création d'un système d'analyse de la qualité des données\nAnalyser des données simples existantes et rechercher des écarts de données\nModéliser et assurer les mises à jour régulières de la base de données\nSe déplacer physiquement pour voir les utilisateurs (relation de confiance et meilleures compréhensions des contraintes)\nAccompagner les utilisateurs sur l'utilisation des données de l'ERP\n\nVotre profil :\nConnaissance des techniques et outils analytiques (statistiques et de data mining)\nConnaissance des langages de requêtes de type SQL\nConnaissance des systèmes d'information et de données : ERP (comprendre la cartographie donnée d'un système)\nMaitrise des outils bureautiques, notamment analytiques (excel, macro )\nConnaissance des processus de production et de supply chain et du rôle des données dans ces processus\nÊtre capable d'obtenir les informations nécessaires auprès des différents services internes et contacts externes\nSavoir p",
+   "source": "France Travail",
+   "score": 7,
+   "matched": [
+    "sql",
+    "data analyst"
    ]
   },
   {
@@ -399,28 +660,12 @@
    ]
   },
   {
-   "id": "ft-6283618",
-   "title": "Architecte logiciel F/H",
-   "company": "Lyra",
-   "location": "31 - Labège",
-   "contract": "CDI",
-   "date": "2026-08-26T04:31:34.885Z",
-   "url": "https://candidat.francetravail.fr/offres/recherche/detail/6283618",
-   "description": "RESPONSABILITÉS : \n\nVous avez une solide culture du Software Craftsmanship et vous voulez relever les défis techniques d'un SI bancaire développé intégralement en interne ?\nRejoignez notre Service Architecture au cœur d'une Fintech majeure !\n\n\nLe défi Au sein de notre Service Architecture (une quinzaine d'experts), vous serez détaché.e opérationnellement en immersion totale au sein des équipes produits de notre établissement de paiement.\nVotre rôle ? En binôme avec un second architecte, vous imaginez, définissez et mettez en œuvre les évolutions d'architecture (backend, frontend, data) tout en garantissant leur intégration parfaite, leur sécurité et leur robustesse dans un écosystème à haute criticité.\n\n\nCe que vous allez faire au quotidien :  - Concevoir et faire évoluer l'architecture en garantissant la faisabilité et la pérennité technique du produit\n - Travailler en binôme et en immersion quotidienne avec les équipes de développement pour les guider, lever les verrous techniques et infuser la culture Software Craftsmanship\n - Accompagner le changement jusqu'en production en veillant au respect des exigences de sécurité, d'observabilité, de performance et de résilience dans notre écosystème critique\n\n\nVotre future stack  -  Architecture : Micro-services, REST API, Messaging, Batch\n -  Backend : Java 25, Spring Boot 4, JPA, JMS, PostgreSQL, ElasticSearch\n -  Frontend : TypeScript, React.js, Material UI\n -  Data Pipeline : Snowflake, dbt\n -  Conteneurisation & Infra : Docker",
-   "source": "France Travail",
-   "score": 6,
-   "matched": [
-    "sql",
-    "docker"
-   ]
-  },
-  {
    "id": "js-emZwSGlyc2VZQ19sUDd4T0FBQUFBQT09OkVzd0JD",
    "title": "Senior Data Analyst - SQL, Tableau & Spark Expert",
    "company": "Onyx-Conseil",
    "location": "Meudon, FR",
    "contract": "À plein temps",
-   "date": "2026-08-25T00:00:00.000Z",
+   "date": "2026-08-24T00:00:00.000Z",
    "url": "https://www.jobijoba.com/fr/annonce/54/fb36058c0fc4a87b51d8dcf33e1d5659",
    "description": "Onyx-Conseil recherche un consultant data au sein de la CQF du client; vous produirez des analyses à partir de datasets constitués sur nos plateformes Big Data et rendrez disponibles des données, nettoyées et formatées sous forme de dataset ou de table à disposition des data scientists.\nVos livrables incluent Dataset, Tableaux de bord (Tableau) et analyses commentées. Compétences requises: analyse statistique Confirmé, SQL Expert, Tableau Expert et Spark Python Confirmé.\n#J-18808-Ljbffr",
    "source": "Jobijoba",
