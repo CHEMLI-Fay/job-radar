@@ -1,44 +1,106 @@
 {
- "updated": "2026-09-29T11:07:41.652833+00:00",
+ "updated": "2026-09-30T10:54:47.750933+00:00",
  "count": 36,
  "offers": [
   {
-   "id": "js-SjFuUS1YTWtfMzFIbGcxSUFBQUFBQT09OkVzd0JD",
-   "title": "CDI - Machine Learning Engineer (H/F) – GenAI & Data Platform",
-   "company": "Bankin'",
-   "location": "Paris, FR",
+   "id": "ft-214MPQG",
+   "title": "Data Scientist / AI Engineer (H/F)",
+   "company": "MY EASY FARM",
+   "location": "51 - BEZANNES",
+   "contract": "CDI",
+   "date": "2026-09-28T16:23:20.988Z",
+   "url": "https://candidat.francetravail.fr/offres/recherche/detail/214MPQG",
+   "description": "Au sein de l'équipe technique et sous la responsabilité du Directeur Technique, vous interviendrez, accompagné(e) par l'équipe, sur l'ensemble de la chaîne data et IA de la plateforme :\n- Concevoir, entraîner et évaluer des modèles de deep learning appliqués à l'imagerie satellite : détection de couverture des sols, reconstruction de séries temporelles (gap-filling de LAI à partir de données radar Sentinel-1)\n- Développer des pipelines d'extraction de données à partir de documents (PDF, documents bruts) combinant LLM et OCR, et assurer le matching des données extraites avec les référentiels en base de données\n- Participer à l'industrialisation des modèles : développement d'API, intégration backend, déploiement sur le cloud (AWS, Azure), orchestration d'appels à des services tiers\n- Contribuer à la qualité, la structuration et la préparation des données (data engineering)\n- Participer à la démarche R&D de l'entreprise : veille scientifique, expérimentation de nouvelles approches, amélioration continue des modèles, en lien avec des partenaires académiques\n\nEnvironnement technique : Python, PyTorch, LLM (dont modèles open weight), AWS, Azure, Docker, PostgreSQL, Git/GitLab.",
+   "source": "France Travail",
+   "score": 41,
+   "matched": [
+    "llm",
+    "deep learning",
+    "pytorch",
+    "python",
+    "sql",
+    "docker",
+    "data scientist",
+    "ai engineer"
+   ]
+  },
+  {
+   "id": "ft-214PSTM",
+   "title": "Ingénieur d'études et développement logiciel - Full-Stack (H/F)",
+   "company": "C-CLERC",
+   "location": "75 - Paris 8e Arrondissement",
+   "contract": "CDI",
+   "date": "2026-09-30T12:16:06.342Z",
+   "url": "https://candidat.francetravail.fr/offres/recherche/detail/214PSTM",
+   "description": "Dans le cadre de la refonte de notre plateforme (migration V1 → V2), nous passons d'une architecture monolithique NestJS à une architecture microservices en Go. En parallèle, nous développons des systèmes d'IA générative (RAG, multi-agents) pour automatiser les réponses aux mails des notaires. Ces réponses doivent être fiables et sans erreur juridique.\n\n\nMISSIONS\n\n-  Poursuivre la migration du monolithe NestJS vers des microservices Go :\n    - découpage par domaine métier,\n    - conception des services,\n    - communication inter-services.\n-  Développer et maintenir les fonctionnalités fullstack :\n    - backend en Go et NestJS/TypeScript,\n    - frontend en React TypeScript.\n-  Concevoir et faire évoluer le système RAG et multi-agents de réponse aux mails notariaux, notamment en mettant en place des mécanismes de contrôle qui évitent les hallucinations sur le contenu législatif.\n-  Fiabiliser les déploiements par des smoke tests et des tests de charge.\n-  Participer à l'industrialisation : conteneurisation Docker, pipelines CI/CD, Kubernetes\n-  Modéliser et optimiser les bases de données.\n\n\nPROFIL RECHERCHÉ\n\n-  Diplôme d'ingénieur (Bac+5) en génie logiciel ou informatique.\n-  Débutant accepté. Une expérience significative (stage ou alternance) sur une migration vers des microservices en Go est exigée.\n\nCompétences techniques exigées :\n-  Go, TypeScript, NestJS, React\n-  Architectures microservices\n-  Conception de RAG et de systèmes multi-agents à base de LLM\n-  Docker, Terrafo",
+   "source": "France Travail",
+   "score": 40,
+   "matched": [
+    "llm",
+    "rag",
+    "ia générative",
+    "docker",
+    "agent"
+   ]
+  },
+  {
+   "id": "ft-7498080",
+   "title": "Product Owner Data et IA H/F",
+   "company": "JEMS",
+   "location": "92 - Levallois-Perret",
+   "contract": "CDI",
+   "date": "2026-09-30T04:32:13.487Z",
+   "url": "https://candidat.francetravail.fr/offres/recherche/detail/7498080",
+   "description": "RESPONSABILITÉS : \n\nNous recherchons  un(e) Product Owner confirmé(e)  responsable de l'optimisation de la valeur du produit afin de satisfaire les clients et capable de porter la vision produit au sein de l'organisation.\nVous aurez la charge de :\n - Définir et communiquer la vision du produit\n - Alimenter, partager et prioriser le backlog avec l'équipe\n - Définir la roadmap stratégique du produit\n - Défendre le produit auprès des instances de direction\n - Être le point de convergence de l'ensemble des contributeurs du produit\n\nPROFIL RECHERCHÉ : \n\nEn tant que Product Owner vous disposez :\n - D'une connaissance de l'environnement Data : MDM, Dataviz, Data Quality Management...\n - D'une connaissance de l'IA : IA générative, LLM, RAG, Machine Learning, IA agentique...\n - D'une expertise sectorielle et réglementaire solide\n - D'un excellent relationnel, sens de l'écoute et de la rigueur\n - D'un excellent niveau de communication\nVous êtes diplômé(e) d'une école d'ingénieur ou d'un parcours universitaire technique. Vous détenez une expérience opérationnelle d'au minimum 3 ans sur un poste similaire.\nOrienté(e) business, vous êtes force de proposition pour développer la valeur de nos produits, dont vous êtes véritable ambassadeur.\nVisionnaire, vous savez anticiper les tendances du marchés. Vous faites preuve de leadership et savez défendre vos convictions au plus haut niveau.",
+   "source": "France Travail",
+   "score": 38,
+   "matched": [
+    "llm",
+    "rag",
+    "ia générative",
+    "dataviz",
+    "machine learning",
+    "agent"
+   ]
+  },
+  {
+   "id": "js-NEtsQjRXd1R4ejVKbGRVY0FBQUFBQT09OkVzd0JD",
+   "title": "Wold I ai Engineer H/F",
+   "company": "Wold",
+   "location": "FR",
    "contract": "À plein temps",
-   "date": "2026-09-28T00:00:00.000Z",
-   "url": "https://fr.trabajo.org/offre-4025-bf5a22dcadc0c8c9dea2c1c5cfae79be",
-   "description": "Ta Mission: Démocratiser la Data et propulser Bankin’ dans l’ère GenAI\nDans le cadre de l’évolution de notre plateforme vers l’Open Finance et l’intégration de fonctionnalités d’IA Générative, nous renforçons l’équipe Data. Rattaché(e) au Head of Data, ce poste vise à soutenir le déploiement de modèles de Machine Learning et de solutions GenAI, tout en assurant la mise à disposition de la donnée pour les équipes métiers. Il s’agit d’un rôle technique transverse, nécessitant une double compétence en ingénierie logicielle ( MLOps et Cloud) et en Analytics (Python, SQL, dbt).\nTes Responsabilités au quotidien\nLe poste s’articule autour de quatre axes techniques majeurs:\n• Machine Learning Engineering & GenAI\n• Déploiement de modèles: Industrialisation et mise en production des modèles de Machine Learning (catégorisation des transactions, scoring, prédiction) développés par l’équipe.\n• Intégration GenAI & MCP: Conception et développement de serveurs respectant le standard MCP (Model Context Protocol). L’objectif est de créer des interfaces standardisées permettant aux LLMs d’interagir de manière sécurisée avec les données utilisateurs et les services internes.\n• Architecture applicative: Développement en Python de services robustes et scalables pour servir les prédictions.\n• Cloud Infrastructure & DevOps\n• Environnement AWS: Gestion et maintenance de l’infrastructure Data sur Amazon Web Services (maîtrise des services EC2/Sagemaker/Redshift/Lambda et stockage S3).\n• Infrastructure",
-   "source": "Trabajo.org",
-   "score": 48,
+   "date": "2026-09-29T00:00:00.000Z",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83875741.html",
+   "description": "Détail du poste\n\nLe besoin\n\nUn de mes clients, acteur international du secteur du luxe, recherche actuellement un(e) Data Engineer - Agentic AI pour accompagner le développement de solutions innovantes autour de l'Intelligence Artificielle Générative.\n\nLa mission :\n\nConcevoir, développer et industrialiser des systèmes agentiques basés sur les LLM afin d'automatiser des processus métiers. Vous participerez au développement d'agents IA, d'architectures RAG, de services d'orchestration et d'intégrations avec les outils métiers, tout en contribuant à l'évolution des plateformes AI.\n\nLe profil recherché\nProfil recherché🛠️ Profil recherché :* Expérience en développement Python et Data Engineering* Première expérience sur des projets GenAI et Agentic AI* Bonne maîtrise des concepts LLM, RAG et orchestration d'agents* Connaissance de LangGraph, MCP et Tool Calling* Expérience des architectures API, microservices et environnements Cloud* Maîtrise de Git, CI/CD et FastAPI* Esprit analytique, rigoureux et orienté résolution de problèmes📍 Télétravail 2j semaine📆 Démarrage : ASAP\nMais aussi...\nSalaire :Salaire selon profil",
+   "source": "Hellowork",
+   "score": 38,
    "matched": [
     "llm",
     "rag",
     "genai",
-    "ia générative",
-    "machine learning",
     "python",
-    "sql",
-    "mlops"
+    "agent",
+    "ai engineer"
    ]
   },
   {
-   "id": "js-RWNVTWJKcmNWUXNpSkt3Z0FBQUFBQT09OkVzd0JD",
-   "title": "COORDINATEUR/COORDINATRICE  IA",
-   "company": "IGN",
-   "location": "Saint-Mandé, FR",
+   "id": "js-eDZNMnFDSkMtSHZKVG1FSEFBQUFBQT09OkVzd0JD",
+   "title": "Data Scientist Confirmé - Mobilité Electrique",
+   "company": "Partenor",
+   "location": "Nanterre, FR",
    "contract": "À plein temps",
    "date": "2026-09-28T00:00:00.000Z",
-   "url": "https://www.welcometothejungle.com/fr/companies/ign/jobs/coordinateur-coordinatrice-ia_saint-mande",
-   "description": "L’Institut national de l’information géographique et forestière produit et diffuse des données et des représentations de référence sur le territoire et les forêts françaises, et porte une forte ambition d’innovation adossée à son école d’ingénieurs (GéoData Paris) et ses équipes de recherche. La DSI est le moteur de la transformation numérique de l’Institut : elle conçoit, fait évoluer et sécurise le SI, développe des services numériques (sur site et dans le cloud), accompagne les projets structurants (p. ex. Jumeau numérique, Géoplateforme) et anime la veille technologique.\nL’IA est désormais au coeur de ces transformations : automatisation de la collecte et des traitements, exploitation de données massives, amélioration de la qualité et de l’exploitabilité des données souveraines, IA générative pour les usages internes, montée en maturité industrielle des chaînes (MLOps), et participation à des écosystèmes et partenariats nationaux ou européens. Les enjeux majeurs portent sur :\n• la cohérence des projets IA et la mutualisation (données d’apprentissage, modèles, outillage) ;\n• le déploiement en interne de l’Institut (conduite du changement, évolution de processus) ;\n• la gouvernance (arbitrage des ressources humaines et de calcul, SSI, conformité, ouverture) ;\n• la responsabilité (éthique, biais, transparence, empreinte environnementale) ;\n• le rayonnement et la mobilisation de financements via des partenariats.\nLes activités IA de l’IGN sont très larges, tant sur les modali",
-   "source": "Welcome To The Jungle",
-   "score": 21,
+   "url": "https://www.jobijoba.com/fr/annonce/54/f9b5dd285ae552d768e65fde77cc7591",
+   "description": "Concevoir, entraîner et déployer des modèles d'IA Générative (LLMs, RAG, transformers) pour des cas d'usage métiers, en utilisant des solutions MLOps et des technologies cloud. Veille sur les innovations IA.",
+   "source": "Jobijoba",
+   "score": 25,
    "matched": [
+    "llm",
     "rag",
     "ia générative",
-    "mlops"
+    "transformers",
+    "mlops",
+    "data scientist"
    ]
   },
   {
@@ -58,20 +120,23 @@
    ]
   },
   {
-   "id": "ft-7467057",
-   "title": "Ingénieur Logiciel IA / MLOps - Militaire H/F",
-   "company": "VIVERIS",
-   "location": "91 - Massy",
-   "contract": "CDI",
-   "date": "2026-09-28T14:33:18.625Z",
-   "url": "https://candidat.francetravail.fr/offres/recherche/detail/7467057",
-   "description": "Viveris est un groupe de conseil et d'ingénierie spécialisé dans la conduite et la réalisation de projets dans les domaines de l'informatique et de l'électronique.\n\nS'engager avec Viveris, c'est l'assurance de relever des défis techniques et humains tout en travaillant sur des projets innovants dans un environnement collaboratif et solidaire. \n\n        Contexte de la mission :\n\nDans le cadre du développement de solutions logicielles intégrant des composants d'Intelligence Artificielle, nous recherchons un Ingénieur Logiciel IA / MLOps H/F pour le compte d'un client central du secteur militaire.\n\nVous rejoindrez une équipe en charge de l'industrialisation du cycle de vie de modèles IA, notamment dans des cas d'usage liés au traitement d'images. Vous interviendrez principalement sur l'intégration, le déploiement, la supervision et le maintien en conditions opérationnelles de modèles existants dans des environnements logiciels contraints.\n\nResponsabilités :\n\n\n\n - Intégrer des modèles de Machine Learning et Deep Learning dans les environnements logiciels cibles ;\n - Packager, versionner et déployer les modèles ainsi que leurs dépendances ;\n - Mettre en place et améliorer les chaînes d'intégration et de déploiement continus ;\n - Développer les composants nécessaires à l'exposition des modèles : API, services d'inférence, outils d'administration et scripts d'automatisation ;\n - Superviser les performances techniques et fonctionnelles des modèles déployés ;\n - Comparer les résultats",
-   "source": "France Travail",
-   "score": 16,
+   "id": "js-ZmRBSUhUWFMzbDNrbEhxdEFBQUFBQT09OkVzd0JD",
+   "title": "Data Scientist Confirmé/Senior – Python, Spark, MLOps (H/F)",
+   "company": "T&S (Technology & Strategy)",
+   "location": "Lyon, FR",
+   "contract": "À plein temps",
+   "date": "2026-09-29T00:00:00.000Z",
+   "url": "https://www.jobleads.com/fr/job/data-scientist-confirme-senior-python-spark-mlops-h-f--lyon--ea5bf4b869be3ad6fd34db69f200e7b77",
+   "description": "Data Scientist Confirmé/Senior – Python, Spark, MLOps (H/F)\nNous recherchons, pour une mission longue durée démarrant début 2027, un(e) Data Scientist expérimenté(e) (5 ans+) pour rejoindre une équipe data d'une dizaine de personnes fonctionnant en Agile (Scrum-ban).\n• Intervenir sur l'ensemble du cycle de vie des projets data science : de l'étude et la R&D amont jusqu'à la mise en production de modèles de Machine Learning\n• Mettre en production des modèles ML pour des équipes tierces (package, API)\n• Exploiter des agents IA générative pour accélérer les cycles de développement\n• Travailler sur des problématiques de séries temporelles\nProfil recherché :\n• 5 ans d'expérience minimum en data science, dont une expérience significative sur des séries temporelles\n• Maîtrise de Python et de ses librairies de data science/ML\n• Bonne connaissance de Spark\n• Expérience avérée de mise en production de modèles ML\n• Autonomie, proactivité, capacité à recueillir des besoins métier et proposer des solutions\n• Un plus : connaissance du monde de l'énergie",
+   "source": "JobLeads",
+   "score": 17,
    "matched": [
+    "ia générative",
     "machine learning",
-    "deep learning",
-    "mlops"
+    "python",
+    "mlops",
+    "agent",
+    "data scientist"
    ]
   },
   {
@@ -109,23 +174,6 @@
    ]
   },
   {
-   "id": "js-eGV4a2t4Nm5WVkoyenlGOUFBQUFBQT09OkVzd0JD",
-   "title": "Ingénieur Backend Python Data & IA (Graph / LLM) H/F",
-   "company": "ADSEARCH",
-   "location": "Nice, FR",
-   "contract": "À plein temps",
-   "date": "2026-09-26T00:00:00.000Z",
-   "url": "https://www.meteojob.com/jobs/55841642",
-   "description": "Description du poste\nEn bref : CDI - Ingénieur Backend Python - Data & IA (Graph / LLM) H/F - 1jour/semaine Télétravail - Fintech - Nice (centre) - 45/55K€\n\nJe recrute un Ingénieur Backend Python - Data & IA (Graph / LLM) H/F pour une Fintech qui construit un produit à la frontière entre la Data, l'Intelligence Artificielle et l'analyse stratégique.\n\nL'ambition ?\n\nTransformer une masse de données dispersées en informations exploitables à forte valeur ajoutée.\n\nAujourd'hui, l'équipe construit des outils capables de collecter, structurer, enrichir et analyser des données issues de multiples sources afin d'accélérer considérablement le travail des analystes.\n\nDemain ? Ces briques pourraient devenir une véritable plateforme d'intelligence économique et d'aide à la décision destinée à des acteurs de l'investissement, du conseil ou de l'innovation.\n\nTu rêves de travailler en plein centre-ville de Nice ? Tu explores déjà les usages concrets des LLM, de l'IA agentique et de l'automatisation intelligente ? Tu aimes concevoir des architectures robustes et manipuler des volumes importants de données ? Les bases de données graphes et Python font partie de ton terrain de jeu ?\n\nAlors continue ta lecture.\nET TOI DANS TOUT CA ?\n\nTu rejoins une équipe métier d'une dizaine de personnes et interviens directement sur le cœur technologique du produit.\n\nTon quotidien ne sera pas de développer des API CRUD à longueur de journée.\n\nTu participes à la construction et à l'évolution de véritables pipel",
-   "source": "Meteojob",
-   "score": 16,
-   "matched": [
-    "llm",
-    "python",
-    "agent"
-   ]
-  },
-  {
    "id": "ft-7474187",
    "title": "Ingénieur validation logiciel (H/F)",
    "company": "LE MERCATO DE L EMPLOI",
@@ -159,103 +207,6 @@
    ]
   },
   {
-   "id": "js-LVJ4SkFKVnhPaEhLX29sRUFBQUFBQT09OkVzd0JD",
-   "title": "Ingénieur DevOps - Llmops - Mise en Production d'Agents IA H/F",
-   "company": "Optima ai",
-   "location": "",
-   "contract": "À plein temps",
-   "date": "2026-09-28T00:00:00.000Z",
-   "url": "https://www.hellowork.com/fr-fr/emplois/82809753.html",
-   "description": "Détail du poste\nOPTIMA AI conçoit des agents d'intelligence artificielle qui automatisent la conformité réglementaire des machines industrielles. Nos clients sont des industriels soumis au Règlement européen 2023/1230 : nos agents analysent leurs documentations techniques, identifient les écarts aux normes et produisent les livrables de conformité. Nos données et nos traitements sont hébergés en Europe.\n\nCes agents fonctionnent. Il s'agit maintenant de les exploiter en production, de façon fiable, mesurable et maîtrisée. C'est l'objet de ce poste, à créer.\n\nRattaché au Responsable informatique, au sein d'une équipe technique resserrée, vous êtes le référent de la chaîne qui va du code au service rendu au client.\n\nVos missions :\nMise en production des agents IA (LLMOps) : déployer et versionner les agents, exploiter les briques de recherche documentaire et la base vectorielle, mettre en place l'observabilité des exécutions, constituer les jeux d'évaluation qui détectent une régression avant qu'elle n'atteigne la production, piloter les coûts d'inférence.\n\nIntégration et déploiement continus : concevoir et opérer les pipelines CI/CD, automatiser construction, tests et livraison, maintenir la cohérence des environnements de développement, de recette et de production.\n\nInfrastructure as Code et conteneurisation : décrire l'infrastructure sous forme de code, conteneuriser les applications et les agents avec Docker, provisionner et faire évoluer des environnements reproductibles.\n\n",
-   "source": "Hellowork",
-   "score": 15,
-   "matched": [
-    "llm",
-    "docker",
-    "agent"
-   ]
-  },
-  {
-   "id": "ft-7425869",
-   "title": "Data Scientist Risques F/H",
-   "company": "Non précisé",
-   "location": "75 - Paris",
-   "contract": "CDI",
-   "date": "2026-09-26T12:03:20.460Z",
-   "url": "https://candidat.francetravail.fr/offres/recherche/detail/7425869",
-   "description": "En tant qu'organisateur de forums de recrutement, Talents Handicap accompagne de très nombreuses entreprises & organisations en France dans leurs recrutements de collaborateurs en situation de handicap. Participant actuellement à l'un de nos forums. L'entreprise La Banque Postale recherche actuellement des profils : Vous voulez faire de l'analyse de données autrement, dans une banque dynamique, qui conjugue convictions et ambitions ? On vous propose de rejoindre une des équipes de la Direction des Risques Groupe de La Banque Postale où vos actions contribueront à vous épanouir et à rendre notre croissance à la fois saine et durable. Saviez-vous qu'à La Banque Postale, on a un regard singulier sur notre métier ? Peut-être parce que notre jeunesse fait de nous une banque avec des convictions. Une banque qui croit vraiment que la finance a un sens, qu'elle joue un vrai rôle sociétal. D'ailleurs, on accompagne plus d'un million de clients financièrement fragiles et on est la 1ère banque mondiale en matière de RSE grâce nos actions en faveur d'une finance durable. Notre jeunesse nous rend aussi conquérants. A raison ! Notre Groupe Banque/Assurance accompagne plus de 20 millions de clients, ce qui fait de nous le 3ème groupe du secteur en France. Et, comme tous les jeunes, on bouillonne d'idées et de projets innovants pour continuer à nous développer, avec toujours le même engagement vis-à-vis de nos collaborateurs : leur offrir toutes les conditions pour s'étonner. Maintenant qu'o",
-   "source": "France Travail",
-   "score": 14,
-   "matched": [
-    "rag",
-    "data scientist"
-   ]
-  },
-  {
-   "id": "ft-7425825",
-   "title": "Data Scientist ESG F/H",
-   "company": "Non précisé",
-   "location": "75 - Paris",
-   "contract": "CDI",
-   "date": "2026-09-26T12:03:20.062Z",
-   "url": "https://candidat.francetravail.fr/offres/recherche/detail/7425825",
-   "description": "En tant qu'organisateur de forums de recrutement, Talents Handicap accompagne de très nombreuses entreprises & organisations en France dans leurs recrutements de collaborateurs en situation de handicap. Participant actuellement à l'un de nos forums. L'entreprise La Banque Postale recherche actuellement des profils : Vous voulez faire de la RSE autrement, dans une banque dynamique, qui conjugue convictions et ambitions ? Nous vous proposons de rejoindre une des équipes de la Direction de l'Engagement Citoyen (DEC) de La Banque Postale où vos actions contribueront à vous épanouir et à rendre notre croissance à la fois saine et durable. Saviez-vous qu'à La Banque Postale, on a un regard singulier sur notre métier ? Peut-être parce que notre jeunesse fait de nous une banque avec des convictions. Une banque qui croit vraiment que la finance a un sens, qu'elle joue un vrai rôle sociétal. D'ailleurs, on accompagne plus d'un million de clients financièrement fragiles et on est la 1ère banque mondiale en matière de RSE grâce nos actions en faveur d'une finance durable. Notre jeunesse nous rend aussi conquérants. A raison ! Notre Groupe Banque/Assurance accompagne plus de 20 millions de clients, ce qui fait de nous le 3ème groupe du secteur en France. Et, comme tous les jeunes, on bouillonne d'idées et de projets innovants pour continuer à nous développer, avec toujours le même engagement vis-à-vis de nos collaborateurs : leur offrir toutes les conditions pour s'étonner. Maintenant qu'",
-   "source": "France Travail",
-   "score": 14,
-   "matched": [
-    "rag",
-    "data scientist"
-   ]
-  },
-  {
-   "id": "ft-7425806",
-   "title": "Data Scientist F/H",
-   "company": "Non précisé",
-   "location": "75 - Paris",
-   "contract": "CDI",
-   "date": "2026-09-26T12:03:18.750Z",
-   "url": "https://candidat.francetravail.fr/offres/recherche/detail/7425806",
-   "description": "En tant qu'organisateur de forums de recrutement, Talents Handicap accompagne de très nombreuses entreprises & organisations en France dans leurs recrutements de collaborateurs en situation de handicap. Participant actuellement à l'un de nos forums. L'entreprise La Banque Postale recherche actuellement des profils : Vous voulez faire de l'analyse de données autrement, dans une banque dynamique, qui conjugue convictions et ambitions ? On vous propose de rejoindre une des équipes de la Direction de la prévention de la lutte contre la fraude de La Banque Postale où vos actions contribueront à vous épanouir et à rendre notre croissance à la fois saine et durable. Saviez-vous qu'à La Banque Postale, on a un regard singulier sur notre métier ? Peut-être parce que notre jeunesse fait de nous une banque avec des convictions. Une banque qui croit vraiment que la finance a un sens, qu'elle joue un vrai rôle sociétal. D'ailleurs, on accompagne plus d'un million de clients financièrement fragiles et on est la 1ère banque mondiale en matière de RSE grâce nos actions en faveur d'une finance durable. Notre jeunesse nous rend aussi conquérants. A raison ! Notre Groupe Banque/Assurance accompagne plus de 20 millions de clients, ce qui fait de nous le 3ème groupe du secteur en France. Et, comme tous les jeunes, on bouillonne d'idées et de projets innovants pour continuer à nous développer, avec toujours le même engagement vis-à-vis de nos collaborateurs : leur offrir toutes les conditions pour",
-   "source": "France Travail",
-   "score": 14,
-   "matched": [
-    "rag",
-    "data scientist"
-   ]
-  },
-  {
-   "id": "ft-7404568",
-   "title": "Data scientist (H/F)",
-   "company": "AUCHAN RETAIL FRANCE",
-   "location": "59 - Villeneuve-d'Ascq",
-   "contract": "CDI",
-   "date": "2026-09-26T03:30:05.194Z",
-   "url": "https://candidat.francetravail.fr/offres/recherche/detail/7404568",
-   "description": "Description du poste Nous sommes.\n\nAuchan Retail France, une entreprise de distribution de plus de 50 000 collaborateurs au service de millions de clients chaque année.\n\nCe que nous voulons, c'est aider nos clients à bien manger et vivre mieux, tout en préservant la planète.\n\nQue l'on soit en entrepôt, en magasin ou sur des fonctions support, notre point commun à tous, c'est de faire en sorte que nos clients aient plaisir à faire leurs courses chez nous.\n\nParce que nos collaborateurs sont aussi nos premiers clients, nous veillons chaque jour à leur bien-être et leur évolution professionnelle.\n\nVous avez envie de.***Transformer la donnée client en levier de croissance : Vous décodez les parcours et habitudes d'achat omnicanaux de nos clients pour générer des insights actionnables et optimiser nos stratégies marketing.\n* Développer des solutions ML avancées : Vous concevez et mettez en production un large éventail de modèles ML au service du marketing : approches de forecasting pour anticiper les comportements d'achat, méthodes d'inférence causale (uplift modeling, A/B testing) pour isoler l'impact net de nos actions, et segmentations clients dynamiques pour affiner le ciblage omnicanal.\n* Participer au cadrage des besoins et à leur traduction technique : Vous contribuez activement au cadrage de vos projets. Vous travaillez main dans la main avec les équipes métier Marketing pour traduire leurs enjeux en problématiques Data Science et validez l'alignement de vos développements ",
-   "source": "France Travail",
-   "score": 14,
-   "matched": [
-    "rag",
-    "data scientist"
-   ]
-  },
-  {
-   "id": "js-TElMWGJkVEVnTVowb1VZZkFBQUFBQT09OkVzd0JD",
-   "title": "Responsable Intelligence Articielle F/H (CDI)",
-   "company": "BCA EXPERTISE",
-   "location": "Asnières-sur-Seine, FR",
-   "contract": "À plein temps",
-   "date": "2026-09-28T00:00:00.000Z",
-   "url": "https://salutemyjob.com/jobs/responsable-intelligence-articielle-f-h-cdi-asnieres-sur-seine-ile-de-france/2990097839-2/",
-   "description": "Depuis 1955, BCA expertise est le leader français de l'expertise automobile pour tous types de véhicules et réalise chaque année plus d'un tiers des expertises sur l'ensemble du territoire français, y compris les départements, régions et collectivités d'outre-mer.\nNous sommes 1 500 salariés : experts en automobile, conseillers clients, techniciens ou fonctions support pour accompagner nos clients dans la gestion de leurs sinistres.\nNous sommes une entreprise à taille humaine, engagée et innovante. Nos valeurs socle : la réussite client, la confiance, la solidarité, l'agilité et la responsabilité, sont au c ur de notre culture d'entreprise. Nous proposons un environnement de travail stimulant et respectueux. Nous encourageons le développement professionnel et personnel de nos salariés, favorisant ainsi un cadre propice à l'épanouissement, à l'initiative et à la collaboration.\nNotre équipe IA réunit une quinzaine de profils complémentaires : Data Scientists, Développeurs et Chefs de projet, qui imaginent, développent et industrialisent des solutions d'IA au service de nos métiers et de nos clients.\nSmart Predict, Max EAD, Robot Facture, Robot Mail... Ici, les projets répondent à de vrais besoins métiers, avec un même objectif : créer des solutions utiles, les mettre en production et obtenir des résultats concrets. Pour accompagner le développement de nos futurs produits, nous recherchons notre Responsable Intelligence Artificielle. Rattaché(e) au Directeur de l'IES, vous pilote",
-   "source": "SaluteMyJob",
-   "score": 14,
-   "matched": [
-    "rag",
-    "data scientist"
-   ]
-  },
-  {
    "id": "ft-214MTFC",
    "title": "Data Analyst (H/F)",
    "company": "IKOS CONSULTING",
@@ -270,38 +221,6 @@
     "power bi",
     "tableau",
     "data analyst"
-   ]
-  },
-  {
-   "id": "js-ckpzWWlDby1sa2szN01VZEFBQUFBQT09OkVzd0JD",
-   "title": "Consultant Cyber Threat Intelligence (CTI) & Intelligence Artificielle (IA) H/F (CDI). Job in Colombes Musk Jobs",
-   "company": "Free-Work",
-   "location": "Colombes, FR",
-   "contract": "À plein temps",
-   "date": "2026-09-28T00:00:00.000Z",
-   "url": "https://muskjobs.co.uk/jobs/consultant-cyber-threat-intelligence-cti-intelligence-artificielle-ia-h-f-cdi-colombes-ile-de-france/2990096989-2/",
-   "description": "Free-Work est une plateforme qui s'adresse à tous les professionnels des métiers de l'informatique.\nSes contenus et son jobboard IT sont mis à disposition 100% gratuitement pour les indépendants et les salariés du secteur. Contexte de la missionDans le cadre du renforcement de notre équipe Cyber Threat Intelligence (CTI), nous recherchons un(e) Consultant(e) CTI spécialisé(e) en cybersécurité et en Intelligence Artificielle (IA).\nVous interviendrez au sein de l?équipe CTI afin de contribuer aux activités quotidiennes de renseignement sur les cybermenaces et d?apporter une expertise complémentaire sur les menaces et initiatives liées à l?IA, notamment sur les sujets de Vulnerability Intelligence, LLM et IA agentique.\nVos objectifsApporter un support spécialisé aux activités opérationnelles de Cyber Threat Intelligence.\nParticiper à l?identification, l?analyse et au suivi des cybermenaces.\nIntégrer les enjeux liés aux menaces et technologies d?IA dans les activités de Threat Intelligence.\nContribuer à l?amélioration de la connaissance du Threat Landscape.\nVos principales responsabilitésVous serez notamment amené(e) à intervenir sur les activités suivantes :\nCyber Threat IntelligenceRéaliser de la Vulnerability Intelligence : veille, analyse et suivi des vulnérabilités.\nAnalyser les compromissions de tiers et évaluer leur impact potentiel.\nRéaliser des activités de Threat Modeling.\nAssurer la surveillance des acteurs malveillants, groupes cybercriminels et campagnes de cybermena",
-   "source": "Musk Jobs",
-   "score": 12,
-   "matched": [
-    "llm",
-    "agent"
-   ]
-  },
-  {
-   "id": "ft-7425192",
-   "title": "Chef de projet IA H/F",
-   "company": "Non précisé",
-   "location": "81 - Parisot",
-   "contract": "CDI",
-   "date": "2026-09-26T12:02:42.959Z",
-   "url": "https://candidat.francetravail.fr/offres/recherche/detail/7425192",
-   "description": "Rattaché(e) à la Directrice IA & Digital, vous contribuez à l'augmentation des collaborateurs grâce à l'IA générative, en proposant des solutions concrètes pour structurer les projets, simplifier les processus et automatiser les tâches à faible valeur ajoutée, pour les établissements comme pour les directions métiers du siège.Vos missions s'articulent autour de trois axes :Intelligence artificielle (50 %) : vous allez à la rencontre des équipes du siège et des établissements pour identifier leurs besoins, formalisez des cas d'usage IA de bout en bout, concevez et testez des agents et assistants (notamment sur la plateforme Dust), et accompagnez leur adoption par les utilisateurs.Structuration (25) : vous participez au déploiement de la méthode projet du Groupe (démarche Kaizen) et accompagnez les porteurs de projets dans la formalisation de leurs objectifs, indicateurs et plans d'action.Automatisation (25 %) : dans le cadre de la démarche Workflow, vous cartographiez les processus existants, identifiez les irritants et tâches répétitives, et contribuez à la mise en œuvre de solutions simples avec les outils du Groupe (Microsoft 365, Power Automate, SharePoint, Dust).Poste sans management hiérarchique, vous coordonnez en revanche des interlocuteurs variés (référents métiers, établissements, DSI, partenaires) sur vos projets, en favorisant leur adhésion et leur autonomie.",
-   "source": "France Travail",
-   "score": 11,
-   "matched": [
-    "ia générative",
-    "agent"
    ]
   },
   {
@@ -321,20 +240,66 @@
    ]
   },
   {
-   "id": "ft-7475573",
-   "title": "Technicien Support Applicatif ERP dans le secteur de l'Édition de Logiciels (H/F)",
-   "company": "SELECT T.T.",
-   "location": "13 - Marseille 7e Arrondissement",
+   "id": "ft-214PLDP",
+   "title": "Data Analyst expérimenté - CDI - Lille F/H (H/F)",
+   "company": "ADN-CONSULTING NANTES",
+   "location": "59 - Lille",
    "contract": "CDI",
-   "date": "2026-09-29T03:31:03.715Z",
-   "url": "https://candidat.francetravail.fr/offres/recherche/detail/7475573",
-   "description": "Description du poste :\n\nRattaché(e) au service Production composé de 15 collaborateurs, vous accompagnez les chefs de projet dans la mise en œuvre et le suivi des solutions logicielles de Gestion Électronique de Documents (GED Vous êtes un véritable relais opérationnel, vous intervenez à la fois sur le support client au cours du projet, ainsi que sur des taches de paramétrage des applications.\n\n\nVous assurez le support client en mode projet Prendre en charge les demandes de support fonctionnel des clients en mode projet Assurer la continuité de service en relais des chefs de projet Traiter les demandes prioritaires et urgentes Qualifier, analyser et suivre les demandes jusqu'à leur résolution Communiquer avec les clients et les tenir informés de l'avancement Escalader les sujets complexes lorsque nécessaire.\n\n\nVous réalisez le paramétrage applicatif Réaliser des opérations de paramétrage standard Effectuer des tests des paramétrages réalisés Contribuer à la documentation interne.\n\nDescription du profil :\n\nBac+2 informatique (BTS SIO, DUT/BUT Informatique ou équivalent), vous avez une première expérience appréciée en support applicatif.\n\n\nVous avez une bonne culture informatique, des connaissances SQL. Vous avez le sens du service, de la satisfaction client, de l'organisation, de la gestion des priorités. Si vous souhaitez travailler dans un environnement collaboratif, et participer à la croissance d'une entreprise ? Postulez tickets restaurant, mutuelle famille, ordinateur po",
+   "date": "2026-09-30T09:52:48.353Z",
+   "url": "https://candidat.francetravail.fr/offres/recherche/detail/214PLDP",
+   "description": "Tu aimes transformer des données complexes en insights concrets pour aider les équipes à prendre les bonnes décisions ?\n\nTu maîtrises SQL, DBT, Databricks et Tableau et tu veux intervenir sur des sujets Data à fort impact business ?\n\nTu recherches une mission où ton expertise analytique contribue directement à l'amélioration de l'expérience client et à l'évolution d'un produit innovant ?\n\nBienvenue chez Software Performances.\n\nCDI \n\nRémunération CDI : selon profil et expérience\n\nTravail hybride : 2 jours de télétravail\n\nLocalisation : Lille\n\nTon rôle : Data Analyst Senior\n\nDans le cadre d'une mission au sein d'un acteur majeur du retail de la métropole lilloise, tu rejoindras une équipe Data pluridisciplinaire travaillant sur des problématiques d'analyse, de valorisation de la donnée et d'expérience client.\n\nL'objectif : garantir la continuité, la qualité et l'évolution des analyses de données, tout en accompagnant les équipes métiers et techniques dans l'exploitation et la valorisation de leurs données.\n\nTu interviendras notamment sur des données issues de contenus générés par les utilisateurs et les équipes, à la fois sous forme de textes et d'images, afin d'en extraire des insights utiles à la compréhension et à l'amélioration de l'expérience client.\n\nTa mission en une phrase : exploiter, modéliser, industrialiser et valoriser les données pour produire des analyses pertinentes, fiabiliser les flux et fournir aux équipes une vision claire de leurs KPIs.",
    "source": "France Travail",
    "score": 11,
    "matched": [
-    "rag",
-    "sql"
+    "tableau",
+    "sql",
+    "data analyst"
    ]
+  },
+  {
+   "id": "ft-214PSCM",
+   "title": "PHARMACO-EPIDEMIOLOGISTE INTERMEDIAIRE (H/F)",
+   "company": "Non précisé",
+   "location": "69 - Lyon 6e Arrondissement",
+   "contract": "CDI",
+   "date": "2026-09-30T11:56:53.718Z",
+   "url": "https://candidat.francetravail.fr/offres/recherche/detail/214PSCM",
+   "description": "Filiale du groupe LA POSTE SANTE ET AUTONOMIE, Heva est un bureau d'étude et une CRO, qui accompagne depuis plus de 30 ans l'industrie pharmaceutique et du dispositif médical, les entreprises de biotechnologie ou encore les sponsors académiques dans la gestion de leurs projets cliniques et l'analyse des données de santé.\nNous élaborons et produisons pour nos clients (industries pharmaceutiques, fabricants de dispositifs médicaux, institutionnels) des études pharmaco-épidémiologiques, médico-économiques et de parcours de soins à partir de solides méthodes statistiques et de solutions innovantes s'appuyant sur l'Intelligence Artificielle (Machine Learning, Deep Learning, .).\nVos missions :\nAu sein de la Direction Scientifique de HEVA (4 pharmaco-épidémiologistes, 1 médecin méthodologiste et 2 rédacteurs médicaux), vous jouerez un rôle clé dans la conception et la conduite de projets de recherche en vie réelle à fort impact scientifique et réglementaire. Vous contribuerez au développement d'études innovantes destinées à éclairer les décisions des industriels de santé, des autorités et des acteurs du système de soins.\n- Concevoir et superviser des études de pharmaco-épidémiologie et de recherche en vie réelle (RWE) à partir de données primaires, de registres, de cohortes ou de bases de données médico-administratives françaises.\n- Rédiger les synopsis, protocoles et documents réglementaires.\n- Apporter une expertise méthodologique sur les études observationnelles d'utilisation, d'",
+   "source": "France Travail",
+   "score": 10,
+   "matched": [
+    "machine learning",
+    "deep learning"
+   ]
+  },
+  {
+   "id": "ft-7494895",
+   "title": "DATA INGÉNIEUR.E - H/F",
+   "company": "LFC Humain",
+   "location": "31 - Toulouse",
+   "contract": "CDI",
+   "date": "2026-09-29T19:34:15.674Z",
+   "url": "https://candidat.francetravail.fr/offres/recherche/detail/7494895",
+   "description": "Description :\n\n\nEn rejoignant BigHappy, vous jouerez un RÔLE CLÉ DANS LE DÉVELOPPEMENT ET L'OPTIMISATION DES PIPELINES ET MODÈLES DE DONNÉES, TOUT EN IMAGINANT ET CONCRÉTISANT DES SOLUTIONS INNOVANTES pour tirer le meilleur parti de la donnée sur les projets clients.\n\nVotre rôle alliera R&D, CRÉATIVITÉ ET MISE EN PRODUCTION :\n\n * COLLECTER, COMPRENDRE les besoins et les données disponibles ;\n * RÉFLÉCHIR À DE NOUVELLES MÉTHODES d'exploitation de la donnée et proposer des solutions innovantes ;\n * CONCEVOIR, DÉVELOPPER ET EXPÉRIMENTER DES PIPELINES ET OUTILS robustes pour traiter et manipuler les données massives ;\n * COLLABORER avec les équipes data (data analyst, data interprète, data scientist) pour alimenter les modèles prédictifs et les outils décisionnels ;\n * DÉVELOPPER, EXPÉRIMENTER ET INDUSTRIALISER des outils et pipelines pour rendre les insights actionnables ;\n * ASSURER LA MAINTENANCE et la fiabilité des solutions en production ;\n * AMÉLIORER EN CONTINU les outils et process internes, ET ANTICIPER DE NOUVELLES SOLUTIONS ;\n\nVous travaillez en ÉTROITE COLLABORATION AVEC LES CONSULTANTS ET COMMERCIAUX, pour que les outils et modèles développés soient parfaitement alignés avec les enjeux business des clients.\n\n  \n  \nProfil recherché :\n  \n  \nVous êtes diplômé.e d'une formation Bac+5 (école d'ingénieur, master en informatique, data engineering ou équivalent) et justifiez d'une solide expérience dans l'exploitation et la modélisation de DONNÉES SÉMANTIQUES.\n\nVous maîtrise",
+   "source": "France Travail",
+   "score": 10,
+   "matched": [
+    "data scientist",
+    "data analyst"
+   ]
+  },
+  {
+   "id": "ft-7514943",
+   "title": "Développeur ou développeuse logiciel embarqué (H/F)",
+   "company": "Agixis",
+   "location": "26 - Valence",
+   "contract": "CDI",
+   "date": "2026-09-30T11:21:33.201Z",
+   "url": "https://candidat.francetravail.fr/offres/recherche/detail/7514943",
+   "description": "Agixis - Société de conseil et d'expertise IT, spécialisée dans la santé, l'IoT et l'industrie 4.0 ainsi que la transformation digitale.\n\nQui sommes-nous ?\n\nChez Agixis, nous sommes des Agicien-nes passionné-e-s qui accompagnons nos clients dans la création de services numériques à fort impact.\nDepuis 2010, nous combinons expertise technique, créativité et agilité pour concevoir des solutions performantes, robustes et évolutives dans des domaines variés : santé, industrie, énergie, banque/assurance, green IT, etc.\n\nNotre force : une culture d'entreprise conviviale, le partage des savoirs, des challenges techniques stimulants et le plaisir de construire ensemble des solutions\n\nLe poste : \n\nAu sein d'une équipe de développement logiciel embarqué, tu participes à la conception et au développement de systèmes électroniques de contrôle commande. \nL'objectif étant de prendre en compte des enjeux de performances afin d'assurer l'acquisition des mesures et leur traitement en temps réels.   \n\nTes missions -    \n\n- Contribues activement à la conception du projet en C sur microcontroller,  \n\n- Assures la qualité et la performance de ton code, en optimisant la phase tests et la mise en production des applicatifs,\n\n- Support et conseil aux membres juniors de l'équipe\n\n- Utilises ton savoir-faire et conseilles sur les problématiques techniques,   \n\n- Participes à la rédaction des documents techniques liés à ton développement.      \n\nNos technos :  \n \n- C embarqué microcontroller\n\n- Multith",
+   "source": "France Travail",
+   "score": 10,
+   "matched": []
   },
   {
    "id": "ft-7465392",
@@ -348,6 +313,37 @@
    "source": "France Travail",
    "score": 10,
    "matched": []
+  },
+  {
+   "id": "ft-7498126",
+   "title": "Chargé(e) d'Etudes statistiques F/H",
+   "company": "BSB",
+   "location": "21 - Dijon",
+   "contract": "CDI",
+   "date": "2026-09-30T04:32:15.664Z",
+   "url": "https://candidat.francetravail.fr/offres/recherche/detail/7498126",
+   "description": "RESPONSABILITÉS : \n\nRejoignez nous en tant que Chargé(e) d'Etudes statistiques !\nVotre rôle chez BSB : concevoir, enquêter, analyser !\nAu sein du service Alumni, composé de 5 collaborateurs, vous contribuerez à mesurer et valoriser l'insertion professionnelle de nos diplômés en réalisant les études et enquêtes nécessaires au suivi de leur employabilité.\nEn collaboration avec votre manager, vous piloterez les enquêtes menées auprès des diplômés de l'ensemble des programmes de BSB, depuis leur conception jusqu'à l'exploitation et la restitution des résultats.\nVous aurez pour missions de :\n -  Concevoir les enquêtes et élaborer les questionnaires, définir les populations à interroger, les indicateurs à mesurer et les modalités de collecte.\n -  Administrer les enquêtes et piloter la collecte des réponses, en assurant le suivi des campagnes et des relances.\n -  Préparer et fiabiliser les données en contrôlant, nettoyant, consolidant et structurant les informations recueillies.\n -  Réaliser les traitements et analyses statistiques et produire les indicateurs, tableaux de bord et restitutions permettant de suivre l'insertion professionnelle des diplômés.\n -  Produire et documenter les données nécessaires aux classements internationaux, accréditations et reportings, en garantissant leur fiabilité et leur traçabilité.\n -  Faire évoluer les méthodes et outils d'enquête, d'analyse et de data visualisation afin d'améliorer en continu la qualité et l'exploitation des études.\n\nPROFIL RECHE",
+   "source": "France Travail",
+   "score": 10,
+   "matched": [
+    "data visualisation",
+    "tableau"
+   ]
+  },
+  {
+   "id": "ft-7493595",
+   "title": "Product Owner H/F",
+   "company": "FIGARO CLASSIFIEDS",
+   "location": "75 - Paris 1er Arrondissement",
+   "contract": "CDI",
+   "date": "2026-09-29T14:35:23.356Z",
+   "url": "https://candidat.francetravail.fr/offres/recherche/detail/7493595",
+   "description": "Votre mission : porter la vision, pas juste la delivery\n\nVous êtes le point de jonction entre toutes les parties prenantes de l'organisation - métier, data, tech, marketing, juridique, commerce. Concrètement :\n\nDiscovery & vision produit\n\n- Traduire les besoins clients, utilisateurs et stakeholders (Marketing B2B, Commerce, Juridique, Relation Clients, Codir) en une vision produit claire et priorisée\n- Arbitrer entre valeur business, effort technique et impact utilisateur - vous savez dire non, et l'assumer\n- Cadrer et mener des cycles de discovery (interviews, AB testing, prototypage) avant tout développement structurant\n- Vous savez mettre du rationnel dans toutes les circonstances\n- Votre stack technique n'a aucun secret pour vous : en première ligne au sein d'une pizza/sandwich team, vous fluidifier les échanges avec les développeurs et réduisez le time to dev\n\nDelivery & exécution\n\n- Rédiger des user stories et critères d'acceptation actionnables pour l'équipe tech\n- Piloter le backlog en autonomie : priorisation, arbitrages, trade-offs assumés\n- Animer les rituels Scrum (sprint planning, reviews, rétros) en véritable servant leader : vous êtes là pour lever les blocages de l'équipe, pas pour lui dicter le \"comment\"\n- Garantir la qualité des livrables au regard des critères métier définis\n- Vous avez une vision Mensuel /trimestriel/ Semestriel en permanence ajustées que vous savez expliquer\n\nData & IA appliquée\n\n- Piloter votre produit par la data (GA, Search Console, Bi",
+   "source": "France Travail",
+   "score": 8,
+   "matched": [
+    "rag"
+   ]
   },
   {
    "id": "ft-7488406",
@@ -365,21 +361,6 @@
    ]
   },
   {
-   "id": "ft-7425839",
-   "title": "Data Engineer F/H",
-   "company": "Non précisé",
-   "location": "75 - Paris",
-   "contract": "CDI",
-   "date": "2026-09-26T12:03:20.455Z",
-   "url": "https://candidat.francetravail.fr/offres/recherche/detail/7425839",
-   "description": "En tant qu'organisateur de forums de recrutement, Talents Handicap accompagne de très nombreuses entreprises & organisations en France dans leurs recrutements de collaborateurs en situation de handicap. Participant actuellement à l'un de nos forums. L'entreprise La Banque Postale recherche actuellement des profils : Vous voulez faire de l'analyse de data autrement, dans une banque dynamique, qui conjugue convictions et ambitions ? On vous propose de rejoindre une des équipes de la Direction Pilotage transverse Risques de La Banque Postale où vos actions contribueront à vous épanouir et à rendre notre croissance à la fois saine et durable. Saviez-vous qu'à La Banque Postale, on a un regard singulier sur notre métier ? Peut-être parce que notre jeunesse fait de nous une banque avec des convictions. Une banque qui croit vraiment que la finance a un sens, qu'elle joue un vrai rôle sociétal. D'ailleurs, on accompagne plus d'un million de clients financièrement fragiles et on est la 1ère banque mondiale en matière de RSE grâce nos actions en faveur d'une finance durable. Notre jeunesse nous rend aussi conquérants. A raison ! Notre Groupe Banque/Assurance accompagne plus de 20 millions de clients, ce qui fait de nous le 3ème groupe du secteur en France. Et, comme tous les jeunes, on bouillonne d'idées et de projets innovants pour continuer à nous développer, avec toujours le même engagement vis-à-vis de nos collaborateurs : leur offrir toutes les conditions pour s'étonner. Maintenan",
-   "source": "France Travail",
-   "score": 8,
-   "matched": [
-    "rag"
-   ]
-  },
-  {
    "id": "ft-214NBBY",
    "title": "INGENIEUR R&D - DEVELOPPEMENT IA (H/F)",
    "company": "CEGI ALFA",
@@ -388,6 +369,21 @@
    "date": "2026-09-29T09:17:21.908Z",
    "url": "https://candidat.francetravail.fr/offres/recherche/detail/214NBBY",
    "description": "Missions\nLes Ingénieur R&D - Développement IA participent à la conception et au développement de solutions logicielles ou de produits innovants basés sur des algorithmes d'apprentissage automatique et profond. Vous assurez le pont entre la recherche appliquée et l'industrialisation des modèles d'IA.\n\n\nActivités principales\nCadrage et gouvernance de l'IA\n- Prendre en charge le développement et la réalisation des futurs logiciels, en s'appuyant notamment sur les outils d'intelligence artificielle.\n- Cadrer l'utilisation de l'IA dans le développement logiciel\n- Définir et mettre en place des bonnes pratiques d'utilisation de l'IA\n\nDéveloppement et expertise technique \n- Utiliser les technologies d'IA pour accompagner et optimiser les activités de conception et de développement logiciel. \n- Contrôler, adapter et valider les productions générées par l'IA. \n- Analyser les erreurs, limites ou comportements inadaptés de l'IA\n- Participer aux choix techniques et à l'intégration de solutions d'IA dans l'environnement de développement.\n\nAccompagnement et amélioration continue\n- Accompagner les développeurs dans l'appropriation des outils et pratiques liés à l'IA\n- Intervenir en ticket de maintenance de niveau 3 \n- Participer aux tests et analyser les erreurs (bugs) et non-conformités.\n- Rédiger des documentations\n- Réaliser les tests unitaires de niveau 1 \n- Gérer des sources sous GIT\n- Gérer les livrables\n\n\nCompétences & Savoir-Etre \nCompétences techniques :\n- Maîtrise du langage et de",
+   "source": "France Travail",
+   "score": 8,
+   "matched": [
+    "rag"
+   ]
+  },
+  {
+   "id": "ft-7520442",
+   "title": "INGÉNIEUR RECHERCHE ET DÉVELOPPEMENT IA (H/F)",
+   "company": "Non précisé",
+   "location": "63 - Clermont-Ferrand",
+   "contract": "CDI",
+   "date": "2026-09-30T12:38:46.862Z",
+   "url": "https://candidat.francetravail.fr/offres/recherche/detail/7520442",
+   "description": "Détail de posteSpécialiste de l'intérim et du recrutement par secteur, LIP compte plus de 190 agences en France et à l'étranger. Nos agences d'emploi Tertiaire, Commerce & Ingénierie recrutent en CDI, CDD et intérim. Comptabilité, finance, vente, commerce, informatique. Tous les domaines sont concernés. Avec LIP, menez votre projet professionnel vers la réussite ! Lip Tertiaire Clermont Ferrand, recrute pour son client, éditeur de logiciels fortement implanté sur le bassin Clermontois, un Ingénieur Recherche et développement IA H/F afin de renforcer ses équipes. Vos principales missions seront: Cadrage et gouvernance de l'IA:- Prendre en charge le développement et la réalisation des futurs logiciels, en s'appuyant notamment sur les outils d'intelligence artificielle.- Cadrer l'utilisation de l'IA dans le développement logiciel- Définir et mettre en place des bonnes pratiques d'utilisation de l'IADéveloppement et expertise technique- Utiliser les technologies d'IA pour accompagner et optimiser les activités de conception et de développement logiciel.- Contrôler, adapter et valider les productions générées par l'IA.- Analyser les erreurs, limites ou comportements inadaptés de l'IA- Participer aux choix techniques et à l'intégration de solutions d'IA dans l'environnement de développement.Accompagnement et amélioration continue- Accompagner les développeurs dans l'appropriation des outils et pratiques liés à l'IA- Intervenir en ticket de maintenance de niveau 3- Participer aux te",
    "source": "France Travail",
    "score": 8,
    "matched": [
@@ -425,14 +421,30 @@
    ]
   },
   {
-   "id": "ft-7450254",
-   "title": "TECHNICIEN SUPPORT LOGICIELS DE GESTION (H/F)",
-   "company": "Non précisé",
-   "location": "38 - Échirolles",
+   "id": "ft-7514892",
+   "title": "Supply Chain Data Analyst - secteur industriel (H/F)",
+   "company": "IKIWAY",
+   "location": "62 - Boulogne-sur-Mer",
    "contract": "CDI",
-   "date": "2026-09-27T11:58:49.523Z",
-   "url": "https://candidat.francetravail.fr/offres/recherche/detail/7450254",
-   "description": "Détail de posteSpécialiste de l'intérim et du recrutement par secteur, LIP compte plus de 190 agences en France et à l'étranger. Nos agences d'emploi Tertiaire, Commerce & Ingénierie recrutent en CDI, CDD et intérim. Comptabilité, finance, vente, commerce, informatique. Tous les domaines sont concernés. Avec LIP, menez votre projet professionnel vers la réussite ! Votre activité s'articule autour de deux grands pôles complémentaires :1. Support client :Vous êtes le premier interlocuteur de nos clients pour les accompagner au quotidien dans l'utilisation de nos logiciels de gestion.À ce titre, vous serez amené(ebr/>- Prendre en charge les demandes d'assistance par téléphone, e-mail ou outil de ticketing.- Analyser, qualifier et résoudre les incidents fonctionnels et techniques.- Assurer le respect des SLA (délais de traitement et de résolution) auprès des clients.- Accompagner les utilisateurs dans la prise en main des fonctionnalités du logiciel.- Réaliser des diagnostics et investigations (base de données, paramétrage, environnement client...).- Assurer le suivi des demandes jusqu'à leur résolution dans l'outil dédié et communiquer régulièrement avec les clients.- Escalader les incidents complexes aux équipes concernées lorsque cela est nécessaire.- Rédiger et maintenir à jour les procédures et la documentation technique.2. Télé-prestations :Vous intervenez à distance auprès de nos clients dans le cadre du déploiement, paramétrage et l'évolution de notre solution ERP.À ce ti",
+   "date": "2026-09-30T11:21:31.263Z",
+   "url": "https://candidat.francetravail.fr/offres/recherche/detail/7514892",
+   "description": "Vous aimez faire parler les données, mais vous n'avez pas envie de passer vos journées uniquement derrière des tableaux Excel ?\nJe recrute pour un acteur industriel implanté dans le Boulonnais, évoluant au sein d'un groupe international, un Analyste de données Supply Chain H/F.\nL'enjeu du poste : fiabiliser et analyser les données Supply Chain pour en faire de véritables outils d'aide à la décision, tout en occupant une position transverse entre Supply Chain, commerce, service clients et autres sites du Groupe. La fonction couvre notamment le suivi de l'OTIF, la construction des KPI clients et Groupe ainsi que l'optimisation des stocks.\n\n\nLe poste : \n\nRattaché(e) à la Direction des Opérations, vous intervenez sur un périmètre complet mêlant analyse de données, coordination et Supply Chain opérationnelle.\nAu quotidien, vous serez notamment amené(e) à :\n\n- Produire, fiabiliser et analyser les données Supply Chain, construire les KPI et reportings à destination des équipes internes, du Groupe et des clients ;\n - Suivre et analyser les indicateurs de performance, notamment l'OTIF, identifier les écarts et proposer des actions d'amélioration ;\n - Garantir la qualité et la mise à jour des données dans l'ERP et exploiter les outils de reporting ;\n - Être à l'écoute des besoins des différents interlocuteurs et faire évoluer les indicateurs lorsque cela est pertinent ;\n - Être un véritable point de contact entre les équipes commerciales et la Supply Chain, avec une capacité à traduire",
+   "source": "France Travail",
+   "score": 8,
+   "matched": [
+    "tableau",
+    "data analyst"
+   ]
+  },
+  {
+   "id": "ft-7515150",
+   "title": "Business Analyst (H/F)",
+   "company": "STEP UP Lyon",
+   "location": "69 - Lyon 3e Arrondissement",
+   "contract": "CDI",
+   "date": "2026-09-30T11:21:42.709Z",
+   "url": "https://candidat.francetravail.fr/offres/recherche/detail/7515150",
+   "description": "STEP UP est une société d'ingénierie experte en pilotage de projets industriels et informatiques (+ 250 collaborateurs sur 11 agences en France), plaçant le potentiel humain comme 1er vecteur d'excellence et de performance en entreprise.\nOubliez les sociétés d'ingénierie qui ne valorisent que vos seules compétences, chez STEP UP, nous visons également l'adéquation entre votre personnalité et la culture d'entreprise de nos clients. Cela se traduit pour vous par une différence fondamentale en termes de bien être, d'épanouissement au travail et de succès dans vos missions.\n\nCe que nous vous proposons :\n - Un cadre de travail épanouissant, stimulant et collaboratif, nous sommes certifiés entreprise où il fait bon vivre !\n - Des projets innovants et variés.\n - La possibilité de se perfectionner continuellement avec des formations internes.\n - Des perspectives d'évolution de carrière.\n - Un accompagnement individualisé avec un programme de développement du potentiel humain.\n - Un programme de cooptation.\nEt bien sûr, nous prenons en charge 70% de votre mutuelle santé et encourageons financièrement la mobilité douce.\n\nLe poste : \n\nDans le cadre de la mise en œuvre des feuilles de route du CSM DIGITAL et des projets Groupe, au sein de la DSI d'un acteur majeur de l'assurance, nous recherchons un(e) Business Analyst DIGITAL Confirmé(e) H/F. Vous intégrerez l'entité SI Commercial / Clients et interviendrez sur le périmètre DIGITAL, notamment autour des espaces clients, des données et d",
    "source": "France Travail",
    "score": 8,
    "matched": [
@@ -440,14 +452,14 @@
    ]
   },
   {
-   "id": "ft-7425971",
-   "title": "Web Analyste Reporting H/F",
-   "company": "Non précisé",
-   "location": "75 - Paris",
-   "contract": "CDI",
-   "date": "2026-09-26T12:03:23.975Z",
-   "url": "https://candidat.francetravail.fr/offres/recherche/detail/7425971",
-   "description": "En tant qu'organisateur de forums de recrutement, Talents Handicap accompagne de très nombreuses entreprises & organisations en France dans leurs recrutements de collaborateurs en situation de handicap. Participant actuellement à l'un de nos forums. L'entreprise La Banque Postale recherche actuellement des profils : Vous voulez faire de l'analyse web autrement, dans une banque dynamique, qui conjugue convictions et ambitions ? On vous propose de rejoindre la direction du développement omnicanal de La Banque Postale, comme web analyst en charge des reportings où vos actions contribueront à vous épanouir et à rendre notre croissance à la fois saine et durable. Saviez-vous qu'à La Banque Postale, on a un regard singulier sur notre métier ? Peut-être parce que notre jeunesse fait de nous une banque avec des convictions. Une banque qui croit vraiment que la finance a un sens, qu'elle joue un vrai rôle sociétal. D'ailleurs, on accompagne plus d'un million de clients financièrement fragiles et on est la 1ère banque mondiale en matière de RSE grâce nos actions en faveur d'une finance durable.Notre jeunesse nous rend aussi conquérants. A raison ! Notre Groupe Banque/Assurance accompagne plus de 20 millions de clients, ce qui fait de nous le 3ème groupe du secteur en France. Et, comme tous les jeunes, on bouillonne d'idées et de projets innovants pour continuer à nous développer, avec toujours le même engagement vis-à-vis de nos collaborateurs : leur offrir toutes les conditions pour s",
+   "id": "js-MGNRb3pubEM4YnB6R3FVbUFBQUFBQT09OkVzd0JD",
+   "title": "Ingénieur / Ingénieure en Intelligence Artificielle (IA)",
+   "company": "JEMS DATAFACTORY",
+   "location": "Levallois-Perret, FR",
+   "contract": "À plein temps",
+   "date": "2026-09-28T00:00:00.000Z",
+   "url": "https://candidat.francetravail.fr/offres/recherche/detail/213CSLD",
+   "description": "JJEMS, leader reconnu dans le domaine de l'ingénierie et des services Data, poursuit sa croissance et renforce ses équipes. (Spécialisée dans la transformation digitale et l'innovation, JEMS est une société par actions simplifiée (SAS) basée à Paris, avec des implantations dans toute la France. Fort d'un effectif de 500 employés et d'un chiffre d'affaires de 50 millions d'euros, JEMS accompagne ses clients dans leurs projets stratégiques de transformation data.) Dans ce cadre, l'entreprise recherche ses futurs IA Engineer (H/F) pour accompagner ses clients dans leurs projets stratégiques de transformation data et d'innovation. En rejoignant une équipe dynamique, vous participerez à la conception, l'analyse et l'implémentation de solutions basées sur l'intelligence artificielle, en étroite collaboration avec des experts techniques et des partenaires métiers. Le Dispositif : Dans le cadre d'une POEI (Préparation Opérationnelle à l'Emploi Individuelle), JEMS recherche ses futurs collaborateurs. (Le poste est un CDI précédé d'une formation professionnalisante accélérée de 399 heures, pour que vous soyez pleinement opérationnel et à l'aise dans la mission qui vous sera confiée. Assurée par des professionnels reconnus, cette formation se déroule sur une période de 57 jours ouvrés. À l'issue de la formation, vous intégrerez JEMS en CDI.) Vos missions : Animer des ateliers de cadrage IA & Cloud avec les parties prenantes métiers et IT Identifier et formaliser des cas d'usage concrets",
    "source": "France Travail",
    "score": 8,
    "matched": [
@@ -455,34 +467,35 @@
    ]
   },
   {
-   "id": "ft-7403580",
-   "title": "Responsable de l'Offre Produit Logiciel SaaS (H/F)",
-   "company": "TALENTS GROUPE",
-   "location": "75 - Paris 9e Arrondissement",
+   "id": "ft-7492101",
+   "title": "Ingénieur Full Stack / Logiciel distribué / Devops - Défense H/F",
+   "company": "VIVERIS",
+   "location": "92 - Plessis-Robinson",
    "contract": "CDI",
-   "date": "2026-09-26T03:28:37.521Z",
-   "url": "https://candidat.francetravail.fr/offres/recherche/detail/7403580",
-   "description": "Description du poste :\n\nVos missions Au sein de l'équipe Produit, vous accompagnerez les équipes de développement tout au long du cycle de vie des fonctionnalités.\nÀ ce titre, vous serez notamment amené à Mener des ateliers et entretiens clients dans une démarche de Product Discovery.\n* Comprendre, analyser et prioriser les besoins utilisateurs.\n* Participer à la définition de la roadmap produit.\n* Rédiger les Epics, User Stories et critères d'acceptation.\n* Concevoir les parcours utilisateurs et réaliser les maquettes sous Figma.\n* Présenter les User Stories lors des sessions de refinement et accompagner les développeurs tout au long des sprints.\n* Réaliser les recettes fonctionnelles, les tests de non-régression et assurer le suivi des anomalies.\n* Maintenir une documentation fonctionnelle claire et à jour.\n* Participer à la veille produit et être force de proposition sur les évolutions fonctionnelles.\n\nEnvironnement technique Jira\n* Confluence\n* Figma\n* Agile Scrum\n* IA générative (Claude)\n* Plateforme SaaS B2B\n* Univers CRM / Relation Client\n\nDescription du profil :\n\nProfil recherché Vous justifiez d'au moins 4 ans d'expérience en tant que Product Owner, idéalement au sein d'un éditeur SaaS B2B.\nVous êtes reconnu pour votre capacité à comprendre les enjeux métier, à challenger les besoins des utilisateurs et à transformer des problématiques fonctionnelles en solutions concrètes.\nVous maîtrisez les méthodologies Agile Scrum ainsi que les outils Jira, Confluence et idéaleme",
-   "source": "France Travail",
-   "score": 7,
-   "matched": [
-    "ia générative"
-   ]
-  },
-  {
-   "id": "ft-7423585",
-   "title": "Architecte temps réel H/F",
-   "company": "Non précisé",
-   "location": "92 - Levallois-Perret",
-   "contract": "CDI",
-   "date": "2026-09-26T12:01:13.257Z",
-   "url": "https://candidat.francetravail.fr/offres/recherche/detail/7423585",
-   "description": "Notre client est une organisation spécialisée dans les services bancaires et les infrastructures numériques critiques.\nActeur de référence dans son secteur, elle exploite des plateformes à forte volumétrie et à très haute disponibilité, au service d'institutions et d'organisations de premier plan.\nÉvoluant dans un environnement exigeant en matière de performance, de sécurité et de continuité de service, l'entreprise poursuit le renforcement de ses équipes techniques et recherche un(e) Architecte Logiciel Temps Réel pour accompagner l'évolution de ses plateformes stratégiques.Concevoir les architectures logicielles en s'appuyant sur les principes de conception orientée objet, les Design Patterns et les architectures distribuées, événementielles ou multicouches.Modéliser et documenter les solutions à l'aide de référentiels et méthodes tels qu'UML, Archimate et Domain-Driven Design (DDD).\nRéaliser les études d'architecture, analyser les impacts des évolutions et produire les dossiers techniques associés.Définir des solutions répondant à des exigences de faible latence, de scalabilité, de résilience, de maintenabilité et de sécurité.Apporter votre expertise sur les technologies C/C++ temps réel (multithreading, gestion mémoire, optimisation des performances), ainsi que sur les environnements Java et Python.Concevoir l'intégration des composants techniques tels que les bases de données, bus de messages et middlewares (Kafka, Cassandra, Spark, WildFly, PostgreSQL).Intégrer les exig",
+   "date": "2026-09-29T14:34:05.243Z",
+   "url": "https://candidat.francetravail.fr/offres/recherche/detail/7492101",
+   "description": "Viveris est un groupe de conseil et d'ingénierie spécialisé dans la conduite et la réalisation de projets dans les domaines de l'informatique et de l'électronique.\n\nS'engager avec Viveris, c'est l'assurance de relever des défis techniques et humains tout en travaillant sur des projets innovants dans un environnement collaboratif et solidaire. \n\n        Contexte de la mission : \n\nDans le cadre d'une étude de levée de risques technologiques en environnement défense, vous intervenez sur le développement et l'intégration d'un logiciel distribué. Au sein d'une équipe, vous prenez en charge des sujets de développement, d'intégration, de déploiement et d'exploitation. Vous contribuez de manière transverse au front-end, aux API et microservices, aux plateformes de déploiement et à l'observabilité.\nVos Responsabilités : \n\n\n\n - Faire évoluer une base existante et développer des composants applicatifs en Java, Python, C/C++ et/ou Bash ; \n - Concevoir ou intégrer des IHM Web ; assurer les échanges front-end / API REST / services métier et les tests end-to-end ; \n - Développer et intégrer des microservices : contrats d'API, communications synchrones et asynchrones, gestion des erreurs et traçabilité ; \n - Conteneuriser les applications avec Docker et contribuer à leur exploitation sous Kubernetes : configuration, services, ingress, secrets, diagnostic et résilience ; \n - Intégrer Kafka pour les flux événementiels et Keycloak pour l'IAM : OAuth 2.0, OpenID Connect, JWT, rôles et contrôle d",
    "source": "France Travail",
    "score": 7,
    "matched": [
     "python",
-    "sql"
+    "docker"
+   ]
+  },
+  {
+   "id": "js-Z0FGTEE3SG44ZGJ5Q3lmVUFBQUFBQT09OkVzd0JD",
+   "title": "Data Analyst Compliance Marketplace H/F",
+   "company": "Adeo",
+   "location": "Ronchin, FR",
+   "contract": "À plein temps",
+   "date": "2026-09-30T00:00:00.000Z",
+   "url": "https://www.hellowork.com/fr-fr/emplois/83919202.html",
+   "description": "Détail du poste\n\nData Analyst Marketplace H/F\n\nADEO, QUI SOMMES-NOUS ?\n\nADEO est une communauté internationale d'entreprises (Leroy Merlin, Weldom, Bricoman...) de 115 000 leaders avec une ambition commune : être utile aux habitants du monde.\n\nAu sein du siège du groupe, notre mission est de soutenir nos enseignes à travers le monde. Dans un secteur du retail en transformation, nous avons pour ambition de réinventer notre utilité aux habitants et de relever le défi de construire la plateforme mondiale de l'habitat.\n\nNotre département Omnicommerce a pour mission de délivrer une expérience omnicanale 5* à nos clients.\n\nLE CONTEXTE\n\nLes Marketplaces Leroy Merlin et Tecnomat accélèrent leur développement à l'échelle internationale. Face au renforcement des obligations réglementaires européennes et pour préparer notre futur statut de très grande plateforme numérique (VLOP), nous renforçons notre dispositif de conformité et de maîtrise des risques\n\nNous recherchons un.e Marketplace Compliance Analyst pour améliorer la qualité et la conformité des données de nos vendeurs.\n\nEn tant que Marketplace Compliance Analyst, vous êtes un acteur clé de la conformité : vous contribuez à l'excellence de nos processus en garantissant la fiabilité des informations, tout en incarnant ces sujets pour acculturer nos équipes internes et accompagner nos vendeurs partenaires.\n\nVOTRE MISSION\nEffectuer les requêtes de données complexes et analyser les volumes sous SQL pour auditer les données sensibles d",
+   "source": "Hellowork",
+   "score": 7,
+   "matched": [
+    "sql",
+    "data analyst"
    ]
   },
   {
@@ -516,14 +529,29 @@
    ]
   },
   {
-   "id": "js-VmZqVmN5anFPanBRRzVDdUFBQUFBQT09OkVzd0JD",
-   "title": "Data Scientist et Software Engineer - Intermediate",
-   "company": "Metroscope",
+   "id": "js-R1VhWm4wUFJMZDg5SW1pVEFBQUFBQT09OkVzd0JD",
+   "title": "Stage – R&I Ux Data Scientist - Mars/Avril 2026 - (H/F) - €1.300 - €1.500 Par Mois - Sans Expérience",
+   "company": "Danone",
    "location": "Paris, FR",
+   "contract": "À plein temps et Stage",
+   "date": "2026-09-29T13:00:00.000Z",
+   "url": "https://www.jobijoba.com/fr/annonce/54/a095b680638641dab9feeeab17fd70cd",
+   "description": "Stage en tant que Data Scientist pour analyser les données consommateurs et sensorielles, améliorer les outils data, et développer des solutions technologiques innovantes avec l'IA.",
+   "source": "Jobijoba",
+   "score": 6,
+   "matched": [
+    "data scientist"
+   ]
+  },
+  {
+   "id": "js-X1phTGtlQTFXc2lOaWk5NkFBQUFBQT09OkVzd0JD",
+   "title": "Data Scientist F/H",
+   "company": "La Poste Groupe",
+   "location": "Saint-Denis, FR",
    "contract": "À plein temps",
-   "date": "2026-09-28T16:00:00.000Z",
-   "url": "https://www.welcometothejungle.com/fr/companies/metroscope/jobs/data-scientist-et-software-engineer-intermediate_paris",
-   "description": "Nous recherchons un profil hybride Data Scientist et Software Engineer, de séniorité Intermediate, pour rejoindre notre équipe Software, actuellement composée de deux feature teams (chacune avec un Engineering Manager, un Product Manager, plusieurs Software Engineers et Data Scientists), d’une équipe Data Platform et d’un Designer.\nCe poste s’adresse à des profils avec une dominante data science, des compétences sérieuses en mathématiques appliquées, et idéalement une expérience en développement web. Les candidats avec peu d’expérience en web, mais une forte appétence pour apprendre, comprendre le fonctionnement d’une application web moderne, et contribuer au produit côté front-end et back-end seront tout de même considérés avec attention.\nLe poste est ouvert à Paris, avec la possibilité de télétravailler 2 jours par semaine. La rémunération dépendra du niveau d’expérience et du périmètre de responsabilités.\nPOURQUOI CANDIDATER ?\nEn nous rejoignant :\n• Tu contribueras à améliorer l’efficacité de la production électrique en France et dans le monde, sur un produit concret qui a de l’impact.\n\n• Tu travailleras sur un logiciel en production, utilisé au quotidien, et conçu pour durer (robustesse, qualité, passage à l’échelle).\n\n• Tu auras l’opportunité de développer une double compétence précieuse : Data Science appliquée + développement web.\n\n• Tu évolueras dans une équipe à taille humaine, exigeante et bienveillante, qui investit dans la montée en compétence.\n\nTA MISSION\nTu cont",
+   "date": "2026-09-28T00:00:00.000Z",
+   "url": "https://www.welcometothejungle.com/fr/companies/la-poste-groupe/jobs/data-scientist-f-h_saint-denis",
+   "description": "Créée en mai 2009, La Banque Postale Consumer Finance est une filiale détenue à 100% par La Banque Postale, spécialisée dans la Crédit à la Consommation (Prêts Personnels, Rachat de Crédits et Crédits Renouvelables).\nRejoindre nos équipes, c’est faire vivre au quotidien nos valeurs CAPE (Citoyen, Agile, Proche Engagé) et donner du sens à nos projets en permettant à chacun de contribuer à une réussite collective.\nAu sein du Pôle Modélisation et études risques de la Direction des Scores et Data Science de La Banque Postale Consumer Finance, tu assures la modélisation, le développement et la maintenance des outils statistiques et informatiques afin d’aider à la maîtrise du risque client pour l’octroi d’un crédit, à l’optimisation du couple risque/PNB dans la gestion du portefeuille, au maintien de la pertinence des modèles bâlois.\nLes missions suivantes principales :\nDévelopper les modèles de score d’octroi, de recouvrement et d’encours ;\nAssurer le suivi et la maintenance des modèles de score ;\nDévelopper et maintenir les modèles bâlois dans le cadre du programme « modèles internes » ;\nDévelopper les outils permettant une détection optimisée de la fraude par le contrôle permanent ;\nRéaliser les études statistiques permettant d’assurer la cohérence du processus d’octroi et la pertinence des règles d’octroi ;\nParticiper au développement, à la maintenance et à la recette de l’Outil d’Aide à la Décision de LBPCF;\nCette liste n’est pas exhaustive.",
    "source": "Welcome To The Jungle",
    "score": 6,
    "matched": [
@@ -555,21 +583,6 @@
    "url": "https://candidat.francetravail.fr/offres/recherche/detail/7432901",
    "description": "Description du poste :\n\nSous la responsabilité du chef d'unité et en collaboration avec les chercheurs de l'unité MPSO (Modélisation Physique de la Scène Optronique), vous développerez et mettrez en oeuvre des méthodologies basées sur le machine learning pour différentes applications, parmi lesquelles L'inversion de données instrumentales (lidar, spectromètres ou simulées pour la caractérisation de l'environnement atmosphérique et des signatures optiques de cibles d'intérêt défense Le développement de métamodèles multi-fidélité pour la prédiction des signatures optiques de différents types de cibles L'accélération de codes de transfert radiatif appliqués à différents milieux.\n\n\nPour toutes ces applications, un point important sera la quantification des incertitudes associées à l'utilisation des méthodes de machine learning, en lien avec le RT-UQ (Réseau de recherche sur la quantification des incertitudes, https://uq.math.cnrs.fr Vous avez un intérêt prononcé pour la recherche appliquée et la mise au point de nouveaux algorithmes. Vous contribuerez au développement des activités du DOTA En étant force de propositions dans l'élaboration de projets scientifiques soumis auprès de différents partenaires et financeurs (Union Européenne, Agence de Défense Européenne, Agence Nationale de la Recherche, Direction Générale de l'Armement En assurant des activités d'encadrement de stagiaires puis à terme de doctorants En valorisant vos travaux par la soumission de publications dans des jo",
    "source": "France Travail",
-   "score": 5,
-   "matched": [
-    "machine learning"
-   ]
-  },
-  {
-   "id": "js-cmtDN285VXJ0ZHhySVdXZEFBQUFBQT09OkVzd0JD",
-   "title": "Product Owner Data/IA (CDI) (F/H) Business 🏆",
-   "company": "Bouygues Construction",
-   "location": "Montigny-le-Bretonneux, FR",
-   "contract": "À plein temps",
-   "date": "2026-09-28T00:00:00.000Z",
-   "url": "https://devitjobs.fr/jobs/Bouygues-Construction-Product-Owner-DataIA-CDI-FH",
-   "description": "Product Owner Data/IA (CDI) (F/H)\nBouygues Construction recherche un spécialiste Business! Echelle salariale 41 000 - 81 000 € par an\n\n🛠️ Technologies utilisées:\nMachine Learning, SAP, Snowflake, Business\n\n📝 Ce que nous attendons de vous:\n- Expérience en Data et IA.\n- Connaissance de plusieurs composants et technologies Data / IA appréciée, notamment Datasphere, Snowflake ou Parquet.\n- Appétence pour les projets de transformation des systèmes dinformation ou lamélioration des processus.\n- Capacité à travailler en équipe, en mode projet et avec des interlocuteurs variés.\n- Force de proposition, esprit danalyse, écoute du terrain et pédagogie.\n\n👩‍💻👨‍💻 Quelles sont vos responsabilités:\n- Recueillir, formaliser et hiérarchiser les besoins métiers.\n- Traduire les besoins fonctionnels liés à la data en besoins techniques et rédiger les spécifications techniques détaillées.\n- Implémenter le modèle de données cible, notamment les référentiels, tables, objets financiers SAP et flux, en assurant lalignement entre S/4, SAC et le reste de lécosystème dans le cadre de notre démarche DataMesh.\n- Concevoir et mettre en place des outils danalyse des écarts entre les modèles historiques (ECC/BW) et les modèles cibles (S/4/SAC).\n- Mettre en place des cas dusage dIA et de machine learning au service de la performance et du pilotage financier, tels que lautomatisation des contrôles, les prévisions, la détection danomalies et le reporting intelligent.\n- Assurer une veille technologique sur SAP, l",
-   "source": "DevITJobs",
    "score": 5,
    "matched": [
     "machine learning"
