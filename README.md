@@ -1,54 +1,44 @@
-# 🎯 Job Radar — Dashboard d'offres CDI quotidien
+# Job Radar
 
-Dashboard qui affiche chaque matin les dernières offres CDI (Data Scientist / AI Engineer junior) matchées avec ton profil, collectées via l'API France Travail et JSearch (Google Jobs : couvre LinkedIn, Indeed, WTTJ…).
+A small dashboard for tracking recent junior data science and AI job listings. It collects offers from France Travail and JSearch, applies a transparent keyword score, and writes JSON files used by the web page.
 
-## Déploiement en 5 étapes (~20 min, une seule fois)
+## How it works
 
-### 1. Obtenir la clé France Travail (gratuit)
-1. Va sur https://francetravail.io → « Se connecter » → crée un compte.
-2. Dans ton espace, crée une **application**, puis abonne-la à l'API **« Offres d'emploi v2 »**.
-3. Note le **Client ID** et le **Client Secret**.
-
-### 2. Obtenir la clé JSearch (gratuit)
-1. Crée un compte sur https://rapidapi.com
-2. Cherche **« JSearch »** (by OpenWeb Ninja) → « Subscribe to Test » → plan **Basic (gratuit)**.
-3. Note ta clé **X-RapidAPI-Key**.
-
-### 3. Créer le repo GitHub
-1. Compte sur https://github.com si besoin.
-2. Nouveau repo → nom : `job-radar` → **Public** (obligatoire pour Pages gratuit).
-3. Upload tout le contenu de ce dossier `job-dashboard/` (y compris le dossier caché `.github/`).
-   - Le plus simple : GitHub → « uploading an existing file » → glisser-déposer, ou via git :
-   ```
-   git init && git add . && git commit -m "init"
-   git remote add origin https://github.com/TON_USER/job-radar.git
-   git push -u origin main
-   ```
-
-### 4. Ajouter les secrets
-Repo → **Settings → Secrets and variables → Actions → New repository secret** :
-| Nom | Valeur |
-|---|---|
-| `FT_CLIENT_ID` | Client ID France Travail |
-| `FT_CLIENT_SECRET` | Client Secret France Travail |
-| `RAPIDAPI_KEY` | Clé RapidAPI |
-
-### 5. Activer GitHub Pages
-1. Repo → **Settings → Pages** → Source : `Deploy from a branch` → Branch : `main`, dossier `/docs` → Save.
-2. Repo → onglet **Actions** → workflow « Mise à jour quotidienne des offres » → **Run workflow** (premier lancement manuel).
-
-✅ Ton dashboard sera accessible à : `https://TON_USER.github.io/job-radar/`
-Il se met à jour **tout seul chaque matin à 7h** (offres publiées dans les dernières 48h).
-
-## Test en local (optionnel)
+```text
+France Travail + JSearch -> fetch_jobs.py -> scoring and deduplication
+                                      -> docs/data.json -> docs/index.html
+                                      -> docs/history.json
 ```
-set FT_CLIENT_ID=... & set FT_CLIENT_SECRET=... & set RAPIDAPI_KEY=...
-python fetch_jobs.py
-python -m http.server 8000 --directory docs
-```
-Puis ouvre http://localhost:8000
 
-## Personnalisation
-- Mots-clés / scoring : modifie `SKILL_KEYWORDS` et `SEARCH_QUERIES` dans `fetch_jobs.py`.
-- Fenêtre de fraîcheur : variable `DAYS_BACK` (défaut 2 jours).
-- Heure de mise à jour : le `cron` dans `.github/workflows/daily.yml`.
+- `fetch_jobs.py` fetches offers and ranks them using editable keywords.
+- `docs/index.html` displays the latest generated data.
+- `.github/workflows/daily.yml` runs the collection workflow at 05:00 UTC and can also be started manually.
+
+The schedule is in UTC, so the local time in France changes with daylight saving time. Job availability and API responses depend on the data providers.
+
+## Run locally
+
+Use Python 3.12 or newer. From the repository root:
+
+```powershell
+py -3.12 -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+
+# Set the credentials in your local shell before fetching offers.
+$env:FT_CLIENT_ID = "your-client-id"
+$env:FT_CLIENT_SECRET = "your-client-secret"
+$env:RAPIDAPI_KEY = "your-rapidapi-key"
+
+.\.venv\Scripts\python.exe fetch_jobs.py
+.\.venv\Scripts\python.exe -m http.server 8000 --directory docs
+```
+
+Open <http://localhost:8000>. If a provider's credentials are absent, the script skips that source. Never commit API keys.
+
+## GitHub Actions and Pages
+
+Add `FT_CLIENT_ID`, `FT_CLIENT_SECRET`, and `RAPIDAPI_KEY` as repository Actions secrets. Run the workflow manually once from the **Actions** tab, then check `docs/data.json`. To publish the dashboard, configure GitHub Pages to serve the `docs/` folder from `main`.
+
+## Customize
+
+Change `SEARCH_QUERIES`, `SKILL_KEYWORDS`, and `DAYS_BACK` in `fetch_jobs.py`. The score is a simple keyword heuristic; verify each listing on the original job site before relying on it.
